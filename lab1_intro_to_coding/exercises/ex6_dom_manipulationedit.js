@@ -28,7 +28,7 @@ const addChildToViz = () => {
   viz.appendChild(newChild);
 };
 
-viz.addEventListener("click", addChildToViz);
+// viz.addEventListener("click", addChildToViz);
 
 // Answer: When clicking in the browser window;
 // Code searches for 1st child of .viz in the document, 
@@ -44,8 +44,12 @@ function drawIrisData() {
     .fetch("./iris_json.json")
     .then(data => data.json())
     .then(data => {
-      console.log(data);
+      data.forEach(function(element){
+         addChildToViz(element.petallength);
+      });
     });
+    
+
 }
 
 drawIrisData();

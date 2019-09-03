@@ -25,10 +25,10 @@ if (1 === true) {
 var test3 = test1 === test2;
 
 // Task
-// Change this code so test4 is false and test5 is true. Use console.log() to confirm your cod works.
+// Change this code so test4 is false and test5 is true. Use console.log() to confirm your code works.
 
-var test4 = 0 == "";
-var test5 = 1 === "1";
+var test4 = 0 == "1";
+var test5 = 1 === 1;
 
 console.log("test4 is", test4, "and test 5 is", test5);
 
@@ -44,3 +44,10 @@ var p = w + x;
 var q = z - x;
 
 var r = y - w;
+
+console.log("p = " + p + ", q = " + q + ", r = " + r);
+
+// Comment: Javascript always uses 64-bit floating point numbers.
+// This limits the amount of digits that can be stored. Adding numbers
+// aggravates the imprecision. Subtracting numbers negates the imprecision.
+

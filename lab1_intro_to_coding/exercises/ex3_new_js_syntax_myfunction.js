@@ -1,6 +1,7 @@
 /*
-  Exercise 1
+  Exercise 1 + 3
   JavaScript data structures & functions
+  This exercise file adds ES6 syntax to the function at the end of the file.
 */
 
 // Initialize variables
@@ -91,7 +92,7 @@ names.forEach(function(n,i) {
 // Task
 // Write a function to add a new museum object, with properties URL and year, 
 // to an existing museums object. Call it on museums2
-function addAMuseum(museums, newName, newURL, newYear){
+const addAMuseum = (museums, newName, newURL, newYear) => {
   museums[newName] = {
     URL: newURL,
     year: newYear
