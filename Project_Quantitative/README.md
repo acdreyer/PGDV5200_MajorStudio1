@@ -112,6 +112,7 @@ Or, [Circular bar charts](https://www.r-graph-gallery.com/circular-barplot.html)
 even though these have their own [challenges](https://www.data-to-viz.com/caveat/circular_bar_yaxis.html):
 
 Or the one that presently looks most favorable:
-a [rotated Bar chart](https://www.data-to-viz.com/caveat/hard_label.html).
+a [rotated Bar chart](https://www.data-to-viz.com/caveat/hard_label.html)
+which could also be implemented as a [Lollipop chart](https://www.data-to-viz.com/graph/lollipop.html).
 
 
