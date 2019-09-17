@@ -105,12 +105,13 @@ Various strategies were considered to solve the challenge of this plottting.
 These include Logarithmic plot, with the deficiency of losing the comparative 
 value between item occurences:
 
-![Log plot](./Images/Log_plot_mediumf)
+![Log plot](./Images/Log_plot_medium.PNG)
 
 
-Or, [Circular bar charts](https://www.data-to-viz.com/caveat/circular_bar_yaxis.html):
+Or, [Circular bar charts](https://www.r-graph-gallery.com/circular-barplot.html)
+even though these have their own [challenges](https://www.data-to-viz.com/caveat/circular_bar_yaxis.html):
 
 Or the one that presently looks most favorable:
-a [vertically stackedBar charts](https://www.data-to-viz.com/caveat/hard_label.html).
+a [rotated Bar chart](https://www.data-to-viz.com/caveat/hard_label.html).
 
 
