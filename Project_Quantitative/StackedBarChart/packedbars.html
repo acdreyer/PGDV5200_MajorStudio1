@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<link rel="stylesheet" href="./bars.css"/>
+
+<svg width="960" height="500"></svg>
+<script src="./libraries/d3.v4.min.js"></script>
+<script src="makepackedbars.js"></script>
+<script>
+    makePackedBars({
+        nPrimary: 25,
+        categoryDataName: null,
+        valueDataName: null,
+        categoryTitle: null,
+        valueTitle: null,
+        chartTitle: null,
+        rawData: null,
+        csvFile: "./data/MET_classification.csv",
+        chartMargin: {top: 50, right: 40, bottom: 50, left: 40},
+        chartWidth: 900,
+        chartHeight: 500,
+        labelThreshold: 0.2 // threshold for labeling secondary bars
+    });
+</script>
+</html>

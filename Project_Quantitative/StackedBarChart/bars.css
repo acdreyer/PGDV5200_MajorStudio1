@@ -1,0 +1,86 @@
+
+
+@font-face {
+font-family: "FuturaBookfont";
+src: url("./fonts/FuturaBookfont.ttf");
+}
+
+svg {
+    font: 15px sans-serif;
+}
+
+.headbar { 
+    font: 1.5em "FuturaBookfont", sans-serif;
+    font-weight: bold;
+    text-align:center;
+    color: black;
+    /*color:#FFFFFF; */
+    /*background-color:#ff0038;*/
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+}
+
+.hr {
+width: 90%;
+height: 1px;
+margin-left: auto;
+margin-right: auto;
+background-color:#666;
+/*border: 0 none;*/
+margin-top: 10px;
+margin-bottom:10px;
+}
+
+.mainSVG {
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+}
+
+.bar {
+    fill: #ff0038;
+}
+
+.bar:hover {
+    fill: brown;
+}
+
+.axis--y path {
+    display: none;
+    font: 15px sans-serif;
+}
+.axis--x {
+    font: 15px sans-serif;
+}
+.bar1 {
+    font: 15px sans-serif;
+    fill: #ff0038;
+}
+.bar2 {
+    font: 15px sans-serif;
+}
+.label1 {
+    font: 15px sans-serif;
+}
+.label2 {
+    font: 12px sans-serif;
+}
+
+.x-title {
+    font: 15px sans-serif;
+}
+.y-title {
+    font: 15px sans-serif;
+}
+.graph-title {
+    font: 18px "FuturaBookfont", sans-serif;
+    /*background-color:#9D8D65;*/
+    /*    display:inline-block;*/
+}
+
+
+.footer{
+    font: 1em "FuturaBookfont", sans-serif;
+    text-align: right;
+}
