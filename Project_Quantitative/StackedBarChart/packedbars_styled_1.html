@@ -23,20 +23,58 @@
 <script src="makepackedbars.js"></script>
 <script>
     makePackedBars({
-        nPrimary: 25,
         categoryDataName: null,
         valueDataName: null,
         categoryTitle: null,
         valueTitle: null,
         chartTitle: null,
         rawData: null,
-        csvFile: "./data/MET_classification.csv",
+        
+        
+        // csvFile: "./data/Count_classif_1.csv",
+        // nPrimary: 5,
+        // labelThreshold: 0.1, 
+        
+        
+        // csvFile: "./data/Count_country_1.csv",
+        // nPrimary: 2,
+        // labelThreshold: 0.1, 
+        
+        
+        // csvFile: "./data/Count_cultures_1.csv",
+        // nPrimary: 8,
+        // labelThreshold: 0.14, 
+        
+        // csvFile: "./data/Count_medium_1.csv",
+        // nPrimary: 30,
+        // labelThreshold: 0.2, 
+        
+        // csvFile: "./data/Count_names_1.csv",
+        // nPrimary: 6,
+        // labelThreshold: 0.1,
+        
+        csvFile: "./data/Count_tags_1.csv",
+        nPrimary: 9,
+        labelThreshold: 0.29, 
+        
+        
+        // csvFile: "./data/MET_classification.csv",
+        //         nPrimary: 9,
+        // labelThreshold: 0.1,
+        
+        
         chartMargin: { top: 50, right: 40, bottom: 50, left: 40 },
         chartWidth: 900,
-        chartHeight: 500,
-        labelThreshold: 0.2 // threshold for labeling secondary bars
+        chartHeight: 500
+// threshold for labeling secondary bars
     });
 </script>
+
+
+
+
+
+
 
 <footer class="footer">
 09/24/2019 <br>

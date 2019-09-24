@@ -39,7 +39,8 @@ margin-bottom:10px;
 }
 
 .bar {
-    fill: #ff0038;
+    fill: #C00000;
+        /*fill: #ff0038;*/
 }
 
 .bar:hover {
@@ -54,14 +55,14 @@ margin-bottom:10px;
     font: 15px sans-serif;
 }
 .bar1 {
-    font: 15px sans-serif;
-    fill: #ff0038;
+    font: 10px sans-serif;
+    fill: #C00000;
 }
 .bar2 {
-    font: 15px sans-serif;
+    font: 10px sans-serif;
 }
 .label1 {
-    font: 15px sans-serif;
+    font: 13px sans-serif;
 }
 .label2 {
     font: 12px sans-serif;
