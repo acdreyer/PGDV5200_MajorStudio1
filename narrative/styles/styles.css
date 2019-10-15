@@ -1,0 +1,164 @@
+
+@font-face {
+font-family: "Humanistic";
+src: url("./Humanistic.ttf");
+}
+@font-face {
+font-family: "MediciText";
+src: url("./MediciText.ttf");
+}
+@font-face {
+font-family: "PressGutenberg";
+src: url("./PressGutenberg.ttf");
+}
+
+.headbar { 
+    font: 1.5em "Humanistic", serif;
+    font-weight: bold;
+    text-align:center;
+    color: black;
+    /*color:#FFFFFF; */
+    /*background-color:#ff0038;*/
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+}
+
+.hr {
+width: 90%;
+height: 1px;
+margin-left: auto;
+margin-right: auto;
+background-color:#666;
+/*border: 0 none;*/
+margin-top: 10px;
+margin-bottom:10px;
+}
+
+#footer {
+        font: 1em "MediciText", sans-serif;
+    text-align: right;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*width: 100%;*/
+  height: 2.5rem;            /* Footer height */
+}
+
+
+.boundingbox {
+ background-image: url("./528.jpg");
+ background-repeat: repeat;
+ background-color: #cccccc;
+}
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+	text {
+		font-family: "Humanistic","Book Antiqua","Old English Text MT",serif;
+		font-size: 12px;
+	}
+
+	rect {
+		fill: none;
+		stroke: #333;
+		stroke-width: 1;
+	}
+	
+		scenelabel {
+		fill: none;
+		stroke: #333;
+		stroke-width: 1;
+	}
+	
+	path {
+		fill: none;
+		stroke-width: 2;
+		stroke: #333;
+	}
+
+	path.staffwpn {
+		stroke: #f2d8b3;
+	}
+
+	path.helmet {
+		stroke: #8fb0a9;
+	}
+
+	path.armor {
+		stroke: #ba9b2f;
+	}
+	
+    path.gun {
+		stroke: #d76735;
+	}
+	
+	.intro text:first-child {
+		fill: #fff;
+	    stroke: #ffffff;
+	    stroke-width: 3;
+	}
+
+	.intro text+text {
+	    fill: #333;
+	}
+
+	.intro text+text.helmet {
+	    fill: #8fb0a9;
+	}
+
+	.intro text+text.staffwpn {
+	    stroke: #f2d8b3;
+	}
+	
+    .intro text+text.armor {
+	    stroke: #ba9b2f;
+	}
+	
+	.intro text+text.gun {
+	    stroke: #d76735;
+	}
+	
+
+	
+		.periodtext {
+	    stroke: #000;
+	    stroke-width: 1;
+	}
+	.periodlines {
+		stroke: #000;
+		stroke-width: 0.5;
+	}
+	
+
+	.scene .staffwpn {
+	    /*transform-origin: initial;*/
+	    /*transform: rotate(90deg);*/
+	}
+	
+	/*	#narrative-chart {*/
+	    /*transform-origin: initial;*/
+	/*    transform: rotate(-90deg);*/
+	/*    transform: translate(0px,100px);*/
+	/*}*/
+	
+	
+	
+	/*<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by aopsan - www.freepik.com</a>*/

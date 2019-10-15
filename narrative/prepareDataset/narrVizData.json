@@ -41,11 +41,6 @@
       "affiliation": "helmet"
     },
     {
-      "id": "Visored sallet",
-      "name": "Visored sallet",
-      "affiliation": "helmet"
-    },
-    {
       "id": "Burgonet",
       "name": "Burgonet",
       "affiliation": "helmet"
@@ -137,8 +132,7 @@
       "Halberd",
       "Barbute",
       "Armet",
-      "Sallet",
-      "Visored sallet"
+      "Sallet"
     ],
     [
       "Halberd",
@@ -328,13 +322,6 @@
           "61902.jpg",
           "14.25.573_007mar2015.jpg",
           "29.158.10_005june2015.jpg"
-        ],
-        "time": 1450
-      },
-      {
-        "character": "Visored sallet",
-        "imagenames": [
-          "DP101947.jpg"
         ],
         "time": 1450
       }
@@ -1291,13 +1278,6 @@
           "https://www.metmuseum.org/art/collection/search/26664",
           "https://www.metmuseum.org/art/collection/search/27120",
           "https://www.metmuseum.org/art/collection/search/34261"
-        ],
-        "time": 1450
-      },
-      {
-        "character": "Visored sallet",
-        "itemsURL": [
-          "https://www.metmuseum.org/art/collection/search/21982"
         ],
         "time": 1450
       }
