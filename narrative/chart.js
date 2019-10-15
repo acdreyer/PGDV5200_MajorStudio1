@@ -17,20 +17,28 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 	height = 900;
 	labelSize = [200, 150];
 
+	var lgndspace = 25;
+	var lgnddata =	[
+				{ name: 'Name', 	affil: 'staffwpn',	y: height * 2 / 3 + lgndspace * 1 },
+				{ name: 'Poled Weapon', affil: 'staffwpn', y: height * 2 / 3 + lgndspace * 2 },
+				{ name: 'Helmet',	affil: 'helmet',	y: height * 2 / 3 + lgndspace * 3 },
+				{ name: 'Sword',	affil: 'other', 	y: height * 2 / 3 + lgndspace * 4 },
+				{ name: 'Gun',		affil: 'gun',		y: height * 2 / 3 + lgndspace * 5 }
+			];
 
 
 
 
-// Add the text for the axis
-		d3.select('body')		
+	// Add the text for the axis
+	d3.select('body')
 		.append('svg')
 		.attr('width', 400)
 		.attr('height', 30)
 		.append('text')
 		.attr('class', 'textaxislegend')
 		.attr('x', 0)
-		.attr('y',20)
-		.text('Time: Quarter centuries');
+		.attr('y', 20)
+		.text('Time: Quarter centuries →');
 
 
 	// The container element (this is the HTML fragment);
@@ -42,13 +50,13 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 	// -----------------------------------------------------------
 
 
-		
-		
 
-		
 
-		
-		
+
+
+
+
+
 
 
 	// Calculate the actual width of every character label.
@@ -69,14 +77,14 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 	narrative = d3.layout.narrative()
 		.scenes(scenes)
 		.size([width, height])
-		.pathSpace(70) //space between images
+		.pathSpace(72) //space between images
 		.groupMargin(200)
 		.labelSize([50, 18])
 		.scenePadding([20, sceneWidth / 2, 20, sceneWidth / 2])
 		.labelPosition('left')
 		.layout();
-	
-	
+
+
 
 	// Draw the lines to divide times
 	svg.selectAll('.periodlines').data(narrative.scenes()).enter()
@@ -93,39 +101,63 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 		.attr('y1', 0)
 		.attr('x2', sceneWidth)
 		.attr('y2', height);
-		
-		
-		
-		
-		// // Draw the legendbox
-		
-		d3.selectAll('#narrative-chart').data([null])
+
+
+
+
+
+
+	// ---------------------------------------------------------
+
+	// // Draw the legend
+
+
+	// create the box
+	d3.selectAll('#narrative-chart').data([null])
 		.append('g').attr('class', 'legendbox')
 		.append('rect')
 		.attr('x', 50)
-		.attr('y',height*2/3)
-		.attr('width', 300)
-		.attr('height', 200)
-		
-		d3.select('g.legendbox').data([null])
+		.attr('y', height * 2 / 3)
+		.attr('width', 230)
+		.attr('height', 150)
+
+	// add the box label
+
+	d3.select('g.legendbox').data([null])
 		.append('text')
-		.attr('x', 60)
-		.attr('y',height*2/3+20)
-		.attr('width', 300)
-		.attr('height', 200)
-		.attr('class', 'categorylegend')
-		.text('Item categories:');		
+		.attr('x', 70)
+		.attr('y', height * 2 / 3 + 20)
+		// .attr('width', 230)
+		// .attr('height', 200)
+		.attr('class', 'categorylegendmain')
+		.text('Item categories:')
 
-		
-		
-		
-		
-		
-		
-		
-		
+	// create the legend entries
+	d3.selectAll('#narrative-chart').selectAll('g.legendbox')
+	.data( lgnddata).enter().append('text')
+		.attr('class',  function(d) {  return 'categorylegend ' + d.affil })
+		.attr('x', 70)
+		.attr('y', function(d) { return d.y + 5 })
+		// .attr('width', 100)
+		// .attr('height', 200)
+		.text(function(d) { return d.name });
 
-			// // Draw the outerbox
+	// Draw the legend lines
+	d3.selectAll('#narrative-chart').selectAll('g.legendbox')
+	.data( lgnddata).enter().append('line')
+		.attr('class', function(d) { return d.affil })
+		.attr('x1', 170)
+		.attr('y1', function(d) { return d.y  })
+		.attr('x2', 250)
+		.attr('y2', function(d) { return d.y  });
+
+
+
+
+
+	//--------------------------------------------------------------
+
+	// // Draw the outerbox
 	svg
 		.selectAll('rect2')
 		.data([null])
@@ -133,15 +165,9 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 		.append('rect')
 		.attr('class', 'boundingbox')
 		.attr('width', width)
-		.attr('height', height )
-		// .style('background', '0.5')	
-		
-		
+		.attr('height', height)
+	// .style('background', '0.5')	
 
-		
-		
-		
-		
 
 
 	// ------------------------------------------------------------------------
@@ -159,29 +185,29 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 	catch (err) { console.log(err) };
 
 
-// Match the object names in each scene with the image filenames
+	// Match the object names in each scene with the image filenames
 	for (let i = 0; i < obj.length; i++) {
 
 		obj[i].appearances.forEach(function(val, ind) {
-			obj[i].appearances[ind].time = obj[i].images[ind].time;		//assign time period
+			obj[i].appearances[ind].time = obj[i].images[ind].time; //assign time period
 
-			let j = obj[i].images.findIndex(function(element) {		//check the item
+			let j = obj[i].images.findIndex(function(element) { //check the item
 				return element.character == val.character.name;
 			});
-			
+
 			obj[i].appearances[ind].imagename = obj[i].images[j].imagenames[0]; //add the filename
-			
-			if (obj[i].images[j].imagenames[0] == null){	//if filename empty, add from previous time range
-			obj[i].appearances[ind].imagename = obj[i-1].appearances[ind].imagename
-			} 
-			
+
+			if (obj[i].images[j].imagenames[0] == null) { //if filename empty, add from previous time range
+				obj[i].appearances[ind].imagename = obj[i - 1].appearances[ind].imagename
+			}
+
 		})
 	};
 
 	// console.log(obj[0].appearances)
 	// console.log(obj[0].images)
-	
-// Make images less repetetive
+
+	// Make images less repetetive
 	// for (let i = 1; i < obj.length; i++) {
 
 	// 	obj[i].appearances.forEach(function(val, ind) {
@@ -189,15 +215,15 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 	// 		let j = obj[i].images.findIndex(function(element) {		//check the item
 	// 			return element.character == val.character.name;
 	// 		});
-			
+
 	// 		if (obj[i].appearances[ind].imagename == obj[i-1].appearances[ind].imagename){
 	// 			obj[i].appearances[ind].imagename
 	// 		}
-			
+
 	// 		if (obj[i].images[j].imagenames[0] == null){	//if filename empty, add from previous time range
 	// 		obj[i].appearances[ind].imagename = obj[i-1].appearances[ind].imagename
 	// 		} 
-			
+
 	// 	})
 	// };
 
@@ -228,7 +254,7 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 
 
 
-// 
+	// 
 
 	// Get the extent so we can re-size the SVG appropriately.
 	svg.attr('height', narrative.extent()[1]);
@@ -266,7 +292,7 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 		// 	return d.height*0.8;
 		// })
 		.attr('y', 20)
-		.attr('x', sceneWidth * 0.5 )
+		.attr('x', sceneWidth * 0.5)
 		.attr('rx', 0)
 		.attr('ry', 0)
 
@@ -278,16 +304,24 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 		.append('text').attr('class', 'periodtext')
 		.attr('transform', function(d) {
 			var x, y;
-			x = Math.round(d.x) ;
+			x = Math.round(d.x);
 			y = 10 + 0 * Math.round(d.y);
 			return 'translate(' + [x, y] + ')';
 		})
-		// .append('rect')
-		// .attr('width', sceneWidth * 2)
-		// .attr('height', '12px')
-		// .attr('y', 0)
-		// .attr('x', -sceneWidth * 0.5)
-		// .attr('class', 'text')
+		.attr('y', '10px')
+		.attr('x', '-20px')
+		.text(function(d) { return d.label });
+		
+			// Draw the time legends
+	// svg.selectAll('.periodtext').data(narrative.scenes()).enter()
+	svg.selectAll('.periodtext2').data(obj).enter()
+		.append('text').attr('class', 'periodtext2')
+		.attr('transform', function(d) {
+			var x, y;
+			x = Math.round(d.x);
+			y = height -20 + 0 * Math.round(d.y);
+			return 'translate(' + [x, y] + ')';
+		})
 		.attr('y', '10px')
 		.attr('x', '-20px')
 		.text(function(d) { return d.label });
@@ -359,15 +393,15 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 		g = s.append('g').attr('class', function(d) {
 			return 'appearanceimg image ' + d.character.affiliation;
 		});
-//===================================================================
+		//===================================================================
 		g.append('svg:image')
 			.attr('y', -25)
 			.attr('x', -sceneWidth * 0.5)
-			.attr('width', sceneWidth*2)
+			.attr('width', sceneWidth * 2)
 			.attr('height', 400 * 0.15)
 			// .attr('transform', 'rotate(90 0 0)')
-			.attr('xlink:href', function(d) { return './prepareDataset/downloads/' + d.imagename }); 
-//===================================================================
+			.attr('xlink:href', function(d) { return './prepareDataset/downloads/' + d.imagename });
+		//===================================================================
 
 		g.attr('transform', function(d) {
 			var x, y;
@@ -375,7 +409,7 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 			y = Math.round(d.y);
 			return 'translate(' + [x, y] + ')';
 		});
-		
+
 		// g.append('rect')
 		// 	.attr('y', -25)
 		// 	.attr('x', -sceneWidth * 0.5)
@@ -432,7 +466,7 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 
 			g.attr('transform', function(d) {
 				var x, y;
-				x = Math.round(d.x) ;
+				x = Math.round(d.x);
 				y = Math.round(d.y);
 				return 'translate(' + [x, y] + ')';
 			});

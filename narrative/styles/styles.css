@@ -77,11 +77,11 @@ margin-bottom:10px;
 /*}*/
 
 body {
-  background-image: linear-gradient( #555555, #dddddd);
+  background-image: linear-gradient( #333, #ccc);
 }
 
 body .bashford {
-  background-image: linear-gradient(to right, #555555, #dddddd);
+  background-image: linear-gradient( #fff, #fff);
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -107,34 +107,29 @@ body .bashford {
 		font-size: 14px;
 	}
 
-	rect {
-		fill: none;
-		stroke: #ddd;
+	/*rect {*/
+	/*	fill: none;*/
+	/*	stroke: #ddd;*/
 		/*fill: #fff;*/
-		stroke-width: 1;
-	}
+	/*	stroke-width: 1;*/
+	/*}*/
 	
 	.boundingbox {
 		fill: none;
-		stroke: #ddd;
+		stroke: #999;
 		/*fill: #fff;*/
 		stroke-width: 1;
 		background-color: rgba(255, 255, 255, 0.5);
 	}
 	
 	.legendbox rect {
-		stroke: #999;
-		fill: #ccc;
+		stroke: #333;
+		fill: #999;
 		stroke-width: 2;
 		/*background-color: rgba(100, 100, 100, 200);*/
 	}
 	
-	.categorylegend {
-		color: #999;
-		stroke-width: 1em;
-		height: 1.5em;
-		/*background-color: rgba(100, 100, 100, 200);*/
-	}
+
 	
 	.intro rect {
 		fill: none;
@@ -148,32 +143,7 @@ body .bashford {
 		stroke-width: 1;
 	}
 	
-	path {
-		fill: none;
-		stroke-width: 2;
-		stroke: #333;
-	}
-	
-	path.other {
-		stroke: #f2d8b3;
-	}
-
-	path.staffwpn {
-		stroke: #f2d8b3;
-	}
-
-	path.helmet {
-		stroke: #8fb0a9;
-	}
-
-	path.armor {
-		stroke: #ba9b2f;
-	}
-	
-    path.gun {
-		stroke: #d76735;
-	}
-	
+/*------------------------------*/
 	.intro text:first-child {
 		fill: #fff;
 	    stroke: #ffffff;
@@ -183,33 +153,124 @@ body .bashford {
 	.intro text+text {
 	    fill: #333;
 	}
-
-	.intro text+text.helmet {
-	    fill: #8fb0a9;
+	
+	/*Paths and legends*/
+	
+			text.categorylegendmain {
+				stroke: #444;
+				font-size:  1.3em;
+		stroke-width: 1.2;
+	}
+/*------------------------------*/	
+	path {
+		fill: none;
+		stroke-width: 2;
+		stroke: #333;
+	}
+/*------------------------------*/
+	path.other {
+		stroke: #fbd266;
+	}
+	line.other {
+		stroke: #fbd266;
+		stroke-width: 2;
+	}
+	text.categorylegend.other
+	{
+		stroke: #fbd266;
+		fill: #fbd266;
+		stroke-width: 1;	
+	}
+		.intro text+text.other {
+	    stroke: #d76735;
 	    stroke: #333
 	}
-
-	.intro text+text.staffwpn {
+/*------------------------------*/
+	path.staffwpn {
+		stroke: #f2d9b3;
+	}
+	line.staffwpn {
+		stroke: #f2d9b3;
+		stroke-width: 2;
+	}
+	text.categorylegend.staffwpn {
+	 	stroke: #f2d9b3;
+	 	fill: #f2d9b3;
+	 	stroke: 1;
+	}
+		.intro text+text.staffwpn {
 	    stroke: #f2d8b3;
 	    stroke: #333
 	}
-	
+
+/*------------------------------*/
+
+	path.helmet {
+		stroke: #c5dced;
+		stroke-width: 2;
+	}
+	line.helmet {
+		stroke: #c5dced;
+		stroke-width: 2;
+	}
+	text.categorylegend.helmet {
+		stroke: #c5dced;
+		fill: #c5dced;
+		stroke-width: 1;	
+	}
+		.intro text+text.helmet {
+	    fill: #8fb0a9;
+	    stroke: #333
+	}
+/*------------------------------*/
+	path.armor {
+		stroke: #ba9b2f;
+		stroke-width: 2;
+	}
+	line.armor {
+		stroke: #ba9b2f;
+		stroke-width: 2;
+	}
+	text.categorylegend.armor {
+		stroke: #ba9b2f;
+		fill: #ba9b2f;
+		stroke-width: 1;
+	}
+		
     .intro text+text.armor {
 	    stroke: #ba9b2f;
 	    stroke: #333
 	}
-	
+/*------------------------------*/	
+    path.gun {
+		stroke: #d76735;
+		stroke-width: 2;
+	}
+    line.gun {
+		stroke: #d76735;
+		stroke-width: 2;
+	}
+		text.categorylegend.gun {
+				stroke: #d76735;
+		stroke-width: 1;
+	}
+		
 	.intro text+text.gun {
 	    stroke: #d76735;
 	    stroke: #333
 	}
-	.intro text+text.other {
-	    stroke: #d76735;
-	    stroke: #333
-	}
+/*------------------------------*/	
+
+
+
+
+
+
+
+
 	
 	.textaxislegend {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	    stroke: #fff;
 	    fill: #fff;
 	    stroke-width: 0.6;
@@ -217,9 +278,15 @@ body .bashford {
 	
 	.periodtext {
 		font-size: 1.5em;
-	    stroke: #eee;
-	    fill: #eee;
+	    stroke: #ddd;
+	    fill: #ddd;
 	    stroke-width: 1;
+	}
+	.periodtext2 {
+		font-size: 1.5em;
+	    stroke: #999;
+	    fill: #999;
+	    stroke-width: 0.5;
 	}
 	.periodlines {
 		stroke: #999;
@@ -235,12 +302,3 @@ body .bashford {
 	    /*transform: rotate(90deg);*/
 	}
 	
-	/*	#narrative-chart {*/
-	    /*transform-origin: initial;*/
-	/*    transform: rotate(-90deg);*/
-	/*    transform: translate(0px,100px);*/
-	/*}*/
-	
-	
-	
-	/*<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by aopsan - www.freepik.com</a>*/
