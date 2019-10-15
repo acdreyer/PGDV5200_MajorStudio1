@@ -60,9 +60,9 @@ margin-bottom:10px;
 }
 
 #footer {
-        font: 1.3em "Humanistic", sans-serif;
+    font: 1.3em "Humanistic", sans-serif;
     text-align: right;
-    stroke: #fff;
+    color: #fff;
   /*position: absolute;*/
   /*bottom: 0;*/
   /*width: 100%;*/
@@ -112,6 +112,28 @@ body .bashford {
 		stroke: #ddd;
 		/*fill: #fff;*/
 		stroke-width: 1;
+	}
+	
+	.boundingbox {
+		fill: none;
+		stroke: #ddd;
+		/*fill: #fff;*/
+		stroke-width: 1;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	
+	.legendbox rect {
+		stroke: #999;
+		fill: #ccc;
+		stroke-width: 2;
+		/*background-color: rgba(100, 100, 100, 200);*/
+	}
+	
+	.categorylegend {
+		color: #999;
+		stroke-width: 1em;
+		height: 1.5em;
+		/*background-color: rgba(100, 100, 100, 200);*/
 	}
 	
 	.intro rect {
@@ -190,7 +212,7 @@ body .bashford {
 		font-size: 1.2em;
 	    stroke: #fff;
 	    fill: #fff;
-	    stroke-width: 1;
+	    stroke-width: 0.6;
 	}
 	
 	.periodtext {

@@ -1,6 +1,6 @@
 // Request the data
 // d3.json('./data/data.json', function(err, response) {
-d3.json('./prepareDataset/narrVizData.json', function(err, response) {
+d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 
 	var svg, scenes, charactersMap, width, height, sceneWidth;
 	// var fpath = './prepareDataset/downloads/'
@@ -14,11 +14,14 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 	// Some defaults
 	sceneWidth = 33;
 	width = scenes.length * sceneWidth * 3;
-	height =900;
+	height = 900;
 	labelSize = [200, 150];
 
 
-// Add the text for the legend
+
+
+
+// Add the text for the axis
 		d3.select('body')		
 		.append('svg')
 		.attr('width', 400)
@@ -37,16 +40,11 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 		.attr('height', height);
 
 	// -----------------------------------------------------------
-	// // Draw the outerbox
-	svg
-		.selectAll('rect')
-		.data([null])
-		.enter()
-		.append('rect')
-		.attr('class', 'boundingbox')
-		.attr('width', width)
-		.attr('height', height )
-		.style('background', '#c1c1c1')
+
+
+		
+		
+
 		
 
 		
@@ -71,14 +69,79 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 	narrative = d3.layout.narrative()
 		.scenes(scenes)
 		.size([width, height])
-		.pathSpace(60) //space between images
+		.pathSpace(70) //space between images
 		.groupMargin(200)
 		.labelSize([50, 18])
 		.scenePadding([20, sceneWidth / 2, 20, sceneWidth / 2])
 		.labelPosition('left')
 		.layout();
+	
+	
 
+	// Draw the lines to divide times
+	svg.selectAll('.periodlines').data(narrative.scenes()).enter()
+		.append('g').attr('class', 'periodlines')
+		.attr('transform', function(d) {
+			var x, y;
+			x = Math.round(d.x); //+ 0.5;
+			// y = Math.round(d.y) + 0.5;
+			y = 0;
+			return 'translate(' + [x, y] + ')';
+		})
+		.append('line')
+		.attr('x1', sceneWidth)
+		.attr('y1', 0)
+		.attr('x2', sceneWidth)
+		.attr('y2', height);
+		
+		
+		
+		
+		// // Draw the legendbox
+		
+		d3.selectAll('#narrative-chart').data([null])
+		.append('g').attr('class', 'legendbox')
+		.append('rect')
+		.attr('x', 50)
+		.attr('y',height*2/3)
+		.attr('width', 300)
+		.attr('height', 200)
+		
+		d3.select('g.legendbox').data([null])
+		.append('text')
+		.attr('x', 60)
+		.attr('y',height*2/3+20)
+		.attr('width', 300)
+		.attr('height', 200)
+		.attr('class', 'categorylegend')
+		.text('Item categories:');		
 
+		
+		
+		
+		
+		
+		
+		
+		
+
+			// // Draw the outerbox
+	svg
+		.selectAll('rect2')
+		.data([null])
+		.enter()
+		.append('rect')
+		.attr('class', 'boundingbox')
+		.attr('width', width)
+		.attr('height', height )
+		// .style('background', '0.5')	
+		
+		
+
+		
+		
+		
+		
 
 
 	// ------------------------------------------------------------------------
@@ -108,7 +171,6 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 			
 			obj[i].appearances[ind].imagename = obj[i].images[j].imagenames[0]; //add the filename
 			
-			
 			if (obj[i].images[j].imagenames[0] == null){	//if filename empty, add from previous time range
 			obj[i].appearances[ind].imagename = obj[i-1].appearances[ind].imagename
 			} 
@@ -118,7 +180,26 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 
 	// console.log(obj[0].appearances)
 	// console.log(obj[0].images)
+	
+// Make images less repetetive
+	// for (let i = 1; i < obj.length; i++) {
 
+	// 	obj[i].appearances.forEach(function(val, ind) {
+
+	// 		let j = obj[i].images.findIndex(function(element) {		//check the item
+	// 			return element.character == val.character.name;
+	// 		});
+			
+	// 		if (obj[i].appearances[ind].imagename == obj[i-1].appearances[ind].imagename){
+	// 			obj[i].appearances[ind].imagename
+	// 		}
+			
+	// 		if (obj[i].images[j].imagenames[0] == null){	//if filename empty, add from previous time range
+	// 		obj[i].appearances[ind].imagename = obj[i-1].appearances[ind].imagename
+	// 		} 
+			
+	// 	})
+	// };
 
 
 
@@ -137,6 +218,18 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 	// do the drawing
 
 
+
+
+
+
+
+
+
+
+
+
+// 
+
 	// Get the extent so we can re-size the SVG appropriately.
 	svg.attr('height', narrative.extent()[1]);
 
@@ -152,21 +245,6 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 
 
 
-	// Draw the lines to divide times
-	svg.selectAll('.periodlines').data(narrative.scenes()).enter()
-		.append('g').attr('class', 'periodlines')
-		.attr('transform', function(d) {
-			var x, y;
-			x = Math.round(d.x); //+ 0.5;
-			// y = Math.round(d.y) + 0.5;
-			y = 0;
-			return 'translate(' + [x, y] + ')';
-		})
-		.append('line')
-		.attr('x1', sceneWidth)
-		.attr('y1', 0)
-		.attr('x2', sceneWidth)
-		.attr('y2', height);
 
 
 
@@ -215,7 +293,6 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 		.text(function(d) { return d.label });
 
 	// -----------------------------------------------------------
-
 
 
 
@@ -329,6 +406,7 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 
 
 
+
 	// ---------------------------------------------------------------------------
 	// ---------------------------------------------------------------------------
 
@@ -381,8 +459,6 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 
 
 
-// ---------------------------------------------------------------------------
-// ---------------------------------------------------------------------------
 
 
 
