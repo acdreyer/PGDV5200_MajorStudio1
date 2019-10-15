@@ -12,13 +12,22 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 	console.dir(scenes);
 
 	// Some defaults
-	sceneWidth = 45;
+	sceneWidth = 33;
 	width = scenes.length * sceneWidth * 3;
-	height =700;
-	labelSize = [100, 20];
+	height =900;
+	labelSize = [200, 150];
 
 
-
+// Add the text for the legend
+		d3.select('body')		
+		.append('svg')
+		.attr('width', 400)
+		.attr('height', 30)
+		.append('text')
+		.attr('class', 'textaxislegend')
+		.attr('x', 0)
+		.attr('y',20)
+		.text('Time: Quarter centuries');
 
 
 	// The container element (this is the HTML fragment);
@@ -36,8 +45,12 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 		.append('rect')
 		.attr('class', 'boundingbox')
 		.attr('width', width)
-		.attr('height', height + 20)
-		.style('background', '#c1c1c1');
+		.attr('height', height )
+		.style('background', '#c1c1c1')
+		
+
+		
+		
 
 
 	// Calculate the actual width of every character label.
@@ -58,12 +71,14 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 	narrative = d3.layout.narrative()
 		.scenes(scenes)
 		.size([width, height])
-		.pathSpace(30) //space between images
-		.groupMargin(10)
-		.labelSize([100, 18])
+		.pathSpace(60) //space between images
+		.groupMargin(200)
+		.labelSize([50, 18])
 		.scenePadding([20, sceneWidth / 2, 20, sceneWidth / 2])
 		.labelPosition('left')
 		.layout();
+
+
 
 
 	// ------------------------------------------------------------------------
@@ -148,9 +163,9 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 			return 'translate(' + [x, y] + ')';
 		})
 		.append('line')
-		.attr('x1', 0)
+		.attr('x1', sceneWidth)
 		.attr('y1', 0)
-		.attr('x2', 0)
+		.attr('x2', sceneWidth)
 		.attr('y2', height);
 
 
@@ -168,12 +183,12 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 			return 'translate(' + [x, y] + ')';
 		})
 		// .append('rect')
-		// .attr('width', sceneWidth*1.2)
+		// .attr('width', sceneWidth*2)
 		// .attr('height', function(d) {
 		// 	return d.height*0.8;
 		// })
-		.attr('y', 10)
-		.attr('x', -sceneWidth * 0.5 * 0)
+		.attr('y', 20)
+		.attr('x', sceneWidth * 0.5 )
 		.attr('rx', 0)
 		.attr('ry', 0)
 
@@ -185,8 +200,8 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 		.append('text').attr('class', 'periodtext')
 		.attr('transform', function(d) {
 			var x, y;
-			x = Math.round(d.x) + 25;
-			y = 0 * Math.round(d.y);
+			x = Math.round(d.x) ;
+			y = 10 + 0 * Math.round(d.y);
 			return 'translate(' + [x, y] + ')';
 		})
 		// .append('rect')
@@ -236,7 +251,7 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 			return d.y;
 		})
 		.attr('r', function() {
-			return 2;
+			return 0.5;
 		})
 		.attr('class', function(d) {
 			return 'appearance ' + d.character.affiliation;
@@ -269,7 +284,7 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 		});
 //===================================================================
 		g.append('svg:image')
-			.attr('y', -20)
+			.attr('y', -25)
 			.attr('x', -sceneWidth * 0.5)
 			.attr('width', sceneWidth*2)
 			.attr('height', 400 * 0.15)
@@ -283,6 +298,14 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 			y = Math.round(d.y);
 			return 'translate(' + [x, y] + ')';
 		});
+		
+		// g.append('rect')
+		// 	.attr('y', -25)
+		// 	.attr('x', -sceneWidth * 0.5)
+		// 	.attr('width', sceneWidth*2)
+		// 	.attr('height', 400 * 0.15)
+		// 	.attr('class', noappear)
+		// 	.attr('stroke', 'none' )
 
 		// text = g.append('g').attr('class', 'text');
 		// g.append('text').attr('class', 'color')
@@ -338,8 +361,8 @@ d3.json('./prepareDataset/narrVizData.json', function(err, response) {
 
 			g.selectAll('text')
 				.attr('text-anchor', 'end')
-				.attr('y', '5px')
-				.attr('x', '-10px')
+				.attr('y', '20px')
+				.attr('x', '20px')
 				.text(function(d) { return d.character.name; });
 
 			g.select('.color')

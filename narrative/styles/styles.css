@@ -17,7 +17,31 @@ src: url("./PressGutenberg.ttf");
     font-weight: bold;
     text-align:center;
     color: black;
-    /*color:#FFFFFF; */
+    color:#fff; 
+    /*background-color:#ff0038;*/
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+}
+
+.headbar2 { 
+    font: 1.3em "Humanistic", serif;
+    font-weight: bold;
+    text-align:center;
+    color: black;
+    color:#eee; 
+    /*background-color:#ff0038;*/
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+}
+
+.headbar3 { 
+    font: 1.1em "Humanistic", serif;
+    font-weight: bold;
+    text-align:center;
+    color: black;
+    color:#ddd; 
     /*background-color:#ff0038;*/
     margin-left:auto; 
     margin-right:auto; 
@@ -25,19 +49,20 @@ src: url("./PressGutenberg.ttf");
 }
 
 .hr {
-width: 90%;
+width: 100%;
 height: 1px;
 margin-left: auto;
 margin-right: auto;
-background-color:#666;
+background-color:#fff;
 /*border: 0 none;*/
 margin-top: 10px;
 margin-bottom:10px;
 }
 
 #footer {
-        font: 1em "MediciText", sans-serif;
+        font: 1.3em "Humanistic", sans-serif;
     text-align: right;
+    stroke: #fff;
   /*position: absolute;*/
   /*bottom: 0;*/
   /*width: 100%;*/
@@ -45,13 +70,19 @@ margin-bottom:10px;
 }
 
 
-.boundingbox {
- background-image: url("./528.jpg");
- background-repeat: repeat;
- background-color: #cccccc;
+/*body {*/
+ /*background-image: url("./528.jpg");*/
+ /*background-repeat: repeat;*/
+/* background-color: #333333;*/
+/*}*/
+
+body {
+  background-image: linear-gradient( #555555, #dddddd);
 }
 
-
+body .bashford {
+  background-image: linear-gradient(to right, #555555, #dddddd);
+}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -73,15 +104,22 @@ margin-bottom:10px;
 
 	text {
 		font-family: "Humanistic","Book Antiqua","Old English Text MT",serif;
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	rect {
 		fill: none;
-		stroke: #333;
+		stroke: #ddd;
+		/*fill: #fff;*/
 		stroke-width: 1;
 	}
 	
+	.intro rect {
+		fill: none;
+		stroke: #000;
+		fill: #fff;
+		stroke-width: 1;
+	}
 		scenelabel {
 		fill: none;
 		stroke: #333;
@@ -92,6 +130,10 @@ margin-bottom:10px;
 		fill: none;
 		stroke-width: 2;
 		stroke: #333;
+	}
+	
+	path.other {
+		stroke: #f2d8b3;
 	}
 
 	path.staffwpn {
@@ -122,31 +164,49 @@ margin-bottom:10px;
 
 	.intro text+text.helmet {
 	    fill: #8fb0a9;
+	    stroke: #333
 	}
 
 	.intro text+text.staffwpn {
 	    stroke: #f2d8b3;
+	    stroke: #333
 	}
 	
     .intro text+text.armor {
 	    stroke: #ba9b2f;
+	    stroke: #333
 	}
 	
 	.intro text+text.gun {
 	    stroke: #d76735;
+	    stroke: #333
+	}
+	.intro text+text.other {
+	    stroke: #d76735;
+	    stroke: #333
 	}
 	
-
+	.textaxislegend {
+		font-size: 1.2em;
+	    stroke: #fff;
+	    fill: #fff;
+	    stroke-width: 1;
+	}
 	
-		.periodtext {
-	    stroke: #000;
+	.periodtext {
+		font-size: 1.5em;
+	    stroke: #eee;
+	    fill: #eee;
 	    stroke-width: 1;
 	}
 	.periodlines {
-		stroke: #000;
+		stroke: #999;
 		stroke-width: 0.5;
 	}
 	
+	a {
+		color: #fff;
+	}
 
 	.scene .staffwpn {
 	    /*transform-origin: initial;*/

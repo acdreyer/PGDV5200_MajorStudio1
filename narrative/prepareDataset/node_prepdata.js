@@ -78,7 +78,9 @@ var n;
 // Specify categories that need to be used in final plot:
 
 // The timeline grouped by half centuries:
-var halfcentrs = [1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800];
+// var halfcentrs = [1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800];
+var halfcentrs = [  1425, 1450,1475 ,1500,1525 ,1550,1575 ,1600,1625 ,1650,1675  ,1700, 1725, 1750, 1775];
+
 
 // Declare array of arrays
 var scenehold = new Array(halfcentrs.length);
@@ -104,27 +106,27 @@ let characterlist = ["Halberd",
     // "Visored sallet",
     "Burgonet",
     // "Closed burgonet",
-    "Lobster-tail burgonet",
+    // "Lobster-tail burgonet",
     "Morion",
-    "Morion-cabasset",
+    // "Morion-cabasset",
     "Cabasset",
     // "War Hat",  //#remove japanese remove Cambodian
     // # "Spider Helmet",
-    "Siege helmet",
+    // "Siege helmet",
     "Rapier",
-    "Cup-hilted rapier",
-    "Basket-hilted sword",
+    // "Cup-hilted rapier",
+    // "Basket-hilted sword",
     // "Hunting sword",
     "Claymore",
     // "Smallsword",
     // "Two-Hand Sword",
     // "Two-Handed Sword",
     "Breech-loading needlefire rifle",
-    "Matchlock gun",
+    // "Matchlock gun",
     // "Snaphaunche lock",
     "Flintlock gun",
     "Percussion longrifle",
-    "Wheellock rifle"
+    // "Wheellock rifle"
 ];
 // console.log(characterlist.length)
 
@@ -137,17 +139,21 @@ let helmet = ["Barbute", "Bascinet",
     // "Visored sallet",
     "Burgonet",
     //"Closed burgonet", 
-    "Lobster-tail burgonet", "Morion", "Morion-cabasset", "Cabasset",
-    // "War Hat",  //#remove japanese remove Cambodian// # "Spider Helmet",
-    "Siege helmet"
+    // "Lobster-tail burgonet", 
+    "Morion", //"Morion-cabasset"
+     "Cabasset"
+    // ,"War Hat",  //#remove japanese remove Cambodian// # "Spider Helmet",
+    // "Siege helmet"
 ];
-let other = ["Rapier", "Cup-hilted rapier", "Basket-hilted sword", //"Hunting sword", 
+let other = ["Rapier", 
+// "Cup-hilted rapier", 
+// "Basket-hilted sword", //"Hunting sword", 
 "Claymore"//, //"Smallsword",
     // "Two-Hand Sword",
     // "Two-Handed Sword",
 ];
-let gun = ["Breech-loading needlefire rifle", "Matchlock gun", // "Snaphaunche lock",
-    "Flintlock gun", "Percussion longrifle", "Wheellock rifle"
+let gun = ["Breech-loading needlefire rifle", //"Matchlock gun", // "Snaphaunche lock",
+    "Flintlock gun", "Percussion longrifle"//, "Wheellock rifle"
 ];
 // ---------------------------------------------------------
 
