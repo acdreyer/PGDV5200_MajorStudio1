@@ -1,0 +1,343 @@
+{
+  "characters": [{
+      "id": "Halberd",
+      "name": "Halberd",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Guisarme",
+      "name": "Guisarme",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Fauchard",
+      "name": "Fauchard",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Partisan",
+      "name": "Partisan",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Military Fork",
+      "name": "Military Fork",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Mail armor",
+      "name": "Mail",
+      "affiliation": "armor"
+    },
+    {
+      "id": "Barbute",
+      "name": "Barbute",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Bascinet",
+      "name": "Bascinet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Armet",
+      "name": "Armet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Sallet",
+      "name": "Sallet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Burgonet",
+      "name": "Burgonet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Morion",
+      "name": "Morion",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Cabasset",
+      "name": "Cabasset",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Closed Burgonet",
+      "name": "Closed Burgonet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "War Hat",
+      "name": "War Hat",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Spider Helmet",
+      "name": "Spider Helmet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Siege Helmet",
+      "name": "Siege Helmet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Morion-Cabasset",
+      "name": "Morion-Cabasset",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Cup-hilted Rapier",
+      "name": "Morion-Cabasset",
+      "affiliation": "other"
+    },
+    {
+      "id": "Rapier",
+      "name": "Rapier",
+      "affiliation": "other"
+    },
+    {
+      "id": "Basket-hilted sword",
+      "name": "Basket-hilted sword",
+      "affiliation": "other"
+    },
+    {
+      "id": "Hunting sword",
+      "name": "Hunting sword",
+      "affiliation": "other"
+    },
+    {
+      "id": "Claymore",
+      "name": "Claymore",
+      "affiliation": "other"
+    },
+    {
+      "id": "Smallsword",
+      "name": "Smallsword",
+      "affiliation": "other"
+    },
+    {
+      "id": "Two-handed Sword",
+      "name": "Two-handed Sword",
+      "affiliation": "other"
+    },
+    {
+      "id": "Breech-loading gun",
+      "name": "Breech-loading gun",
+      "affiliation": "gun"
+    },
+    {
+      "id": "Matchlock gun",
+      "name": "Matchlock gun",
+      "affiliation": "gun"
+    },
+    {
+      "id": "Snaphaunche lock",
+      "name": "Snaphaunche lock",
+      "affiliation": "gun"
+    },
+    {
+      "id": "Flintlock gun",
+      "name": "Flintlock gun",
+      "affiliation": "gun"
+    },
+    {
+      "id": "Percussion longrifle",
+      "name": "Percussion longrifle",
+      "affiliation": "gun"
+    },
+    {
+      "id": "Wheellock rifle",
+      "name": "Wheellock rifle",
+      "affiliation": "gun"
+    }
+  ],
+  "scenes": [
+    [
+      "Bascinet",
+      "Mail armor",
+      "War Hat"
+    ],
+    [
+      "Halberd",
+      "Bascinet",
+      "War Hat"
+    ],
+    [
+      "Halberd",
+      "Bascinet",
+      "Armet",
+      "Sallet",
+      "War Hat",
+      "Two-handed Sword"
+    ],
+    [ 
+      "Halberd",
+      "Partisan",
+      "Barbute",
+      "Bascinet",
+      "Armet",
+      "Sallet",
+      "War Hat",
+      "Two-handed Sword"
+    ],
+    [
+      "Halberd",
+      "Guisarme",
+      "Fauchard",
+      "Partisan",
+      "Military Fork",
+      "Barbute",
+      "Armet",
+      "Sallet",
+      "Burgonet",
+      "Closed Burgonet",
+      "War Hat",
+      "Morion-Cabasset",
+      "Rapier",
+      "Hunting sword",
+      "Claymore",
+      "Two-handed Sword",
+      "Matchlock gun"
+    ],
+    [
+      "Halberd",
+      "Guisarme",
+      "Fauchard",
+      "Partisan",
+      "Military Fork",
+      "Armet",
+      "Sallet",
+      "Burgonet",
+      "Morion",
+      "Cabasset",
+      "Closed Burgonet",
+      "War Hat",
+      "Siege Helmet",
+      "Morion-Cabasset",
+      "Rapier",
+      "Hunting sword",
+      "Claymore",
+      "Two-handed Sword",
+      "Matchlock gun",
+      "Wheellock rifle"
+    ],
+    [
+      "Guisarme",
+      "Fauchard",
+      "Partisan",
+      "Military Fork",
+      "Armet",
+      "Sallet",
+      "Burgonet",
+      "Morion",
+      "Closed Burgonet",
+      "War Hat",
+      "Siege Helmet",
+      "Morion-Cabasset",
+      "Rapier",
+      "Basket-hilted sword",
+      "Hunting sword",
+      "Claymore",
+      "Two-handed Sword",
+      "Matchlock gun",
+      "Snaphaunche lock",
+      "Flintlock gun",
+      "Wheellock rifle"
+    ],
+    [
+      "Guisarme",
+      "Fauchard",
+      "Partisan",
+      "Military Fork",
+      "Armet",
+      "Sallet",
+      "Burgonet",
+      "Morion",
+      "Cabasset",
+      "Closed Burgonet",
+      "War Hat",
+      "Spider Helmet",
+      "Siege Helmet",
+      "Morion-Cabasset",
+      "Cup-hilted Rapier",
+      "Rapier",
+      "Basket-hilted sword",
+      "Hunting sword",
+      "Claymore",
+      "Smallsword",
+      "Matchlock gun",
+      "Snaphaunche lock",
+      "Flintlock gun",
+      "Wheellock rifle"
+    ],
+    [
+      "Guisarme",
+      "Fauchard",
+      "Partisan",
+      "Military Fork",
+      "Armet",
+      "Cabasset",
+      "War Hat",
+      "Spider Helmet",
+      "Siege Helmet",
+      "Morion-Cabasset",
+      "Cup-hilted Rapier",
+      "Rapier",
+      "Basket-hilted sword",
+      "Hunting sword",
+      "Claymore",
+      "Smallsword",
+      "Matchlock gun",
+      "Snaphaunche lock",
+      "Flintlock gun",
+      "Wheellock rifle"
+    ],
+    [
+      "Guisarme",
+      "Fauchard",
+      "Partisan",
+      "Military Fork",
+      "War Hat",
+      "Spider Helmet",
+      "Morion-Cabasset",
+      "Rapier",
+      "Basket-hilted sword",
+      "Hunting sword",
+      "Smallsword",
+      "Matchlock gun",
+      "Snaphaunche lock",
+      "Flintlock gun"
+    ],
+    [
+      "Guisarme",
+      "Fauchard",
+      "Military Fork",
+      "War Hat",
+      "Morion-Cabasset",
+      "Rapier",
+      "Hunting sword",
+      "Smallsword",
+      "Breech-loading gun",
+      "Matchlock gun",
+      "Flintlock gun",
+      "Percussion longrifle"
+    ],
+    [
+      "Guisarme",
+      "Fauchard",
+      "Military Fork",
+      "War Hat",
+      "Morion-Cabasset",
+      "Rapier",
+      "Hunting sword",
+      "Smallsword",
+      "Breech-loading gun",
+      "Flintlock gun",
+      "Percussion longrifle"
+    ]
+  ]
+}

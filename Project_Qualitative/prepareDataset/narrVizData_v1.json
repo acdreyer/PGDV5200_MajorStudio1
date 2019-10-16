@@ -1,0 +1,3265 @@
+{
+  "characters": [
+    {
+      "id": "Halberd",
+      "name": "Halberd",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Guisarme",
+      "name": "Guisarme",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Fauchard",
+      "name": "Fauchard",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Partisan",
+      "name": "Partisan",
+      "affiliation": "staffwpn"
+    },
+    {
+      "id": "Barbute",
+      "name": "Barbute",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Bascinet",
+      "name": "Bascinet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Armet",
+      "name": "Armet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Sallet",
+      "name": "Sallet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Burgonet",
+      "name": "Burgonet",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Morion",
+      "name": "Morion",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Cabasset",
+      "name": "Cabasset",
+      "affiliation": "helmet"
+    },
+    {
+      "id": "Rapier",
+      "name": "Rapier",
+      "affiliation": "other"
+    },
+    {
+      "id": "Claymore",
+      "name": "Claymore",
+      "affiliation": "other"
+    },
+    {
+      "id": "Breech-loading needlefire rifle",
+      "name": "Breech-loading needlefire rifle",
+      "affiliation": "gun"
+    },
+    {
+      "id": "Flintlock gun",
+      "name": "Flintlock gun",
+      "affiliation": "gun"
+    },
+    {
+      "id": "Percussion longrifle",
+      "name": "Percussion longrifle",
+      "affiliation": "gun"
+    }
+  ],
+  "scenes": [
+    [
+      "Halberd",
+      "Bascinet",
+      "Armet",
+      "Sallet"
+    ],
+    [
+      "Halberd",
+      "Barbute",
+      "Armet",
+      "Sallet"
+    ],
+    [
+      "Halberd",
+      "Guisarme",
+      "Partisan",
+      "Armet",
+      "Sallet",
+      "Rapier"
+    ],
+    [
+      "Halberd",
+      "Guisarme",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Rapier"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Cabasset",
+      "Rapier"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Cabasset",
+      "Rapier"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Cabasset",
+      "Rapier"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Cabasset",
+      "Rapier",
+      "Flintlock gun"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Rapier",
+      "Flintlock gun"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Rapier",
+      "Flintlock gun"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Rapier",
+      "Flintlock gun"
+    ],
+    [
+      "Halberd",
+      "Fauchard",
+      "Partisan",
+      "Armet",
+      "Burgonet",
+      "Morion",
+      "Rapier",
+      "Flintlock gun"
+    ],
+    [
+      "Halberd",
+      "Partisan",
+      "Armet",
+      "Morion",
+      "Rapier",
+      "Flintlock gun"
+    ],
+    [
+      "Halberd",
+      "Partisan",
+      "Armet",
+      "Morion",
+      "Rapier",
+      "Flintlock gun"
+    ],
+    [
+      "Halberd",
+      "Armet",
+      "Morion",
+      "Rapier",
+      "Flintlock gun"
+    ]
+  ],
+  "scnimages": [
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "14.25.35_002dec2014.jpg",
+          "14.25.52_001dec2014.jpg",
+          "14.25.86_003dec2014.jpg",
+          "52.208.8_002jan2015.jpg",
+          "42.50.18_001jan2015.jpg",
+          "49.120.11_001jan2015.jpg",
+          "32.75.192_008jan2015.jpg",
+          "42.50.21_001jan2015.jpg",
+          "42.50.17_001jan2015.jpg",
+          "29.156.9_001jan2015.jpg"
+        ],
+        "time": 1425
+      },
+      {
+        "character": "Bascinet",
+        "imagenames": [
+          "DT11527.jpg",
+          "DP-12880-041x.jpg",
+          "29.158.47_005AA2015.jpg"
+        ],
+        "time": 1425
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "DP160168.jpg",
+          "DP160171.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1425
+      },
+      {
+        "character": "Sallet",
+        "imagenames": [
+          "14.25.573_007mar2015.jpg",
+          "29.150.12_006AA2015.jpg",
+          "DP22311.jpg"
+        ],
+        "time": 1425
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "42.50.18_001jan2015.jpg",
+          "52.208.8_002jan2015.jpg",
+          "14.25.193_001dec2014.jpg",
+          "14.25.86_003dec2014.jpg",
+          "49.120.11_001jan2015.jpg",
+          "32.75.192_008jan2015.jpg",
+          "48.149.34_001jan2015.jpg",
+          "48.149.33_001jan2015.jpg",
+          "42.50.21_001jan2015.jpg",
+          "29.156.29_002jan2015.jpg",
+          "14.25.52_001dec2014.jpg",
+          "42.50.17_001jan2015.jpg"
+        ],
+        "time": 1450
+      },
+      {
+        "character": "Barbute",
+        "imagenames": [
+          "sfsb14.25.579_004.jpg",
+          "42.50.14_006AA2015.jpg",
+          "49.163.2_005AA2015.jpg",
+          "60.151_009AA2015.jpg",
+          "14.25.580_004mar2015.jpg",
+          "DP-12880-047.jpg"
+        ],
+        "time": 1450
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "29.158.51_007AA2015.jpg",
+          "DP160168.jpg",
+          "101020.jpg",
+          "DP160171.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1450
+      },
+      {
+        "character": "Sallet",
+        "imagenames": [
+          "DP22341.jpg",
+          "DP22339.jpg",
+          "DP22311.jpg",
+          "DP22334.jpg",
+          "DP22355.jpg",
+          "DP22352.jpg",
+          "29.158.3a_007may2015.jpg",
+          "DP237081.jpg",
+          "29.150.12_006AA2015.jpg",
+          "DP22327.jpg",
+          "61902.jpg",
+          "14.25.573_007mar2015.jpg",
+          "29.158.10_005june2015.jpg"
+        ],
+        "time": 1450
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "14.25.51_004nov2014.jpg",
+          "14.25.52_001dec2014.jpg",
+          "14.25.74_001dec2014.jpg",
+          "14.25.86_003dec2014.jpg",
+          "14.25.193_001dec2014.jpg",
+          "52.208.8_002jan2015.jpg",
+          "42.50.18_001jan2015.jpg",
+          "49.120.11_001jan2015.jpg",
+          "48.149.34_001jan2015.jpg",
+          "42.50.21_001jan2015.jpg",
+          "29.156.29_002jan2015.jpg",
+          "42.50.17_001jan2015.jpg"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Guisarme",
+        "imagenames": [
+          "14.25.190_001dec2014.jpg",
+          "14.25.1_003nov2014.jpg",
+          "14.25.136_006dec2014.jpg",
+          "14.25.187_001dec2014.jpg",
+          "14.25.238_001feb2015.jpg"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "04.3.76_001feb2015.jpg",
+          "14.25.119_001dec2014.jpg",
+          "14.25.209_001feb2015.jpg"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "25.188.21_007AA2015.jpg",
+          "101020.jpg",
+          "49.163.4_005AA2015.jpg",
+          "04.3.244_006june2015.jpg",
+          "09.210.1_006AA2015.jpg",
+          "DP22351.jpg",
+          "14.25.610_006mar2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Sallet",
+        "imagenames": [
+          "04.3.229_005AA2015.jpg",
+          "29.158.27_008AA2015.jpg",
+          "DP22327.jpg",
+          "DP-16115-012.jpg",
+          "DP22341.jpg",
+          "DP22339.jpg",
+          "DP22336.jpg",
+          "DP22311.jpg",
+          "DP22334.jpg",
+          "DP22355.jpg",
+          "DP22352.jpg",
+          "29.158.3a_007may2015.jpg",
+          "DP237081.jpg",
+          "29.150.4a_008AA2015.jpg",
+          "29.150.5a_009AA2015.jpg",
+          "29.150.8a_006AA2015.jpg",
+          "29.150.12_006AA2015.jpg",
+          "DP-12880-034.jpg",
+          "61902.jpg",
+          "14.25.573_007mar2015.jpg",
+          "14.25.576_006mar2015.jpg",
+          "29.158.10_005june2015.jpg"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "sfrl14.25.1169_199930.jpg"
+        ],
+        "time": 1475
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "29.156.3_001june2014.jpg",
+          "96.5.18_001oct2014.jpg",
+          "14.25.51_004nov2014.jpg",
+          "14.25.74_001dec2014.jpg",
+          "14.25.80_001dec2014.jpg",
+          "14.25.69_001dec2014.jpg",
+          "14.25.153_002dec2014.jpg",
+          "14.25.338_001jan2015.jpg",
+          "52.208.8_002jan2015.jpg",
+          "54.46.17_001jan2015.jpg",
+          "49.120.11_001jan2015.jpg",
+          "32.75.194_001jan2015.jpg",
+          "48.149.34_001jan2015.jpg",
+          "42.50.21_001jan2015.jpg",
+          "42.50.20_001jan2015.jpg",
+          "29.156.29_002jan2015.jpg",
+          "42.50.17_001jan2015.jpg",
+          "32.75.195_001jan2015.jpg"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Guisarme",
+        "imagenames": [
+          "04.3.75_002feb2015.jpg",
+          "14.25.1_003nov2014.jpg",
+          "14.25.60_001feb2015.jpg",
+          "14.25.136_006dec2014.jpg",
+          "14.25.162_002dec2014.jpg",
+          "14.25.187_001dec2014.jpg",
+          "14.25.190_001dec2014.jpg",
+          "14.25.238_001feb2015.jpg"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "08.261.2_002nov2014.jpg",
+          "14.25.91_001feb2015.jpg",
+          "14.25.119_001dec2014.jpg",
+          "14.25.209_001feb2015.jpg",
+          "14.25.351_002feb2015.jpg"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.584_010AA2015.jpg",
+          "29.158.51_007AA2015.jpg",
+          "DP-16115-014.jpg",
+          "25.188.21_007AA2015.jpg",
+          "49.163.4_005AA2015.jpg",
+          "04.3.244_006june2015.jpg",
+          "DP22313.jpg",
+          "09.210.1_006AA2015.jpg",
+          "DP22351.jpg",
+          "DP22323.jpg",
+          "14.25.554_007AA2015.jpg",
+          "14.25.575_010mar2015.jpg",
+          "14.25.587_007mar2015.jpg",
+          "14.25.610_006mar2015.jpg",
+          "NYMMA38-143aHelm-02.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "2015.304_4.jpg"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "sfrl14.25.1169_199930.jpg"
+        ],
+        "time": 1500
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "96.5.23_003oct2014.jpg",
+          "96.5.18_001oct2014.jpg",
+          "08.261.3_003nov2014.jpg",
+          "14.25.32_002dec2014.jpg",
+          "14.25.54_001dec2014.jpg",
+          "14.25.63_001dec2014.jpg",
+          "14.25.71_001feb2015.jpg",
+          "14.25.80_001dec2014.jpg",
+          "14.25.69_001dec2014.jpg",
+          "14.25.83_003feb2015.jpg",
+          "14.25.134_002dec2014.jpg",
+          "14.25.153_002dec2014.jpg",
+          "14.25.161_001feb2015.jpg",
+          "14.25.191_001feb2015.jpg",
+          "14.25.226_001dec2014.jpg",
+          "14.25.267_002feb2015.jpg",
+          "14.25.283_001jan2015.jpg",
+          "14.25.301_002jan2015.jpg",
+          "14.25.314_002jan2015.jpg",
+          "14.25.338_001jan2015.jpg",
+          "14.25.348_002jan2015.jpg",
+          "54.46.17_001jan2015.jpg",
+          "36.78.1_001jan2015.jpg",
+          "32.75.194_001jan2015.jpg",
+          "25.135.4_001feb2015.jpg",
+          "32.75.193_001feb2015.jpg",
+          "42.50.20_001jan2015.jpg",
+          "25.135.19_001feb2015.jpg",
+          "32.75.195_001jan2015.jpg"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": [
+          "04.3.85_001nov2014.jpg",
+          "14.25.347_001feb2015.jpg",
+          "14.25.356_002feb2015.jpg",
+          "14.25.390_002feb2015.jpg",
+          "14.25.391_001feb2015.jpg",
+          "14.25.282_001feb2015.jpg",
+          "14.25.26_002feb2015.jpg",
+          "14.25.273_001feb2015.jpg",
+          "36.25.2003_001jan2015.jpg"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "96.5.7_004jan2015.jpg",
+          "04.3.81_002nov2014.jpg",
+          "08.261.2_002nov2014.jpg",
+          "08.261.4_001feb2015.jpg",
+          "14.25.91_001feb2015.jpg",
+          "14.25.94_001feb2015.jpg",
+          "14.25.97_001feb2015.jpg",
+          "14.25.119_001dec2014.jpg",
+          "14.25.192_001feb2015.jpg",
+          "14.25.351_002feb2015.jpg",
+          "14.25.366_001jan2015.jpg",
+          "14.25.389_001jan2015.jpg",
+          "29.16.1_002jan2015.jpg"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "09.210.1_006AA2015.jpg",
+          "DP22323.jpg",
+          "14.25.550_005AA2015.jpg",
+          "14.25.554_007AA2015.jpg",
+          "14.25.575_010mar2015.jpg",
+          "14.25.587_007mar2015.jpg",
+          "14.25.610_006mar2015.jpg",
+          "29.158.12_006AA2015.jpg",
+          "28.74.1_008may2015.jpg",
+          "NYMMA38-143aHelm-02.jpg",
+          "28.74.3_010may2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "DP273710.jpg",
+          "14.25.602_006AA2015.jpg",
+          "DP-12880-025.jpg",
+          "DP22364.jpg",
+          "DP22366.jpg",
+          "04.3.284_009june2015.jpg",
+          "14.25.642_002mar2015.jpg",
+          "DP22425.jpg",
+          "14.25.521_006AA2015.jpg",
+          "14.25.552_005AA2015.jpg",
+          "14.25.606_006mar2015.jpg",
+          "14.25.675a_007may2015.jpg",
+          "28.24_005may2015.jpg",
+          "2015.304_4.jpg"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Morion",
+        "imagenames": [
+          "32.75.88_006AA2015.jpg"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Cabasset",
+        "imagenames": [
+          "DP-12880-027.jpg"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "sfrl14.25.987_22109.jpg",
+          "sfsb2010.200(030510)s1d1.jpg"
+        ],
+        "time": 1525
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "96.5.15_002oct2014.jpg",
+          "96.5.16_001oct2014.jpg",
+          "08.261.3_003nov2014.jpg",
+          "14.25.32_002dec2014.jpg",
+          "14.25.54_001dec2014.jpg",
+          "14.25.63_001dec2014.jpg",
+          "14.25.71_001feb2015.jpg",
+          "14.25.80_001dec2014.jpg",
+          "14.25.69_001dec2014.jpg",
+          "14.25.83_003feb2015.jpg",
+          "14.25.134_002dec2014.jpg",
+          "14.25.149_002feb2015.jpg",
+          "14.25.158_005feb2015.jpg",
+          "14.25.161_001feb2015.jpg",
+          "14.25.196_002feb2015.jpg",
+          "14.25.191_001feb2015.jpg",
+          "14.25.226_001dec2014.jpg",
+          "14.25.262_002jan2015.jpg",
+          "14.25.267_002feb2015.jpg",
+          "14.25.270_001jan2015.jpg",
+          "14.25.283_001jan2015.jpg",
+          "14.25.301_002jan2015.jpg",
+          "14.25.314_002jan2015.jpg",
+          "14.25.338_001jan2015.jpg",
+          "14.25.344_002jan2015.jpg",
+          "14.25.348_002jan2015.jpg",
+          "14.25.354_002jan2015.jpg",
+          "14.25.367_001jan2015.jpg",
+          "14.25.386_001feb2015.jpg",
+          "14.25.424_001jan2015.jpg",
+          "54.46.17_001jan2015.jpg",
+          "36.78.1_001jan2015.jpg",
+          "32.75.194_001jan2015.jpg",
+          "25.135.4_001feb2015.jpg",
+          "32.75.193_001feb2015.jpg",
+          "25.135.19_001feb2015.jpg",
+          "32.75.195_001jan2015.jpg",
+          "29.156.34_001jan2015.jpg"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": [
+          "96.5.9_004feb2015.jpg",
+          "04.3.85_001nov2014.jpg",
+          "14.25.26_002feb2015.jpg",
+          "14.25.273_001feb2015.jpg",
+          "14.25.282_001feb2015.jpg",
+          "14.25.347_001feb2015.jpg",
+          "14.25.352_001feb2015.jpg",
+          "14.25.356_002feb2015.jpg",
+          "14.25.374_001feb2015.jpg",
+          "14.25.382_001feb2015.jpg",
+          "14.25.390_002feb2015.jpg",
+          "14.25.391_001feb2015.jpg",
+          "14.25.392_001feb2015.jpg",
+          "36.25.2003_001jan2015.jpg"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "04.3.81_002nov2014.jpg",
+          "08.261.2_002nov2014.jpg",
+          "08.261.4_001feb2015.jpg",
+          "14.25.91_001feb2015.jpg",
+          "14.25.94_001feb2015.jpg",
+          "14.25.97_001feb2015.jpg",
+          "14.25.192_001feb2015.jpg",
+          "14.25.266_003jan2015.jpg",
+          "14.25.342_001feb2015.jpg",
+          "14.25.351_002feb2015.jpg",
+          "14.25.366_001jan2015.jpg",
+          "14.25.364_002jan2015.jpg",
+          "14.25.389_001jan2015.jpg",
+          "29.156.7_001feb2015.jpg",
+          "29.16.1_002jan2015.jpg"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.550_005AA2015.jpg",
+          "14.25.575_010mar2015.jpg",
+          "14.25.655_005may2015.jpg",
+          "29.158.12_006AA2015.jpg",
+          "NYMMA38-143aHelm-02.jpg",
+          "28.74.3_010may2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "DP-12880-025.jpg",
+          "49.163.3_008AA2015.jpg",
+          "04.3.205_009june2015.jpg",
+          "DP22364.jpg",
+          "DP22390.jpg",
+          "DP22366.jpg",
+          "04.3.284_009june2015.jpg",
+          "DP22399.jpg",
+          "14.25.642_002mar2015.jpg",
+          "DP22425.jpg",
+          "14.25.521_006AA2015.jpg",
+          "14.25.552_005AA2015.jpg",
+          "14.25.531_006AA2015.jpg",
+          "14.25.606_006mar2015.jpg",
+          "14.25.675a_007may2015.jpg",
+          "28.24_005may2015.jpg",
+          "2015.304_4.jpg"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Morion",
+        "imagenames": [
+          "04.3.220_007AA2015.jpg",
+          "14.25.649_006AA2015.jpg",
+          "14.25.506_008AA2015.jpg",
+          "14.25.634_005mar2015.jpg",
+          "14.25.635_011mar2015.jpg",
+          "14.25.643_006mar2015.jpg",
+          "14.25.646_007june2015.jpg",
+          "14.25.652_003AA2015.jpg",
+          "14.25.647_007AA2015.jpg",
+          "14.25.633_031AA2015.jpg",
+          "64.203.1_006AA2015.jpg",
+          "DP276702.jpg",
+          "32.75.88_006AA2015.jpg",
+          "29.158.8_009AA2015.jpg",
+          "14.25.1852_004may2015.jpg",
+          "37.186.6_005AA2015.jpg",
+          "29.158.49_006AA2015.jpg"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Cabasset",
+        "imagenames": [
+          "14.25.636_011mar2015.jpg",
+          "AA88.jpg",
+          "DP-12880-027.jpg",
+          "DP-13163-003.jpg",
+          "04.3.203_006june2015.jpg",
+          "14.25.533_005AA2015.jpg",
+          "14.25.630_005mar2015.jpg"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          
+          "sfsb2010.200(030510)s1d1.jpg"
+        ],
+        "time": 1550
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "04.3.62_001june2014.jpg",
+          "04.3.63_001june2014.jpg",
+          "04.3.80_001june2014.jpg",
+          "14.25.379_001june2014.jpg",
+          "96.5.15_002oct2014.jpg",
+          "96.5.16_001oct2014.jpg",
+          "04.3.73_001oct2014.jpg",
+          "08.261.3_003nov2014.jpg",
+          "14.25.32_002dec2014.jpg",
+          "14.25.42_001dec2014.jpg",
+          "14.25.54_001dec2014.jpg",
+          "14.25.71_001feb2015.jpg",
+          "14.25.83_003feb2015.jpg",
+          "14.25.76_001dec2014.jpg",
+          "14.25.117_001dec2014.jpg",
+          "14.25.149_002feb2015.jpg",
+          "14.25.158_005feb2015.jpg",
+          "14.25.161_001feb2015.jpg",
+          "14.25.194_001feb2015.jpg",
+          "14.25.196_002feb2015.jpg",
+          "14.25.191_001feb2015.jpg",
+          "14.25.201_001dec2014.jpg",
+          "14.25.226_001dec2014.jpg",
+          "14.25.262_002jan2015.jpg",
+          "14.25.267_002feb2015.jpg",
+          "14.25.270_001jan2015.jpg",
+          "14.25.281_001jan2015.jpg",
+          "14.25.283_001jan2015.jpg",
+          "14.25.301_002jan2015.jpg",
+          "14.25.314_002jan2015.jpg",
+          "14.25.344_002jan2015.jpg",
+          "14.25.348_002jan2015.jpg",
+          "14.25.349_001jan2015.jpg",
+          "14.25.354_002jan2015.jpg",
+          "14.25.358_002jan2015.jpg",
+          "14.25.367_001jan2015.jpg",
+          "14.25.385_001feb2015.jpg",
+          "14.25.386_001feb2015.jpg",
+          "14.25.424_001jan2015.jpg",
+          "14.25.433_001jan2015.jpg",
+          "25.135.4_001feb2015.jpg",
+          "32.75.193_001feb2015.jpg",
+          "25.135.19_001feb2015.jpg",
+          "29.156.34_001jan2015.jpg"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": [
+          "14.25.374_001feb2015.jpg",
+          "14.25.26_002feb2015.jpg",
+          "14.25.382_001feb2015.jpg",
+          "14.25.390_002feb2015.jpg",
+          "14.25.391_001feb2015.jpg",
+          "04.3.85_001nov2014.jpg",
+          "14.25.347_001feb2015.jpg",
+          "14.25.273_001feb2015.jpg",
+          "14.25.352_001feb2015.jpg",
+          "54.46.16_001june2014.jpg",
+          "14.25.392_001feb2015.jpg",
+          "14.25.356_002feb2015.jpg",
+          "36.25.2003_001jan2015.jpg"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "08.261.4_001feb2015.jpg",
+          "14.25.144_001dec2014.jpg",
+          "14.25.192_001feb2015.jpg",
+          "14.25.257_001dec2014.jpg",
+          "14.25.261_002jan2015.jpg",
+          "14.25.263_001jan2015.jpg",
+          "14.25.266_003jan2015.jpg",
+          "14.25.295_002jan2015.jpg",
+          "14.25.308_001feb2015.jpg",
+          "14.25.320_002feb2015.jpg",
+          "14.25.329_001jan2015.jpg",
+          "14.25.342_001feb2015.jpg",
+          "14.25.355_006jan2015.jpg",
+          "14.25.366_001jan2015.jpg",
+          "14.25.364_002jan2015.jpg",
+          "14.25.363_001jan2015.jpg",
+          "29.156.7_001feb2015.jpg",
+          "29.16.1_002jan2015.jpg"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.519_007AA2015.jpg",
+          "14.25.592_006mar2015.jpg",
+          "14.25.600_008mar2015.jpg",
+          "14.25.655_005may2015.jpg",
+          "29.158.12_006AA2015.jpg",
+          "28.74.3_010may2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "DP22390.jpg",
+          "DP22366.jpg",
+          "04.3.284_009june2015.jpg",
+          "DP22399.jpg",
+          "14.25.642_002mar2015.jpg",
+          "DP22425.jpg",
+          "DP22434.jpg",
+          "14.25.521_006AA2015.jpg",
+          "14.25.552_005AA2015.jpg",
+          "14.25.531_006AA2015.jpg",
+          "14.25.606_006mar2015.jpg",
+          "28.24_005may2015.jpg"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Morion",
+        "imagenames": [
+          "14.25.633_031AA2015.jpg",
+          "14.25.649_006AA2015.jpg",
+          "14.25.652_003AA2015.jpg",
+          "DP276702.jpg",
+          "04.3.220_007AA2015.jpg",
+          "04.3.225_011june2015.jpg",
+          "04.3.224_005june2015.jpg",
+          "sfeah19-53-78ATS1.JPG",
+          "14.25.506_008AA2015.jpg",
+          "14.25.508_004AA2015.jpg",
+          "14.25.634_005mar2015.jpg",
+          "14.25.635_011mar2015.jpg",
+          "14.25.643_006mar2015.jpg",
+          "14.25.646_007june2015.jpg",
+          "14.25.647_007AA2015.jpg",
+          "14.25.651_007june2015.jpg",
+          "64.203.1_006AA2015.jpg",
+          "32.75.88_006AA2015.jpg",
+          "29.158.8_009AA2015.jpg",
+          "14.25.1852_004may2015.jpg",
+          "37.186.6_005AA2015.jpg",
+          "29.158.49_006AA2015.jpg"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Cabasset",
+        "imagenames": [
+          "04.3.200_014AA2015.jpg",
+          "14.25.504_005june2015.jpg",
+          "14.25.636_011mar2015.jpg",
+          "AA88.jpg",
+          "DP-12880-027.jpg",
+          "DP-13163-003.jpg",
+          "04.3.203_006june2015.jpg",
+          "DP22469.jpg",
+          "14.25.533_005AA2015.jpg",
+          "14.25.630_005mar2015.jpg"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "175346.jpg",
+          "6013.jpg",
+          "173989.jpg",
+          "sfeah04.3.287_003.jpg",
+          "LC-14_25_1052-029.jpg",
+          "sfeah29.16.10_003.jpg",
+          "DP-15498-008.jpg"
+        ],
+        "time": 1575
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "04.3.73_001oct2014.jpg",
+          "04.3.79_011nov2014.jpg",
+          "08.261.3_003nov2014.jpg",
+          "14.25.22_001dec2014.jpg",
+          "14.25.42_001dec2014.jpg",
+          "14.25.76_001dec2014.jpg",
+          "14.25.117_001dec2014.jpg",
+          "14.25.124_001dec2014.jpg",
+          "14.25.151_001feb2015.jpg",
+          "14.25.194_001feb2015.jpg",
+          "14.25.201_001dec2014.jpg",
+          "14.25.226_001dec2014.jpg",
+          "14.25.281_001jan2015.jpg",
+          "14.25.344_002jan2015.jpg",
+          "14.25.349_001jan2015.jpg",
+          "14.25.354_002jan2015.jpg",
+          "14.25.358_002jan2015.jpg",
+          "14.25.367_001jan2015.jpg",
+          "14.25.385_001feb2015.jpg",
+          "14.25.386_001feb2015.jpg",
+          "14.25.424_001jan2015.jpg",
+          "14.25.433_001jan2015.jpg",
+          "53.187_001jan2015.jpg",
+          "25.135.4_001feb2015.jpg",
+          "32.75.193_001feb2015.jpg",
+          "29.156.20_001feb2015.jpg",
+          "25.135.19_001feb2015.jpg",
+          "29.156.34_001jan2015.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": [
+          "14.25.392_001feb2015.jpg",
+          "14.25.26_002feb2015.jpg",
+          "36.25.2003_001jan2015.jpg",
+          "04.3.85_001nov2014.jpg",
+          "96.5.9_004feb2015.jpg",
+          "14.25.388_001feb2015.jpg",
+          "54.46.16_001june2014.jpg",
+          "04.3.101_002mar2015.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "14.25.110_002dec2014.jpg",
+          "14.25.144_001dec2014.jpg",
+          "14.25.257_001dec2014.jpg",
+          "14.25.261_002jan2015.jpg",
+          "14.25.263_001jan2015.jpg",
+          "14.25.271_002jan2015.jpg",
+          "14.25.295_002jan2015.jpg",
+          "14.25.308_001feb2015.jpg",
+          "14.25.320_002feb2015.jpg",
+          "14.25.329_001jan2015.jpg",
+          "14.25.342_001feb2015.jpg",
+          "14.25.355_006jan2015.jpg",
+          "14.25.372_002jan2015.jpg",
+          "14.25.364_002jan2015.jpg",
+          "14.25.363_001jan2015.jpg",
+          "39.146.1_001jan2015.jpg",
+          "29.156.7_001feb2015.jpg",
+          "29.16.1_002jan2015.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.592_006mar2015.jpg",
+          "14.25.600_008mar2015.jpg",
+          "29.158.12_006AA2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "DP-12880-001.jpg",
+          "DP22399.jpg",
+          "29.153.2_010AA2015.jpg",
+          "DP22434.jpg",
+          "28.24_005may2015.jpg",
+          "DP320268.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Morion",
+        "imagenames": [
+          "DP276702.jpg",
+          "04.3.225_011june2015.jpg",
+          "04.3.224_005june2015.jpg",
+          "sfeah19-53-78ATS1.JPG",
+          "14.25.506_008AA2015.jpg",
+          "14.25.508_004AA2015.jpg",
+          "14.25.634_005mar2015.jpg",
+          "14.25.635_011mar2015.jpg",
+          "14.25.643_006mar2015.jpg",
+          "14.25.647_007AA2015.jpg",
+          "14.25.651_007june2015.jpg",
+          "64.203.1_006AA2015.jpg",
+          "32.75.88_006AA2015.jpg",
+          "14.25.1852_004may2015.jpg",
+          "37.186.6_005AA2015.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Cabasset",
+        "imagenames": [
+          "14.25.504_005june2015.jpg",
+          "14.25.636_011mar2015.jpg",
+          "AA88.jpg",
+          "DP-12880-027.jpg",
+          "DP-13163-003.jpg",
+          "DP22469.jpg",
+          "04.3.200_014AA2015.jpg",
+          "14.25.533_005AA2015.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "173997.jpg",
+          "174000.jpg",
+          "175346.jpg",
+          "174009.jpg",
+          "LC-1973_27_5-025.jpg",
+          "6013.jpg",
+          "173987.jpg",
+          "173989.jpg",
+          "DP-14227-001.jpg",
+          "LC-14_25_1052-029.jpg",
+          "LC-29_157_9-003.jpg",
+          "LC-32_75_220-003.jpg",
+          "sfeah29.16.10_003.jpg",
+          "LC-14_25_1191-002.jpg",
+          "DP-15498-008.jpg"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "DT11038.jpg",
+          "DP165768.jpg"
+        ],
+        "time": 1600
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "14.25.379_001june2014.jpg",
+          "26.261.11_001june2014.jpg",
+          "04.3.79_011nov2014.jpg",
+          "14.25.22_001dec2014.jpg",
+          "14.25.23_004dec2014.jpg",
+          "14.25.29_003dec2014.jpg",
+          "14.25.39_001dec2014.jpg",
+          "14.25.47_001dec2014.jpg",
+          "14.25.76_001dec2014.jpg",
+          "14.25.117_001dec2014.jpg",
+          "14.25.124_001dec2014.jpg",
+          "14.25.139_001dec2014.jpg",
+          "14.25.201_001dec2014.jpg",
+          "14.25.228_002dec2014.jpg",
+          "14.25.225_001dec2014.jpg",
+          "14.25.346_001jan2015.jpg",
+          "14.25.349_001jan2015.jpg",
+          "14.25.377_001jan2015.jpg",
+          "14.25.427_001jan2015.jpg",
+          "53.187_001jan2015.jpg",
+          "32.75.197_001feb2015.jpg",
+          "37.189.6_001jan2015.jpg",
+          "42.50.19_001jan2015.jpg",
+          "29.156.20_001feb2015.jpg"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": [
+          "54.46.16_001june2014.jpg",
+          "14.25.388_001feb2015.jpg",
+          "04.3.101_002mar2015.jpg",
+          "DP277180.jpg"
+          
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "14.25.40_001dec2014.jpg",
+          "14.25.90_001feb2015.jpg",
+          "14.25.110_002dec2014.jpg",
+          "14.25.144_001dec2014.jpg",
+          "14.25.223_003dec2014.jpg",
+          "14.25.254_001dec2014.jpg",
+          "14.25.257_001dec2014.jpg",
+          "14.25.261_002jan2015.jpg",
+          "14.25.263_001jan2015.jpg",
+          "14.25.265_001jan2015.jpg",
+          "14.25.271_002jan2015.jpg",
+          "14.25.297_001feb2015.jpg",
+          "14.25.295_002jan2015.jpg",
+          "14.25.308_001feb2015.jpg",
+          "14.25.320_002feb2015.jpg",
+          "14.25.355_006jan2015.jpg",
+          "14.25.372_002jan2015.jpg",
+          "14.25.363_001jan2015.jpg",
+          "14.25.432_001jan2015.jpg",
+          "39.146.1_001jan2015.jpg",
+          "31.108_002jan2015.jpg",
+          "32.75.204_003jan2015.jpg",
+          "29.156.17_001jan2015.jpg"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.502_006AA2015.jpg",
+          "14.25.517_010AA2015.jpg",
+          "14.25.592_006mar2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "DP320268.jpg",
+          "29.153.2_010AA2015.jpg",
+          "14.25.520_006AA2015.jpg"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Morion",
+        "imagenames": [
+          "04.3.225_011june2015.jpg",
+          "04.3.224_005june2015.jpg",
+          "sfeah19-53-78ATS1.JPG",
+          "14.25.508_004AA2015.jpg",
+          "14.25.651_007june2015.jpg"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "sfrl04.3.12_223035.jpg",
+          "4886.jpg",
+          "173997.jpg",
+          "174000.jpg",
+          "175346.jpg",
+          "174009.jpg",
+          "LC-1973_27_5-025.jpg",
+          "LC-04_3_1-003.jpg",
+          "6013.jpg",
+          "173987.jpg",
+          "172478.jpg",
+          "DP-14227-001.jpg",
+          "LC-29_157_9-003.jpg",
+          "LC-32_75_220-003.jpg",
+          "sfeah29.16.10_003.jpg",
+          "LC-14_25_1191-002.jpg",
+          "DP-15498-008.jpg"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "DT11038.jpg",
+          "DP165768.jpg"
+        ],
+        "time": 1625
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "14.25.29_003dec2014.jpg",
+          "14.25.39_001dec2014.jpg",
+          "14.25.47_001dec2014.jpg",
+          "14.25.64_001dec2014.jpg",
+          "14.25.139_001dec2014.jpg",
+          "14.25.228_002dec2014.jpg",
+          "14.25.225_001dec2014.jpg",
+          "14.25.346_001jan2015.jpg",
+          "14.25.377_001jan2015.jpg",
+          "14.25.427_001jan2015.jpg",
+          "32.75.197_001feb2015.jpg",
+          "37.189.6_001jan2015.jpg",
+          "42.50.19_001jan2015.jpg",
+          "29.156.20_001feb2015.jpg"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": [
+          "14.25.388_001feb2015.jpg"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "14.25.46_001dec2014.jpg",
+          "14.25.90_001feb2015.jpg",
+          "14.25.223_003dec2014.jpg",
+          "14.25.254_001dec2014.jpg",
+          "14.25.265_001jan2015.jpg",
+          "14.25.271_002jan2015.jpg",
+          "14.25.297_001feb2015.jpg",
+          "14.25.432_001jan2015.jpg",
+          "31.108_002jan2015.jpg",
+          "32.75.204_003jan2015.jpg",
+          "29.156.17_001jan2015.jpg"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.517_010AA2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "29.153.2_010AA2015.jpg",
+          "14.25.604_008AA2015.jpg",
+          "14.25.520_006AA2015.jpg"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Morion",
+        "imagenames": ["04.3.224_005june2015.jpg"],
+        "time": 1650
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "LC-32_75_220-003.jpg",
+          "LC-14_25_1191-002.jpg"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "DP165768.jpg"
+        ],
+        "time": 1650
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "14.25.39_001dec2014.jpg",
+          "14.25.47_001dec2014.jpg",
+          "14.25.64_001dec2014.jpg",
+          "14.25.139_001dec2014.jpg",
+          "14.25.228_002dec2014.jpg",
+          "14.25.225_001dec2014.jpg",
+          "14.25.427_001jan2015.jpg",
+          "32.75.197_001feb2015.jpg",
+          "37.189.6_001jan2015.jpg"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": ["04.3.101_002mar2015.jpg"],
+        "time": 1675
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "14.25.27_001dec2014.jpg",
+          "14.25.40_001dec2014.jpg",
+          "14.25.46_001dec2014.jpg",
+          "14.25.90_001feb2015.jpg",
+          "14.25.93_001dec2014.jpg",
+          "14.25.95_003dec2014.jpg",
+          "14.25.112_001dec2014.jpg",
+          "14.25.223_003dec2014.jpg",
+          "14.25.244_001dec2014.jpg",
+          "14.25.251_002dec2014.jpg",
+          "14.25.254_001dec2014.jpg",
+          "14.25.265_001jan2015.jpg",
+          "14.25.274_001jan2015.jpg",
+          "14.25.279_002jan2015.jpg",
+          "14.25.339_001jan2015.jpg",
+          "14.25.375_001jan2015.jpg",
+          "14.25.432_001jan2015.jpg",
+          "31.108_002jan2015.jpg",
+          "32.75.204_003jan2015.jpg",
+          "29.156.17_001jan2015.jpg"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.517_010AA2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "14.25.520_006AA2015.jpg"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Morion",
+        "imagenames": [],
+        "time": 1675
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "172478.jpg",
+          "LC-32_75_220-003.jpg"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "DP165768.jpg"
+        ],
+        "time": 1675
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "14.25.64_001dec2014.jpg",
+          "14.25.228_002dec2014.jpg",
+          "14.25.225_001dec2014.jpg",
+          "14.25.427_001jan2015.jpg",
+          "32.75.197_001feb2015.jpg",
+          "37.189.6_001jan2015.jpg"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Fauchard",
+        "imagenames": ["04.3.101_002mar2015.jpg"],
+        "time": 1700
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "14.25.93_001dec2014.jpg",
+          "14.25.95_003dec2014.jpg",
+          "14.25.112_001dec2014.jpg",
+          "14.25.244_001dec2014.jpg",
+          "14.25.251_002dec2014.jpg",
+          "14.25.254_001dec2014.jpg",
+          "14.25.265_001jan2015.jpg",
+          "14.25.274_001jan2015.jpg",
+          "14.25.279_002jan2015.jpg",
+          "14.25.333_008jan2015.jpg",
+          "14.25.339_001jan2015.jpg",
+          "14.25.375_001jan2015.jpg",
+          "14.25.401_002jan2015.jpg",
+          "14.25.400_001jan2015.jpg",
+          "14.25.412_001jan2015.jpg",
+          "14.25.432_001jan2015.jpg",
+          "31.108_002jan2015.jpg",
+          "32.75.204_003jan2015.jpg",
+          "29.156.17_001jan2015.jpg"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "14.25.517_010AA2015.jpg",
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Burgonet",
+        "imagenames": [
+          "14.25.520_006AA2015.jpg"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Morion",
+        "imagenames": [],
+        "time": 1700
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "LC-04_3_1-003.jpg"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "DP165768.jpg"
+        ],
+        "time": 1700
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "32.75.196_001feb2015.jpg",
+          "48.84.10_002jan2015.jpg",
+          "29.156.43_002jan2015.jpg"
+        ],
+        "time": 1725
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "14.25.378_001june2014.jpg",
+          "14.25.345_001june2014.jpg",
+          "25.188.7_001june2014.jpg",
+          "1982.131_002jan2015.jpg",
+          "96.5.2_001oct2014-2.jpg",
+          "14.25.27_001dec2014.jpg",
+          "14.25.230_001dec2014.jpg",
+          "14.25.244_001dec2014.jpg",
+          "14.25.279_002jan2015.jpg",
+          "14.25.292_001jan2015.jpg",
+          "14.25.333_008jan2015.jpg",
+          "14.25.401_002jan2015.jpg",
+          "14.25.400_001jan2015.jpg",
+          "14.25.403_001jan2015.jpg",
+          "14.25.405_001jan2015.jpg",
+          "14.25.412_001jan2015.jpg",
+          "14.25.425_001jan2015.jpg",
+          "14.25.431_001jan2015.jpg",
+          "29.156.26_002jan2015.jpg",
+          "29.156.21_001jan2015.jpg",
+          "29.156.27_001jan2015.jpg",
+          "29.156.13_001jan2015.jpg",
+          "29.156.23_002jan2015.jpg"
+        ],
+        "time": 1725
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1725
+      },
+      {
+        "character": "Morion",
+        "imagenames": ["25.135.65_007may2015.jpg"],
+        "time": 1725
+      },
+      {
+        "character": "Rapier",
+        "imagenames": ["LC-04_3_1-003.jpg"],
+        "time": 1725
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "sfrl1974.4_202480.jpg",
+          "DP153589.jpg",
+          "DP165768.jpg",
+          "LC-37_154_4-004.jpg"
+        ],
+        "time": 1725
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "29.156.44_001jan2015.jpg",
+          "29.156.43_002jan2015.jpg"
+        ],
+        "time": 1750
+      },
+      {
+        "character": "Partisan",
+        "imagenames": [
+          "14.25.345_001june2014.jpg",
+          "1982.131_002jan2015.jpg",
+          "14.25.230_001dec2014.jpg",
+          "14.25.292_001jan2015.jpg",
+          "14.25.401_002jan2015.jpg",
+          "14.25.400_001jan2015.jpg",
+          "14.25.403_001jan2015.jpg",
+          "14.25.405_001jan2015.jpg",
+          "14.25.425_001jan2015.jpg",
+          "14.25.431_001jan2015.jpg",
+          "29.156.26_002jan2015.jpg",
+          "29.156.21_001jan2015.jpg",
+          "29.156.27_001jan2015.jpg",
+          "29.156.13_001jan2015.jpg",
+          "29.156.23_002jan2015.jpg"
+        ],
+        "time": 1750
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1750
+      },
+      {
+        "character": "Morion",
+        "imagenames": ["25.135.65_007may2015.jpg"],
+        "time": 1750
+      },
+      {
+        "character": "Rapier",
+        "imagenames": ["LC-04_3_1-003.jpg"],
+        "time": 1750
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "LC-37_154_4-004.jpg",
+          "DP153589.jpg",
+          "sfrl1974.4_202480.jpg",
+          "DP165768.jpg"
+        ],
+        "time": 1750
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "imagenames": [
+          "14.25.5_001nov2014.jpg",
+          "51.184.1_001jan2015.jpg",
+          "48.143_001jan2015.jpg",
+          "47.94_001jan2015.jpg",
+          "32.75.196_001feb2015.jpg",
+          "48.84.10_002jan2015.jpg",
+          "29.156.44_001jan2015.jpg",
+          "29.156.43_002jan2015.jpg"
+        ],
+        "time": 1775
+      },
+      {
+        "character": "Armet",
+        "imagenames": [
+          "29.150.7a_226792_May2015.jpg"
+        ],
+        "time": 1775
+      },
+      {
+        "character": "Morion",
+        "imagenames": ["83.18.185_006june2015.jpg"],
+        "time": 1775
+      },
+      {
+        "character": "Rapier",
+        "imagenames": [
+          "14.25.1025_244726_mar2014.jpg"
+          ],
+        "time": 1775
+      },
+      {
+        "character": "Flintlock gun",
+        "imagenames": [
+          "DP153589.jpg",
+          "DP165768.jpg"
+        ],
+        "time": 1775
+      }
+    ]
+  ],
+  "scnMETurls": [
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25854",
+          "https://www.metmuseum.org/art/collection/search/25899",
+          "https://www.metmuseum.org/art/collection/search/25924",
+          "https://www.metmuseum.org/art/collection/search/27496",
+          "https://www.metmuseum.org/art/collection/search/29010",
+          "https://www.metmuseum.org/art/collection/search/27640",
+          "https://www.metmuseum.org/art/collection/search/32350",
+          "https://www.metmuseum.org/art/collection/search/29013",
+          "https://www.metmuseum.org/art/collection/search/29009",
+          "https://www.metmuseum.org/art/collection/search/34293"
+        ],
+        "time": 1425
+      },
+      {
+        "character": "Bascinet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21988",
+          "https://www.metmuseum.org/art/collection/search/22772",
+          "https://www.metmuseum.org/art/collection/search/34277"
+        ],
+        "time": 1425
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/23227",
+          "https://www.metmuseum.org/art/collection/search/24686",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1425
+      },
+      {
+        "character": "Sallet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25394",
+          "https://www.metmuseum.org/art/collection/search/26453",
+          "https://www.metmuseum.org/art/collection/search/27120"
+        ],
+        "time": 1425
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25898",
+          "https://www.metmuseum.org/art/collection/search/25899",
+          "https://www.metmuseum.org/art/collection/search/25924",
+          "https://www.metmuseum.org/art/collection/search/26205",
+          "https://www.metmuseum.org/art/collection/search/27496",
+          "https://www.metmuseum.org/art/collection/search/29010",
+          "https://www.metmuseum.org/art/collection/search/27640",
+          "https://www.metmuseum.org/art/collection/search/32350",
+          "https://www.metmuseum.org/art/collection/search/27869",
+          "https://www.metmuseum.org/art/collection/search/27868",
+          "https://www.metmuseum.org/art/collection/search/29013",
+          "https://www.metmuseum.org/art/collection/search/34311",
+          "https://www.metmuseum.org/art/collection/search/29009"
+        ],
+        "time": 1450
+      },
+      {
+        "character": "Barbute",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22223",
+          "https://www.metmuseum.org/art/collection/search/24692",
+          "https://www.metmuseum.org/art/collection/search/24808",
+          "https://www.metmuseum.org/art/collection/search/24849",
+          "https://www.metmuseum.org/art/collection/search/27124",
+          "https://www.metmuseum.org/art/collection/search/27960"
+        ],
+        "time": 1450
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22774",
+          "https://www.metmuseum.org/art/collection/search/23227",
+          "https://www.metmuseum.org/art/collection/search/23232",
+          "https://www.metmuseum.org/art/collection/search/24686",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1450
+      },
+      {
+        "character": "Sallet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22860",
+          "https://www.metmuseum.org/art/collection/search/23230",
+          "https://www.metmuseum.org/art/collection/search/25390",
+          "https://www.metmuseum.org/art/collection/search/25389",
+          "https://www.metmuseum.org/art/collection/search/25394",
+          "https://www.metmuseum.org/art/collection/search/25391",
+          "https://www.metmuseum.org/art/collection/search/26445",
+          "https://www.metmuseum.org/art/collection/search/26451",
+          "https://www.metmuseum.org/art/collection/search/26452",
+          "https://www.metmuseum.org/art/collection/search/26453",
+          "https://www.metmuseum.org/art/collection/search/26664",
+          "https://www.metmuseum.org/art/collection/search/27120",
+          "https://www.metmuseum.org/art/collection/search/34261"
+        ],
+        "time": 1450
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25898",
+          "https://www.metmuseum.org/art/collection/search/25899",
+          "https://www.metmuseum.org/art/collection/search/25914",
+          "https://www.metmuseum.org/art/collection/search/25924",
+          "https://www.metmuseum.org/art/collection/search/26205",
+          "https://www.metmuseum.org/art/collection/search/27496",
+          "https://www.metmuseum.org/art/collection/search/29010",
+          "https://www.metmuseum.org/art/collection/search/27640",
+          "https://www.metmuseum.org/art/collection/search/27869",
+          "https://www.metmuseum.org/art/collection/search/29013",
+          "https://www.metmuseum.org/art/collection/search/34311",
+          "https://www.metmuseum.org/art/collection/search/29009"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Guisarme",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25838",
+          "https://www.metmuseum.org/art/collection/search/26183",
+          "https://www.metmuseum.org/art/collection/search/26201",
+          "https://www.metmuseum.org/art/collection/search/26202",
+          "https://www.metmuseum.org/art/collection/search/26680"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25085",
+          "https://www.metmuseum.org/art/collection/search/26090",
+          "https://www.metmuseum.org/art/collection/search/26667"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22774",
+          "https://www.metmuseum.org/art/collection/search/22901",
+          "https://www.metmuseum.org/art/collection/search/23232",
+          "https://www.metmuseum.org/art/collection/search/24810",
+          "https://www.metmuseum.org/art/collection/search/25398",
+          "https://www.metmuseum.org/art/collection/search/25633",
+          "https://www.metmuseum.org/art/collection/search/26454",
+          "https://www.metmuseum.org/art/collection/search/27141",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Sallet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21984",
+          "https://www.metmuseum.org/art/collection/search/22860",
+          "https://www.metmuseum.org/art/collection/search/23088",
+          "https://www.metmuseum.org/art/collection/search/23089",
+          "https://www.metmuseum.org/art/collection/search/23091",
+          "https://www.metmuseum.org/art/collection/search/23213",
+          "https://www.metmuseum.org/art/collection/search/23233",
+          "https://www.metmuseum.org/art/collection/search/23230",
+          "https://www.metmuseum.org/art/collection/search/24701",
+          "https://www.metmuseum.org/art/collection/search/25390",
+          "https://www.metmuseum.org/art/collection/search/25389",
+          "https://www.metmuseum.org/art/collection/search/25388",
+          "https://www.metmuseum.org/art/collection/search/25394",
+          "https://www.metmuseum.org/art/collection/search/25391",
+          "https://www.metmuseum.org/art/collection/search/26445",
+          "https://www.metmuseum.org/art/collection/search/26451",
+          "https://www.metmuseum.org/art/collection/search/26452",
+          "https://www.metmuseum.org/art/collection/search/26453",
+          "https://www.metmuseum.org/art/collection/search/26664",
+          "https://www.metmuseum.org/art/collection/search/27120",
+          "https://www.metmuseum.org/art/collection/search/27122",
+          "https://www.metmuseum.org/art/collection/search/34261"
+        ],
+        "time": 1475
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22366"
+        ],
+        "time": 1475
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/23210",
+          "https://www.metmuseum.org/art/collection/search/25020",
+          "https://www.metmuseum.org/art/collection/search/25898",
+          "https://www.metmuseum.org/art/collection/search/25914",
+          "https://www.metmuseum.org/art/collection/search/25920",
+          "https://www.metmuseum.org/art/collection/search/25910",
+          "https://www.metmuseum.org/art/collection/search/26192",
+          "https://www.metmuseum.org/art/collection/search/26756",
+          "https://www.metmuseum.org/art/collection/search/27496",
+          "https://www.metmuseum.org/art/collection/search/27521",
+          "https://www.metmuseum.org/art/collection/search/27640",
+          "https://www.metmuseum.org/art/collection/search/32352",
+          "https://www.metmuseum.org/art/collection/search/27869",
+          "https://www.metmuseum.org/art/collection/search/29013",
+          "https://www.metmuseum.org/art/collection/search/29012",
+          "https://www.metmuseum.org/art/collection/search/34311",
+          "https://www.metmuseum.org/art/collection/search/29009",
+          "https://www.metmuseum.org/art/collection/search/32353"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Guisarme",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25084",
+          "https://www.metmuseum.org/art/collection/search/25838",
+          "https://www.metmuseum.org/art/collection/search/25905",
+          "https://www.metmuseum.org/art/collection/search/26183",
+          "https://www.metmuseum.org/art/collection/search/26197",
+          "https://www.metmuseum.org/art/collection/search/26201",
+          "https://www.metmuseum.org/art/collection/search/26202",
+          "https://www.metmuseum.org/art/collection/search/26680"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22193",
+          "https://www.metmuseum.org/art/collection/search/25085",
+          "https://www.metmuseum.org/art/collection/search/25624",
+          "https://www.metmuseum.org/art/collection/search/25927",
+          "https://www.metmuseum.org/art/collection/search/26090",
+          "https://www.metmuseum.org/art/collection/search/26667",
+          "https://www.metmuseum.org/art/collection/search/26767"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22224",
+          "https://www.metmuseum.org/art/collection/search/22774",
+          "https://www.metmuseum.org/art/collection/search/22775",
+          "https://www.metmuseum.org/art/collection/search/22901",
+          "https://www.metmuseum.org/art/collection/search/24810",
+          "https://www.metmuseum.org/art/collection/search/25398",
+          "https://www.metmuseum.org/art/collection/search/25396",
+          "https://www.metmuseum.org/art/collection/search/25633",
+          "https://www.metmuseum.org/art/collection/search/26454",
+          "https://www.metmuseum.org/art/collection/search/26455",
+          "https://www.metmuseum.org/art/collection/search/27112",
+          "https://www.metmuseum.org/art/collection/search/27121",
+          "https://www.metmuseum.org/art/collection/search/27127",
+          "https://www.metmuseum.org/art/collection/search/27141",
+          "https://www.metmuseum.org/art/collection/search/35795",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/685229"
+        ],
+        "time": 1500
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22366"
+        ],
+        "time": 1500
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/23210",
+          "https://www.metmuseum.org/art/collection/search/25021",
+          "https://www.metmuseum.org/art/collection/search/25020",
+          "https://www.metmuseum.org/art/collection/search/25625",
+          "https://www.metmuseum.org/art/collection/search/25853",
+          "https://www.metmuseum.org/art/collection/search/25902",
+          "https://www.metmuseum.org/art/collection/search/25907",
+          "https://www.metmuseum.org/art/collection/search/25912",
+          "https://www.metmuseum.org/art/collection/search/25920",
+          "https://www.metmuseum.org/art/collection/search/25910",
+          "https://www.metmuseum.org/art/collection/search/25922",
+          "https://www.metmuseum.org/art/collection/search/26182",
+          "https://www.metmuseum.org/art/collection/search/26192",
+          "https://www.metmuseum.org/art/collection/search/26196",
+          "https://www.metmuseum.org/art/collection/search/26203",
+          "https://www.metmuseum.org/art/collection/search/26673",
+          "https://www.metmuseum.org/art/collection/search/26697",
+          "https://www.metmuseum.org/art/collection/search/26708",
+          "https://www.metmuseum.org/art/collection/search/26719",
+          "https://www.metmuseum.org/art/collection/search/26730",
+          "https://www.metmuseum.org/art/collection/search/26756",
+          "https://www.metmuseum.org/art/collection/search/26764",
+          "https://www.metmuseum.org/art/collection/search/27521",
+          "https://www.metmuseum.org/art/collection/search/30101",
+          "https://www.metmuseum.org/art/collection/search/32352",
+          "https://www.metmuseum.org/art/collection/search/32789",
+          "https://www.metmuseum.org/art/collection/search/32351",
+          "https://www.metmuseum.org/art/collection/search/29012",
+          "https://www.metmuseum.org/art/collection/search/32796",
+          "https://www.metmuseum.org/art/collection/search/32353"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25091",
+          "https://www.metmuseum.org/art/collection/search/25849",
+          "https://www.metmuseum.org/art/collection/search/26702",
+          "https://www.metmuseum.org/art/collection/search/26707",
+          "https://www.metmuseum.org/art/collection/search/26763",
+          "https://www.metmuseum.org/art/collection/search/26771",
+          "https://www.metmuseum.org/art/collection/search/26793",
+          "https://www.metmuseum.org/art/collection/search/26794",
+          "https://www.metmuseum.org/art/collection/search/30638"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22193",
+          "https://www.metmuseum.org/art/collection/search/25015",
+          "https://www.metmuseum.org/art/collection/search/25089",
+          "https://www.metmuseum.org/art/collection/search/25624",
+          "https://www.metmuseum.org/art/collection/search/25626",
+          "https://www.metmuseum.org/art/collection/search/25927",
+          "https://www.metmuseum.org/art/collection/search/25929",
+          "https://www.metmuseum.org/art/collection/search/25931",
+          "https://www.metmuseum.org/art/collection/search/26090",
+          "https://www.metmuseum.org/art/collection/search/26204",
+          "https://www.metmuseum.org/art/collection/search/26767",
+          "https://www.metmuseum.org/art/collection/search/26778",
+          "https://www.metmuseum.org/art/collection/search/26792",
+          "https://www.metmuseum.org/art/collection/search/34781"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22224",
+          "https://www.metmuseum.org/art/collection/search/22901",
+          "https://www.metmuseum.org/art/collection/search/25396",
+          "https://www.metmuseum.org/art/collection/search/25633",
+          "https://www.metmuseum.org/art/collection/search/26455",
+          "https://www.metmuseum.org/art/collection/search/27111",
+          "https://www.metmuseum.org/art/collection/search/27112",
+          "https://www.metmuseum.org/art/collection/search/27121",
+          "https://www.metmuseum.org/art/collection/search/27127",
+          "https://www.metmuseum.org/art/collection/search/27141",
+          "https://www.metmuseum.org/art/collection/search/34262",
+          "https://www.metmuseum.org/art/collection/search/34804",
+          "https://www.metmuseum.org/art/collection/search/35795",
+          "https://www.metmuseum.org/art/collection/search/34805",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21981",
+          "https://www.metmuseum.org/art/collection/search/21979",
+          "https://www.metmuseum.org/art/collection/search/22229",
+          "https://www.metmuseum.org/art/collection/search/22885",
+          "https://www.metmuseum.org/art/collection/search/25382",
+          "https://www.metmuseum.org/art/collection/search/25385",
+          "https://www.metmuseum.org/art/collection/search/25416",
+          "https://www.metmuseum.org/art/collection/search/26439",
+          "https://www.metmuseum.org/art/collection/search/26507",
+          "https://www.metmuseum.org/art/collection/search/26544",
+          "https://www.metmuseum.org/art/collection/search/26545",
+          "https://www.metmuseum.org/art/collection/search/27138",
+          "https://www.metmuseum.org/art/collection/search/27162",
+          "https://www.metmuseum.org/art/collection/search/34800",
+          "https://www.metmuseum.org/art/collection/search/685229"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27891"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Cabasset",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22982"
+        ],
+        "time": 1525
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21934",
+          "https://www.metmuseum.org/art/collection/search/22361",
+          "https://www.metmuseum.org/art/collection/search/35679"
+        ],
+        "time": 1525
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25021",
+          "https://www.metmuseum.org/art/collection/search/25018",
+          "https://www.metmuseum.org/art/collection/search/25019",
+          "https://www.metmuseum.org/art/collection/search/25625",
+          "https://www.metmuseum.org/art/collection/search/25853",
+          "https://www.metmuseum.org/art/collection/search/25902",
+          "https://www.metmuseum.org/art/collection/search/25907",
+          "https://www.metmuseum.org/art/collection/search/25912",
+          "https://www.metmuseum.org/art/collection/search/25920",
+          "https://www.metmuseum.org/art/collection/search/25910",
+          "https://www.metmuseum.org/art/collection/search/25922",
+          "https://www.metmuseum.org/art/collection/search/26182",
+          "https://www.metmuseum.org/art/collection/search/26190",
+          "https://www.metmuseum.org/art/collection/search/26194",
+          "https://www.metmuseum.org/art/collection/search/26196",
+          "https://www.metmuseum.org/art/collection/search/26207",
+          "https://www.metmuseum.org/art/collection/search/26203",
+          "https://www.metmuseum.org/art/collection/search/26673",
+          "https://www.metmuseum.org/art/collection/search/26692",
+          "https://www.metmuseum.org/art/collection/search/26697",
+          "https://www.metmuseum.org/art/collection/search/26699",
+          "https://www.metmuseum.org/art/collection/search/26708",
+          "https://www.metmuseum.org/art/collection/search/26719",
+          "https://www.metmuseum.org/art/collection/search/26730",
+          "https://www.metmuseum.org/art/collection/search/26756",
+          "https://www.metmuseum.org/art/collection/search/26761",
+          "https://www.metmuseum.org/art/collection/search/26764",
+          "https://www.metmuseum.org/art/collection/search/26769",
+          "https://www.metmuseum.org/art/collection/search/26779",
+          "https://www.metmuseum.org/art/collection/search/26790",
+          "https://www.metmuseum.org/art/collection/search/27039",
+          "https://www.metmuseum.org/art/collection/search/27521",
+          "https://www.metmuseum.org/art/collection/search/30101",
+          "https://www.metmuseum.org/art/collection/search/32352",
+          "https://www.metmuseum.org/art/collection/search/32789",
+          "https://www.metmuseum.org/art/collection/search/32351",
+          "https://www.metmuseum.org/art/collection/search/32796",
+          "https://www.metmuseum.org/art/collection/search/32353",
+          "https://www.metmuseum.org/art/collection/search/34314"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25016",
+          "https://www.metmuseum.org/art/collection/search/25091",
+          "https://www.metmuseum.org/art/collection/search/25849",
+          "https://www.metmuseum.org/art/collection/search/26702",
+          "https://www.metmuseum.org/art/collection/search/26707",
+          "https://www.metmuseum.org/art/collection/search/26763",
+          "https://www.metmuseum.org/art/collection/search/26768",
+          "https://www.metmuseum.org/art/collection/search/26771",
+          "https://www.metmuseum.org/art/collection/search/26783",
+          "https://www.metmuseum.org/art/collection/search/26787",
+          "https://www.metmuseum.org/art/collection/search/26793",
+          "https://www.metmuseum.org/art/collection/search/26794",
+          "https://www.metmuseum.org/art/collection/search/26795",
+          "https://www.metmuseum.org/art/collection/search/30638"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22193",
+          "https://www.metmuseum.org/art/collection/search/25015",
+          "https://www.metmuseum.org/art/collection/search/25089",
+          "https://www.metmuseum.org/art/collection/search/25624",
+          "https://www.metmuseum.org/art/collection/search/25626",
+          "https://www.metmuseum.org/art/collection/search/25927",
+          "https://www.metmuseum.org/art/collection/search/25929",
+          "https://www.metmuseum.org/art/collection/search/25931",
+          "https://www.metmuseum.org/art/collection/search/26204",
+          "https://www.metmuseum.org/art/collection/search/26696",
+          "https://www.metmuseum.org/art/collection/search/26760",
+          "https://www.metmuseum.org/art/collection/search/26767",
+          "https://www.metmuseum.org/art/collection/search/26778",
+          "https://www.metmuseum.org/art/collection/search/26776",
+          "https://www.metmuseum.org/art/collection/search/26792",
+          "https://www.metmuseum.org/art/collection/search/34291",
+          "https://www.metmuseum.org/art/collection/search/34781"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27111",
+          "https://www.metmuseum.org/art/collection/search/27121",
+          "https://www.metmuseum.org/art/collection/search/27160",
+          "https://www.metmuseum.org/art/collection/search/34262",
+          "https://www.metmuseum.org/art/collection/search/35795",
+          "https://www.metmuseum.org/art/collection/search/34805",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21981",
+          "https://www.metmuseum.org/art/collection/search/21979",
+          "https://www.metmuseum.org/art/collection/search/22229",
+          "https://www.metmuseum.org/art/collection/search/22885",
+          "https://www.metmuseum.org/art/collection/search/24809",
+          "https://www.metmuseum.org/art/collection/search/25375",
+          "https://www.metmuseum.org/art/collection/search/25382",
+          "https://www.metmuseum.org/art/collection/search/25384",
+          "https://www.metmuseum.org/art/collection/search/25385",
+          "https://www.metmuseum.org/art/collection/search/25416",
+          "https://www.metmuseum.org/art/collection/search/26434",
+          "https://www.metmuseum.org/art/collection/search/26439",
+          "https://www.metmuseum.org/art/collection/search/26507",
+          "https://www.metmuseum.org/art/collection/search/26544",
+          "https://www.metmuseum.org/art/collection/search/26545",
+          "https://www.metmuseum.org/art/collection/search/27104",
+          "https://www.metmuseum.org/art/collection/search/27138",
+          "https://www.metmuseum.org/art/collection/search/27162",
+          "https://www.metmuseum.org/art/collection/search/34800",
+          "https://www.metmuseum.org/art/collection/search/685229"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22234",
+          "https://www.metmuseum.org/art/collection/search/22236",
+          "https://www.metmuseum.org/art/collection/search/22238",
+          "https://www.metmuseum.org/art/collection/search/22237",
+          "https://www.metmuseum.org/art/collection/search/25383",
+          "https://www.metmuseum.org/art/collection/search/27095",
+          "https://www.metmuseum.org/art/collection/search/27150",
+          "https://www.metmuseum.org/art/collection/search/27151",
+          "https://www.metmuseum.org/art/collection/search/27153",
+          "https://www.metmuseum.org/art/collection/search/27155",
+          "https://www.metmuseum.org/art/collection/search/27156",
+          "https://www.metmuseum.org/art/collection/search/27392",
+          "https://www.metmuseum.org/art/collection/search/27891",
+          "https://www.metmuseum.org/art/collection/search/34260",
+          "https://www.metmuseum.org/art/collection/search/33562",
+          "https://www.metmuseum.org/art/collection/search/29598",
+          "https://www.metmuseum.org/art/collection/search/34278"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Cabasset",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22235",
+          "https://www.metmuseum.org/art/collection/search/22407",
+          "https://www.metmuseum.org/art/collection/search/22982",
+          "https://www.metmuseum.org/art/collection/search/24687",
+          "https://www.metmuseum.org/art/collection/search/25373",
+          "https://www.metmuseum.org/art/collection/search/27105",
+          "https://www.metmuseum.org/art/collection/search/27149"
+        ],
+        "time": 1550
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21934",
+          "https://www.metmuseum.org/art/collection/search/22361",
+          "https://www.metmuseum.org/art/collection/search/25418",
+          "https://www.metmuseum.org/art/collection/search/27437",
+          "https://www.metmuseum.org/art/collection/search/35679"
+        ],
+        "time": 1550
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21946",
+          "https://www.metmuseum.org/art/collection/search/21947",
+          "https://www.metmuseum.org/art/collection/search/21952",
+          "https://www.metmuseum.org/art/collection/search/22204",
+          "https://www.metmuseum.org/art/collection/search/25018",
+          "https://www.metmuseum.org/art/collection/search/25019",
+          "https://www.metmuseum.org/art/collection/search/25082",
+          "https://www.metmuseum.org/art/collection/search/25625",
+          "https://www.metmuseum.org/art/collection/search/25853",
+          "https://www.metmuseum.org/art/collection/search/25894",
+          "https://www.metmuseum.org/art/collection/search/25902",
+          "https://www.metmuseum.org/art/collection/search/25912",
+          "https://www.metmuseum.org/art/collection/search/25922",
+          "https://www.metmuseum.org/art/collection/search/25916",
+          "https://www.metmuseum.org/art/collection/search/26089",
+          "https://www.metmuseum.org/art/collection/search/26190",
+          "https://www.metmuseum.org/art/collection/search/26194",
+          "https://www.metmuseum.org/art/collection/search/26196",
+          "https://www.metmuseum.org/art/collection/search/26206",
+          "https://www.metmuseum.org/art/collection/search/26207",
+          "https://www.metmuseum.org/art/collection/search/26203",
+          "https://www.metmuseum.org/art/collection/search/26665",
+          "https://www.metmuseum.org/art/collection/search/26673",
+          "https://www.metmuseum.org/art/collection/search/26692",
+          "https://www.metmuseum.org/art/collection/search/26697",
+          "https://www.metmuseum.org/art/collection/search/26699",
+          "https://www.metmuseum.org/art/collection/search/26706",
+          "https://www.metmuseum.org/art/collection/search/26708",
+          "https://www.metmuseum.org/art/collection/search/26719",
+          "https://www.metmuseum.org/art/collection/search/26730",
+          "https://www.metmuseum.org/art/collection/search/26761",
+          "https://www.metmuseum.org/art/collection/search/26764",
+          "https://www.metmuseum.org/art/collection/search/26765",
+          "https://www.metmuseum.org/art/collection/search/26769",
+          "https://www.metmuseum.org/art/collection/search/26772",
+          "https://www.metmuseum.org/art/collection/search/26779",
+          "https://www.metmuseum.org/art/collection/search/26789",
+          "https://www.metmuseum.org/art/collection/search/26790",
+          "https://www.metmuseum.org/art/collection/search/27039",
+          "https://www.metmuseum.org/art/collection/search/27047",
+          "https://www.metmuseum.org/art/collection/search/32789",
+          "https://www.metmuseum.org/art/collection/search/32351",
+          "https://www.metmuseum.org/art/collection/search/32796",
+          "https://www.metmuseum.org/art/collection/search/34314"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22208",
+          "https://www.metmuseum.org/art/collection/search/24831",
+          "https://www.metmuseum.org/art/collection/search/25016",
+          "https://www.metmuseum.org/art/collection/search/25091",
+          "https://www.metmuseum.org/art/collection/search/25849",
+          "https://www.metmuseum.org/art/collection/search/26702",
+          "https://www.metmuseum.org/art/collection/search/26763",
+          "https://www.metmuseum.org/art/collection/search/26768",
+          "https://www.metmuseum.org/art/collection/search/26771",
+          "https://www.metmuseum.org/art/collection/search/26783",
+          "https://www.metmuseum.org/art/collection/search/26787",
+          "https://www.metmuseum.org/art/collection/search/26793",
+          "https://www.metmuseum.org/art/collection/search/26794",
+          "https://www.metmuseum.org/art/collection/search/26795",
+          "https://www.metmuseum.org/art/collection/search/30638"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25015",
+          "https://www.metmuseum.org/art/collection/search/25089",
+          "https://www.metmuseum.org/art/collection/search/25626",
+          "https://www.metmuseum.org/art/collection/search/26189",
+          "https://www.metmuseum.org/art/collection/search/26204",
+          "https://www.metmuseum.org/art/collection/search/26687",
+          "https://www.metmuseum.org/art/collection/search/26691",
+          "https://www.metmuseum.org/art/collection/search/26693",
+          "https://www.metmuseum.org/art/collection/search/26696",
+          "https://www.metmuseum.org/art/collection/search/26716",
+          "https://www.metmuseum.org/art/collection/search/26726",
+          "https://www.metmuseum.org/art/collection/search/26733",
+          "https://www.metmuseum.org/art/collection/search/26754",
+          "https://www.metmuseum.org/art/collection/search/26760",
+          "https://www.metmuseum.org/art/collection/search/26770",
+          "https://www.metmuseum.org/art/collection/search/26778",
+          "https://www.metmuseum.org/art/collection/search/26776",
+          "https://www.metmuseum.org/art/collection/search/26775",
+          "https://www.metmuseum.org/art/collection/search/34291",
+          "https://www.metmuseum.org/art/collection/search/34781"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27099",
+          "https://www.metmuseum.org/art/collection/search/27129",
+          "https://www.metmuseum.org/art/collection/search/27137",
+          "https://www.metmuseum.org/art/collection/search/27160",
+          "https://www.metmuseum.org/art/collection/search/34262",
+          "https://www.metmuseum.org/art/collection/search/34805",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21981",
+          "https://www.metmuseum.org/art/collection/search/21979",
+          "https://www.metmuseum.org/art/collection/search/22229",
+          "https://www.metmuseum.org/art/collection/search/22859",
+          "https://www.metmuseum.org/art/collection/search/22885",
+          "https://www.metmuseum.org/art/collection/search/25375",
+          "https://www.metmuseum.org/art/collection/search/25384",
+          "https://www.metmuseum.org/art/collection/search/25385",
+          "https://www.metmuseum.org/art/collection/search/25416",
+          "https://www.metmuseum.org/art/collection/search/26434",
+          "https://www.metmuseum.org/art/collection/search/26439",
+          "https://www.metmuseum.org/art/collection/search/26507",
+          "https://www.metmuseum.org/art/collection/search/26513",
+          "https://www.metmuseum.org/art/collection/search/26544",
+          "https://www.metmuseum.org/art/collection/search/26545",
+          "https://www.metmuseum.org/art/collection/search/27104",
+          "https://www.metmuseum.org/art/collection/search/27138",
+          "https://www.metmuseum.org/art/collection/search/34800"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22234",
+          "https://www.metmuseum.org/art/collection/search/22236",
+          "https://www.metmuseum.org/art/collection/search/22238",
+          "https://www.metmuseum.org/art/collection/search/22237",
+          "https://www.metmuseum.org/art/collection/search/25383",
+          "https://www.metmuseum.org/art/collection/search/25387",
+          "https://www.metmuseum.org/art/collection/search/25386",
+          "https://www.metmuseum.org/art/collection/search/26878",
+          "https://www.metmuseum.org/art/collection/search/27095",
+          "https://www.metmuseum.org/art/collection/search/27096",
+          "https://www.metmuseum.org/art/collection/search/27150",
+          "https://www.metmuseum.org/art/collection/search/27151",
+          "https://www.metmuseum.org/art/collection/search/27153",
+          "https://www.metmuseum.org/art/collection/search/27155",
+          "https://www.metmuseum.org/art/collection/search/27156",
+          "https://www.metmuseum.org/art/collection/search/27158",
+          "https://www.metmuseum.org/art/collection/search/27392",
+          "https://www.metmuseum.org/art/collection/search/27891",
+          "https://www.metmuseum.org/art/collection/search/34260",
+          "https://www.metmuseum.org/art/collection/search/33562",
+          "https://www.metmuseum.org/art/collection/search/29598",
+          "https://www.metmuseum.org/art/collection/search/34278"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Cabasset",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21972",
+          "https://www.metmuseum.org/art/collection/search/22213",
+          "https://www.metmuseum.org/art/collection/search/22235",
+          "https://www.metmuseum.org/art/collection/search/22407",
+          "https://www.metmuseum.org/art/collection/search/22982",
+          "https://www.metmuseum.org/art/collection/search/24687",
+          "https://www.metmuseum.org/art/collection/search/25373",
+          "https://www.metmuseum.org/art/collection/search/25374",
+          "https://www.metmuseum.org/art/collection/search/27105",
+          "https://www.metmuseum.org/art/collection/search/27149"
+        ],
+        "time": 1575
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21999",
+          "https://www.metmuseum.org/art/collection/search/22361",
+          "https://www.metmuseum.org/art/collection/search/22370",
+          "https://www.metmuseum.org/art/collection/search/23041",
+          "https://www.metmuseum.org/art/collection/search/25050",
+          "https://www.metmuseum.org/art/collection/search/25063",
+          "https://www.metmuseum.org/art/collection/search/25418",
+          "https://www.metmuseum.org/art/collection/search/27437",
+          "https://www.metmuseum.org/art/collection/search/34787",
+          "https://www.metmuseum.org/art/collection/search/712616"
+        ],
+        "time": 1575
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21946",
+          "https://www.metmuseum.org/art/collection/search/21947",
+          "https://www.metmuseum.org/art/collection/search/21952",
+          "https://www.metmuseum.org/art/collection/search/22204",
+          "https://www.metmuseum.org/art/collection/search/22965",
+          "https://www.metmuseum.org/art/collection/search/25018",
+          "https://www.metmuseum.org/art/collection/search/25019",
+          "https://www.metmuseum.org/art/collection/search/25082",
+          "https://www.metmuseum.org/art/collection/search/25088",
+          "https://www.metmuseum.org/art/collection/search/25625",
+          "https://www.metmuseum.org/art/collection/search/25845",
+          "https://www.metmuseum.org/art/collection/search/25894",
+          "https://www.metmuseum.org/art/collection/search/25916",
+          "https://www.metmuseum.org/art/collection/search/26089",
+          "https://www.metmuseum.org/art/collection/search/26181",
+          "https://www.metmuseum.org/art/collection/search/26191",
+          "https://www.metmuseum.org/art/collection/search/26206",
+          "https://www.metmuseum.org/art/collection/search/26665",
+          "https://www.metmuseum.org/art/collection/search/26673",
+          "https://www.metmuseum.org/art/collection/search/26706",
+          "https://www.metmuseum.org/art/collection/search/26761",
+          "https://www.metmuseum.org/art/collection/search/26765",
+          "https://www.metmuseum.org/art/collection/search/26769",
+          "https://www.metmuseum.org/art/collection/search/26772",
+          "https://www.metmuseum.org/art/collection/search/26779",
+          "https://www.metmuseum.org/art/collection/search/26789",
+          "https://www.metmuseum.org/art/collection/search/26790",
+          "https://www.metmuseum.org/art/collection/search/27039",
+          "https://www.metmuseum.org/art/collection/search/27047",
+          "https://www.metmuseum.org/art/collection/search/27500",
+          "https://www.metmuseum.org/art/collection/search/32789",
+          "https://www.metmuseum.org/art/collection/search/32351",
+          "https://www.metmuseum.org/art/collection/search/34303",
+          "https://www.metmuseum.org/art/collection/search/32796",
+          "https://www.metmuseum.org/art/collection/search/34314"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22208",
+          "https://www.metmuseum.org/art/collection/search/24831",
+          "https://www.metmuseum.org/art/collection/search/25016",
+          "https://www.metmuseum.org/art/collection/search/25091",
+          "https://www.metmuseum.org/art/collection/search/25849",
+          "https://www.metmuseum.org/art/collection/search/26791",
+          "https://www.metmuseum.org/art/collection/search/26795",
+          "https://www.metmuseum.org/art/collection/search/30638",
+          "https://www.metmuseum.org/art/collection/search/35948"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22206",
+          "https://www.metmuseum.org/art/collection/search/25089",
+          "https://www.metmuseum.org/art/collection/search/25626",
+          "https://www.metmuseum.org/art/collection/search/26085",
+          "https://www.metmuseum.org/art/collection/search/26189",
+          "https://www.metmuseum.org/art/collection/search/26687",
+          "https://www.metmuseum.org/art/collection/search/26691",
+          "https://www.metmuseum.org/art/collection/search/26693",
+          "https://www.metmuseum.org/art/collection/search/26700",
+          "https://www.metmuseum.org/art/collection/search/26716",
+          "https://www.metmuseum.org/art/collection/search/26726",
+          "https://www.metmuseum.org/art/collection/search/26733",
+          "https://www.metmuseum.org/art/collection/search/26754",
+          "https://www.metmuseum.org/art/collection/search/26760",
+          "https://www.metmuseum.org/art/collection/search/26770",
+          "https://www.metmuseum.org/art/collection/search/26782",
+          "https://www.metmuseum.org/art/collection/search/26776",
+          "https://www.metmuseum.org/art/collection/search/26775",
+          "https://www.metmuseum.org/art/collection/search/29380",
+          "https://www.metmuseum.org/art/collection/search/34291",
+          "https://www.metmuseum.org/art/collection/search/34781"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27099",
+          "https://www.metmuseum.org/art/collection/search/27129",
+          "https://www.metmuseum.org/art/collection/search/27137",
+          "https://www.metmuseum.org/art/collection/search/34262",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22859",
+          "https://www.metmuseum.org/art/collection/search/26434",
+          "https://www.metmuseum.org/art/collection/search/26443",
+          "https://www.metmuseum.org/art/collection/search/26513",
+          "https://www.metmuseum.org/art/collection/search/34800",
+          "https://www.metmuseum.org/art/collection/search/623095"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22237",
+          "https://www.metmuseum.org/art/collection/search/25387",
+          "https://www.metmuseum.org/art/collection/search/25386",
+          "https://www.metmuseum.org/art/collection/search/26878",
+          "https://www.metmuseum.org/art/collection/search/27095",
+          "https://www.metmuseum.org/art/collection/search/27096",
+          "https://www.metmuseum.org/art/collection/search/27150",
+          "https://www.metmuseum.org/art/collection/search/27151",
+          "https://www.metmuseum.org/art/collection/search/27153",
+          "https://www.metmuseum.org/art/collection/search/27156",
+          "https://www.metmuseum.org/art/collection/search/27158",
+          "https://www.metmuseum.org/art/collection/search/27392",
+          "https://www.metmuseum.org/art/collection/search/27891",
+          "https://www.metmuseum.org/art/collection/search/33562",
+          "https://www.metmuseum.org/art/collection/search/29598"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Cabasset",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21972",
+          "https://www.metmuseum.org/art/collection/search/22213",
+          "https://www.metmuseum.org/art/collection/search/22235",
+          "https://www.metmuseum.org/art/collection/search/22407",
+          "https://www.metmuseum.org/art/collection/search/22982",
+          "https://www.metmuseum.org/art/collection/search/24687",
+          "https://www.metmuseum.org/art/collection/search/25374",
+          "https://www.metmuseum.org/art/collection/search/27105"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21931",
+          "https://www.metmuseum.org/art/collection/search/21999",
+          "https://www.metmuseum.org/art/collection/search/22369",
+          "https://www.metmuseum.org/art/collection/search/22370",
+          "https://www.metmuseum.org/art/collection/search/23041",
+          "https://www.metmuseum.org/art/collection/search/24690",
+          "https://www.metmuseum.org/art/collection/search/24867",
+          "https://www.metmuseum.org/art/collection/search/25050",
+          "https://www.metmuseum.org/art/collection/search/25058",
+          "https://www.metmuseum.org/art/collection/search/25063",
+          "https://www.metmuseum.org/art/collection/search/27313",
+          "https://www.metmuseum.org/art/collection/search/27437",
+          "https://www.metmuseum.org/art/collection/search/34283",
+          "https://www.metmuseum.org/art/collection/search/32234",
+          "https://www.metmuseum.org/art/collection/search/34787",
+          "https://www.metmuseum.org/art/collection/search/662414",
+          "https://www.metmuseum.org/art/collection/search/712616"
+        ],
+        "time": 1600
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/24865",
+          "https://www.metmuseum.org/art/collection/search/30533"
+        ],
+        "time": 1600
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21946",
+          "https://www.metmuseum.org/art/collection/search/21947",
+          "https://www.metmuseum.org/art/collection/search/22204",
+          "https://www.metmuseum.org/art/collection/search/22965",
+          "https://www.metmuseum.org/art/collection/search/25088",
+          "https://www.metmuseum.org/art/collection/search/25845",
+          "https://www.metmuseum.org/art/collection/search/25846",
+          "https://www.metmuseum.org/art/collection/search/25852",
+          "https://www.metmuseum.org/art/collection/search/25887",
+          "https://www.metmuseum.org/art/collection/search/25897",
+          "https://www.metmuseum.org/art/collection/search/25916",
+          "https://www.metmuseum.org/art/collection/search/26089",
+          "https://www.metmuseum.org/art/collection/search/26181",
+          "https://www.metmuseum.org/art/collection/search/26185",
+          "https://www.metmuseum.org/art/collection/search/26665",
+          "https://www.metmuseum.org/art/collection/search/26674",
+          "https://www.metmuseum.org/art/collection/search/26672",
+          "https://www.metmuseum.org/art/collection/search/26762",
+          "https://www.metmuseum.org/art/collection/search/26765",
+          "https://www.metmuseum.org/art/collection/search/26786",
+          "https://www.metmuseum.org/art/collection/search/27042",
+          "https://www.metmuseum.org/art/collection/search/27500",
+          "https://www.metmuseum.org/art/collection/search/32355",
+          "https://www.metmuseum.org/art/collection/search/29610",
+          "https://www.metmuseum.org/art/collection/search/29011",
+          "https://www.metmuseum.org/art/collection/search/34303"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22208",
+          "https://www.metmuseum.org/art/collection/search/24831",
+          "https://www.metmuseum.org/art/collection/search/26791",
+          "https://www.metmuseum.org/art/collection/search/35948"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22206",
+          "https://www.metmuseum.org/art/collection/search/25892",
+          "https://www.metmuseum.org/art/collection/search/25926",
+          "https://www.metmuseum.org/art/collection/search/26085",
+          "https://www.metmuseum.org/art/collection/search/26189",
+          "https://www.metmuseum.org/art/collection/search/26671",
+          "https://www.metmuseum.org/art/collection/search/26686",
+          "https://www.metmuseum.org/art/collection/search/26687",
+          "https://www.metmuseum.org/art/collection/search/26691",
+          "https://www.metmuseum.org/art/collection/search/26693",
+          "https://www.metmuseum.org/art/collection/search/26695",
+          "https://www.metmuseum.org/art/collection/search/26700",
+          "https://www.metmuseum.org/art/collection/search/26717",
+          "https://www.metmuseum.org/art/collection/search/26716",
+          "https://www.metmuseum.org/art/collection/search/26726",
+          "https://www.metmuseum.org/art/collection/search/26733",
+          "https://www.metmuseum.org/art/collection/search/26770",
+          "https://www.metmuseum.org/art/collection/search/26782",
+          "https://www.metmuseum.org/art/collection/search/26775",
+          "https://www.metmuseum.org/art/collection/search/27046",
+          "https://www.metmuseum.org/art/collection/search/29380",
+          "https://www.metmuseum.org/art/collection/search/32378",
+          "https://www.metmuseum.org/art/collection/search/32224",
+          "https://www.metmuseum.org/art/collection/search/34301"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27092",
+          "https://www.metmuseum.org/art/collection/search/27098",
+          "https://www.metmuseum.org/art/collection/search/27129",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22231",
+          "https://www.metmuseum.org/art/collection/search/26443",
+          "https://www.metmuseum.org/art/collection/search/27100",
+          "https://www.metmuseum.org/art/collection/search/623095"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25387",
+          "https://www.metmuseum.org/art/collection/search/25386",
+          "https://www.metmuseum.org/art/collection/search/26878",
+          "https://www.metmuseum.org/art/collection/search/27096",
+          "https://www.metmuseum.org/art/collection/search/27158"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21931",
+          "https://www.metmuseum.org/art/collection/search/21999",
+          "https://www.metmuseum.org/art/collection/search/22369",
+          "https://www.metmuseum.org/art/collection/search/22370",
+          "https://www.metmuseum.org/art/collection/search/23041",
+          "https://www.metmuseum.org/art/collection/search/24690",
+          "https://www.metmuseum.org/art/collection/search/24867",
+          "https://www.metmuseum.org/art/collection/search/25046",
+          "https://www.metmuseum.org/art/collection/search/25050",
+          "https://www.metmuseum.org/art/collection/search/25058",
+          "https://www.metmuseum.org/art/collection/search/25067",
+          "https://www.metmuseum.org/art/collection/search/27313",
+          "https://www.metmuseum.org/art/collection/search/34283",
+          "https://www.metmuseum.org/art/collection/search/32234",
+          "https://www.metmuseum.org/art/collection/search/34787",
+          "https://www.metmuseum.org/art/collection/search/662414",
+          "https://www.metmuseum.org/art/collection/search/712616"
+        ],
+        "time": 1625
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/24865",
+          "https://www.metmuseum.org/art/collection/search/30533"
+        ],
+        "time": 1625
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25846",
+          "https://www.metmuseum.org/art/collection/search/25852",
+          "https://www.metmuseum.org/art/collection/search/25887",
+          "https://www.metmuseum.org/art/collection/search/25897",
+          "https://www.metmuseum.org/art/collection/search/25908",
+          "https://www.metmuseum.org/art/collection/search/26185",
+          "https://www.metmuseum.org/art/collection/search/26674",
+          "https://www.metmuseum.org/art/collection/search/26672",
+          "https://www.metmuseum.org/art/collection/search/26762",
+          "https://www.metmuseum.org/art/collection/search/26786",
+          "https://www.metmuseum.org/art/collection/search/27042",
+          "https://www.metmuseum.org/art/collection/search/32355",
+          "https://www.metmuseum.org/art/collection/search/29610",
+          "https://www.metmuseum.org/art/collection/search/29011",
+          "https://www.metmuseum.org/art/collection/search/34303"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/26791",
+          "https://www.metmuseum.org/art/collection/search/35948"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22188",
+          "https://www.metmuseum.org/art/collection/search/22206",
+          "https://www.metmuseum.org/art/collection/search/25892",
+          "https://www.metmuseum.org/art/collection/search/25895",
+          "https://www.metmuseum.org/art/collection/search/25926",
+          "https://www.metmuseum.org/art/collection/search/26671",
+          "https://www.metmuseum.org/art/collection/search/26686",
+          "https://www.metmuseum.org/art/collection/search/26695",
+          "https://www.metmuseum.org/art/collection/search/26700",
+          "https://www.metmuseum.org/art/collection/search/26717",
+          "https://www.metmuseum.org/art/collection/search/27046",
+          "https://www.metmuseum.org/art/collection/search/32378",
+          "https://www.metmuseum.org/art/collection/search/32224",
+          "https://www.metmuseum.org/art/collection/search/34301"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27092",
+          "https://www.metmuseum.org/art/collection/search/27098",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22231",
+          "https://www.metmuseum.org/art/collection/search/26443",
+          "https://www.metmuseum.org/art/collection/search/27100"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [],
+        "time": 1650
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21931",
+          "https://www.metmuseum.org/art/collection/search/24690",
+          "https://www.metmuseum.org/art/collection/search/25046",
+          "https://www.metmuseum.org/art/collection/search/25067",
+          "https://www.metmuseum.org/art/collection/search/34283",
+          "https://www.metmuseum.org/art/collection/search/32234",
+          "https://www.metmuseum.org/art/collection/search/662414"
+        ],
+        "time": 1650
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/30533"
+        ],
+        "time": 1650
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25846",
+          "https://www.metmuseum.org/art/collection/search/25852",
+          "https://www.metmuseum.org/art/collection/search/25887",
+          "https://www.metmuseum.org/art/collection/search/25897",
+          "https://www.metmuseum.org/art/collection/search/25908",
+          "https://www.metmuseum.org/art/collection/search/26185",
+          "https://www.metmuseum.org/art/collection/search/26674",
+          "https://www.metmuseum.org/art/collection/search/26672",
+          "https://www.metmuseum.org/art/collection/search/27042",
+          "https://www.metmuseum.org/art/collection/search/32355",
+          "https://www.metmuseum.org/art/collection/search/29610"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [],
+        "time": 1675
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21948",
+          "https://www.metmuseum.org/art/collection/search/22188",
+          "https://www.metmuseum.org/art/collection/search/22209",
+          "https://www.metmuseum.org/art/collection/search/22897",
+          "https://www.metmuseum.org/art/collection/search/25850",
+          "https://www.metmuseum.org/art/collection/search/25892",
+          "https://www.metmuseum.org/art/collection/search/25895",
+          "https://www.metmuseum.org/art/collection/search/25926",
+          "https://www.metmuseum.org/art/collection/search/25928",
+          "https://www.metmuseum.org/art/collection/search/25930",
+          "https://www.metmuseum.org/art/collection/search/26086",
+          "https://www.metmuseum.org/art/collection/search/26671",
+          "https://www.metmuseum.org/art/collection/search/26681",
+          "https://www.metmuseum.org/art/collection/search/26683",
+          "https://www.metmuseum.org/art/collection/search/26686",
+          "https://www.metmuseum.org/art/collection/search/26695",
+          "https://www.metmuseum.org/art/collection/search/26703",
+          "https://www.metmuseum.org/art/collection/search/26705",
+          "https://www.metmuseum.org/art/collection/search/26757",
+          "https://www.metmuseum.org/art/collection/search/26784",
+          "https://www.metmuseum.org/art/collection/search/27046",
+          "https://www.metmuseum.org/art/collection/search/32378",
+          "https://www.metmuseum.org/art/collection/search/32224",
+          "https://www.metmuseum.org/art/collection/search/34301"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27092",
+          "https://www.metmuseum.org/art/collection/search/27098",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27100"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [],
+        "time": 1675
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25046",
+          "https://www.metmuseum.org/art/collection/search/25067",
+          "https://www.metmuseum.org/art/collection/search/32234"
+        ],
+        "time": 1675
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/30533"
+        ],
+        "time": 1675
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25846",
+          "https://www.metmuseum.org/art/collection/search/25852",
+          "https://www.metmuseum.org/art/collection/search/25908",
+          "https://www.metmuseum.org/art/collection/search/26674",
+          "https://www.metmuseum.org/art/collection/search/26672",
+          "https://www.metmuseum.org/art/collection/search/27042",
+          "https://www.metmuseum.org/art/collection/search/32355",
+          "https://www.metmuseum.org/art/collection/search/29610"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Fauchard",
+        "itemsURL": [],
+        "time": 1700
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/21948",
+          "https://www.metmuseum.org/art/collection/search/21949",
+          "https://www.metmuseum.org/art/collection/search/22203",
+          "https://www.metmuseum.org/art/collection/search/22201",
+          "https://www.metmuseum.org/art/collection/search/22209",
+          "https://www.metmuseum.org/art/collection/search/22897",
+          "https://www.metmuseum.org/art/collection/search/25850",
+          "https://www.metmuseum.org/art/collection/search/25895",
+          "https://www.metmuseum.org/art/collection/search/25926",
+          "https://www.metmuseum.org/art/collection/search/25928",
+          "https://www.metmuseum.org/art/collection/search/25930",
+          "https://www.metmuseum.org/art/collection/search/26086",
+          "https://www.metmuseum.org/art/collection/search/26681",
+          "https://www.metmuseum.org/art/collection/search/26683",
+          "https://www.metmuseum.org/art/collection/search/26686",
+          "https://www.metmuseum.org/art/collection/search/26695",
+          "https://www.metmuseum.org/art/collection/search/26703",
+          "https://www.metmuseum.org/art/collection/search/26705",
+          "https://www.metmuseum.org/art/collection/search/26755",
+          "https://www.metmuseum.org/art/collection/search/26757",
+          "https://www.metmuseum.org/art/collection/search/26784",
+          "https://www.metmuseum.org/art/collection/search/27021",
+          "https://www.metmuseum.org/art/collection/search/27020",
+          "https://www.metmuseum.org/art/collection/search/27031",
+          "https://www.metmuseum.org/art/collection/search/27046",
+          "https://www.metmuseum.org/art/collection/search/32378",
+          "https://www.metmuseum.org/art/collection/search/32224",
+          "https://www.metmuseum.org/art/collection/search/34301"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27092",
+          "https://www.metmuseum.org/art/collection/search/27098",
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Burgonet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/27100"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [],
+        "time": 1700
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25046"
+        ],
+        "time": 1700
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/30533"
+        ],
+        "time": 1700
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25840",
+          "https://www.metmuseum.org/art/collection/search/27482",
+          "https://www.metmuseum.org/art/collection/search/27742",
+          "https://www.metmuseum.org/art/collection/search/32354",
+          "https://www.metmuseum.org/art/collection/search/27863",
+          "https://www.metmuseum.org/art/collection/search/34320"
+        ],
+        "time": 1725
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22203",
+          "https://www.metmuseum.org/art/collection/search/22201",
+          "https://www.metmuseum.org/art/collection/search/22897",
+          "https://www.metmuseum.org/art/collection/search/24890",
+          "https://www.metmuseum.org/art/collection/search/25013",
+          "https://www.metmuseum.org/art/collection/search/25850",
+          "https://www.metmuseum.org/art/collection/search/26675",
+          "https://www.metmuseum.org/art/collection/search/26681",
+          "https://www.metmuseum.org/art/collection/search/26705",
+          "https://www.metmuseum.org/art/collection/search/26715",
+          "https://www.metmuseum.org/art/collection/search/26755",
+          "https://www.metmuseum.org/art/collection/search/27021",
+          "https://www.metmuseum.org/art/collection/search/27020",
+          "https://www.metmuseum.org/art/collection/search/27023",
+          "https://www.metmuseum.org/art/collection/search/27025",
+          "https://www.metmuseum.org/art/collection/search/27031",
+          "https://www.metmuseum.org/art/collection/search/27040",
+          "https://www.metmuseum.org/art/collection/search/27045",
+          "https://www.metmuseum.org/art/collection/search/34308",
+          "https://www.metmuseum.org/art/collection/search/34304",
+          "https://www.metmuseum.org/art/collection/search/34309",
+          "https://www.metmuseum.org/art/collection/search/34297",
+          "https://www.metmuseum.org/art/collection/search/34306"
+        ],
+        "time": 1725
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1725
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [],
+        "time": 1725
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [],
+        "time": 1725
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/24869",
+          "https://www.metmuseum.org/art/collection/search/24942",
+          "https://www.metmuseum.org/art/collection/search/30533",
+          "https://www.metmuseum.org/art/collection/search/29593"
+        ],
+        "time": 1725
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25840",
+          "https://www.metmuseum.org/art/collection/search/27482",
+          "https://www.metmuseum.org/art/collection/search/27867",
+          "https://www.metmuseum.org/art/collection/search/27742",
+          "https://www.metmuseum.org/art/collection/search/32354",
+          "https://www.metmuseum.org/art/collection/search/27863",
+          "https://www.metmuseum.org/art/collection/search/34321",
+          "https://www.metmuseum.org/art/collection/search/34320"
+        ],
+        "time": 1750
+      },
+      {
+        "character": "Partisan",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/22201",
+          "https://www.metmuseum.org/art/collection/search/24890",
+          "https://www.metmuseum.org/art/collection/search/26675",
+          "https://www.metmuseum.org/art/collection/search/26715",
+          "https://www.metmuseum.org/art/collection/search/27021",
+          "https://www.metmuseum.org/art/collection/search/27020",
+          "https://www.metmuseum.org/art/collection/search/27023",
+          "https://www.metmuseum.org/art/collection/search/27025",
+          "https://www.metmuseum.org/art/collection/search/27040",
+          "https://www.metmuseum.org/art/collection/search/27045",
+          "https://www.metmuseum.org/art/collection/search/34308",
+          "https://www.metmuseum.org/art/collection/search/34304",
+          "https://www.metmuseum.org/art/collection/search/34309",
+          "https://www.metmuseum.org/art/collection/search/34297",
+          "https://www.metmuseum.org/art/collection/search/34306"
+        ],
+        "time": 1750
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1750
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [],
+        "time": 1750
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [],
+        "time": 1750
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/24869",
+          "https://www.metmuseum.org/art/collection/search/24942",
+          "https://www.metmuseum.org/art/collection/search/30533",
+          "https://www.metmuseum.org/art/collection/search/29593"
+        ],
+        "time": 1750
+      }
+    ],
+    [
+      {
+        "character": "Halberd",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/25840",
+          "https://www.metmuseum.org/art/collection/search/27482",
+          "https://www.metmuseum.org/art/collection/search/27867",
+          "https://www.metmuseum.org/art/collection/search/27742",
+          "https://www.metmuseum.org/art/collection/search/32354",
+          "https://www.metmuseum.org/art/collection/search/27863",
+          "https://www.metmuseum.org/art/collection/search/34321",
+          "https://www.metmuseum.org/art/collection/search/34320"
+        ],
+        "time": 1775
+      },
+      {
+        "character": "Armet",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/35848"
+        ],
+        "time": 1775
+      },
+      {
+        "character": "Morion",
+        "itemsURL": [],
+        "time": 1775
+      },
+      {
+        "character": "Rapier",
+        "itemsURL": [],
+        "time": 1775
+      },
+      {
+        "character": "Flintlock gun",
+        "itemsURL": [
+          "https://www.metmuseum.org/art/collection/search/24942",
+          "https://www.metmuseum.org/art/collection/search/30533"
+        ],
+        "time": 1775
+      }
+    ]
+  ],
+  "halfcentrs": [
+    1425,
+    1450,
+    1475,
+    1500,
+    1525,
+    1550,
+    1575,
+    1600,
+    1625,
+    1650,
+    1675,
+    1700,
+    1725,
+    1750,
+    1775
+  ]
+}
