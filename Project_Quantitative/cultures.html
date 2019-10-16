@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<!--This packed bars code was modified after obtained from Xan Greg's github -->
+<!--https://github.com/xangregg/packedbars/tree/master/d3js -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MET Data Visualization</title>
+    <link rel="stylesheet" href="./StackedBarChart/bars.css" />
+</head>
+
+<section  >
+    <h1 class="headbar"> MSDV Quantitative Visualization </h1>
+</section>
+<div class="hr"></div>
+
+
+
+<svg class = "mainSVG" width="960" height="500"></svg>
+<script src="./StackedBarChart/libraries/d3.v4.min.js"></script>
+<script src="./StackedBarChart/makepackedbars.js"></script>
+<script>
+    makePackedBars({
+        categoryDataName: null,
+        valueDataName: null,
+        categoryTitle: null,
+        valueTitle: null,
+        chartTitle: null,
+        rawData: null,
+        
+        
+        // csvFile: "./StackedBarChart/data/Count_classif_1.csv",
+        // nPrimary: 5,
+        // labelThreshold: 0.1, 
+        
+        
+        // csvFile: "./StackedBarChart/data/Count_country_1.csv",
+        // nPrimary: 2,
+        // labelThreshold: 0.1, 
+        
+        
+        csvFile: "./StackedBarChart/data/Count_cultures_1.csv",
+        nPrimary: 8,
+        labelThreshold: 0.14, 
+        
+        // csvFile: "./StackedBarChart/data/Count_medium_1.csv",
+        // nPrimary: 30,
+        // labelThreshold: 0.2, 
+        
+        // csvFile: "./StackedBarChart/data/Count_names_1.csv",
+        // nPrimary: 6,
+        // labelThreshold: 0.1,
+        
+        // csvFile: "./StackedBarChart/data/Count_tags_1.csv",
+        // nPrimary: 9,
+        // labelThreshold: 0.29, 
+        
+        
+        // csvFile: "./StackedBarChart/data/MET_classification.csv",
+        //         nPrimary: 9,
+        // labelThreshold: 0.1,
+        
+        
+        chartMargin: { top: 50, right: 40, bottom: 50, left: 40 },
+        chartWidth: 900,
+        chartHeight: 500
+// threshold for labeling secondary bars
+    });
+</script>
+
+
+<body>
+    Plot by:
+    <a href="index.html">Classification </a> <text>&nbsp&nbsp</text>
+      <a href="cultures.html">Cultures </a>  <text>&nbsp&nbsp</text>
+
+      <a href="country.html">Country </a>  <text>&nbsp&nbsp</text>
+
+      <a href="names.html">Names </a>  <text>&nbsp&nbsp</text>
+      <a href="tags.html">Tags </a>  
+</body>
+
+
+
+
+<footer class="footer">
+09/24/2019 <br>
+D3.js code ref. [<a href="https://github.com/xangregg/packedbars/tree/master/d3js">stackedbars</a>]
+</footer>
+
+</html>
