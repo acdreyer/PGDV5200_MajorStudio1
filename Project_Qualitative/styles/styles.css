@@ -1,15 +1,15 @@
 
 @font-face {
 font-family: "Humanistic";
-src: url("./Humanistic.ttf");
+src: url("Humanistic.ttf");
 }
 @font-face {
 font-family: "MediciText";
-src: url("./MediciText.ttf");
+src: url("MediciText.ttf");
 }
 @font-face {
 font-family: "PressGutenberg";
-src: url("./PressGutenberg.ttf");
+src: url("PressGutenberg.ttf");
 }
 
 .headbar { 
