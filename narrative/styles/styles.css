@@ -124,7 +124,7 @@ body .bashford {
 	
 	.legendbox rect {
 		stroke: #333;
-		fill: #999;
+		fill: #888;
 		stroke-width: 2;
 		/*background-color: rgba(100, 100, 100, 200);*/
 	}
@@ -145,13 +145,15 @@ body .bashford {
 	
 /*------------------------------*/
 	.intro text:first-child {
-		fill: #fff;
-	    stroke: #ffffff;
-	    stroke-width: 3;
+		font-family: serif ;/*"MediciText";*/
+		/*fill: #fff;*/
+	    stroke: #000;
+	    stroke-width: 2;
 	}
 
 	.intro text+text {
-	    fill: #333;
+			font-family: serif ;/*"MediciText";*/
+	    /*fill: #333;*/
 	}
 	
 	/*Paths and legends*/
@@ -182,8 +184,9 @@ body .bashford {
 		stroke-width: 1;	
 	}
 		.intro text+text.other {
-	    stroke: #d76735;
-	    stroke: #333
+			font-family: serif ;/*"MediciText";*/
+	    stroke: #fbd266;
+	    fill: #fbd266
 	}
 /*------------------------------*/
 	path.staffwpn {
@@ -199,8 +202,9 @@ body .bashford {
 	 	stroke: 1;
 	}
 		.intro text+text.staffwpn {
+			font-family: serif ;/*"MediciText";*/
 	    stroke: #f2d8b3;
-	    stroke: #333
+	    fill: #f2d8b3
 	}
 
 /*------------------------------*/
@@ -219,8 +223,9 @@ body .bashford {
 		stroke-width: 1;	
 	}
 		.intro text+text.helmet {
-	    fill: #8fb0a9;
-	    stroke: #333
+			font-family: serif ;/*"MediciText";*/
+	    fill: #c5dced;
+	    stroke: #c5dced
 	}
 /*------------------------------*/
 	path.armor {
@@ -238,26 +243,30 @@ body .bashford {
 	}
 		
     .intro text+text.armor {
+    	font-family: serif ;/*"MediciText";*/
 	    stroke: #ba9b2f;
-	    stroke: #333
+	    fill: #ba9b2f;
 	}
+	
+
 /*------------------------------*/	
     path.gun {
-		stroke: #d76735;
+		stroke: #dbffd6;
 		stroke-width: 2;
 	}
     line.gun {
-		stroke: #d76735;
+		stroke: #dbffd6;
 		stroke-width: 2;
 	}
 		text.categorylegend.gun {
-				stroke: #d76735;
+				stroke: #dbffd6;
 		stroke-width: 1;
 	}
 		
 	.intro text+text.gun {
-	    stroke: #d76735;
-	    stroke: #333
+		font-family: serif ;/*"MediciText";*/
+	    stroke: #dbffd6;
+	    fill: #dbffd6
 	}
 /*------------------------------*/	
 

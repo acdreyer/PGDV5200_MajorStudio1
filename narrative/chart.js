@@ -14,16 +14,17 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 	// Some defaults
 	sceneWidth = 33;
 	width = scenes.length * sceneWidth * 3;
-	height = 900;
+	height = 905;
 	labelSize = [200, 150];
 
 	var lgndspace = 25;
+	var lgndoffset = -40;
 	var lgnddata =	[
-				{ name: 'Name', 	affil: 'staffwpn',	y: height * 2 / 3 + lgndspace * 1 },
-				{ name: 'Poled Weapon', affil: 'staffwpn', y: height * 2 / 3 + lgndspace * 2 },
-				{ name: 'Helmet',	affil: 'helmet',	y: height * 2 / 3 + lgndspace * 3 },
-				{ name: 'Sword',	affil: 'other', 	y: height * 2 / 3 + lgndspace * 4 },
-				{ name: 'Gun',		affil: 'gun',		y: height * 2 / 3 + lgndspace * 5 }
+				{ name: 'Name', 	affil: 'staffwpn',	y: height * 2 / 3 + lgndspace * 1 +lgndoffset },
+				{ name: 'Poled Weapon', affil: 'staffwpn', y: height * 2 / 3 + lgndspace * 2 +lgndoffset },
+				{ name: 'Helmet',	affil: 'helmet',	y: height * 2 / 3 + lgndspace * 3 +lgndoffset },
+				{ name: 'Sword',	affil: 'other', 	y: height * 2 / 3 + lgndspace * 4 +lgndoffset },
+				{ name: 'Gun',		affil: 'gun',		y: height * 2 / 3 + lgndspace * 5 +lgndoffset }
 			];
 
 
@@ -117,7 +118,7 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 		.append('g').attr('class', 'legendbox')
 		.append('rect')
 		.attr('x', 50)
-		.attr('y', height * 2 / 3)
+		.attr('y', height * 2 / 3 +lgndoffset)
 		.attr('width', 230)
 		.attr('height', 150)
 
@@ -126,7 +127,7 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 	d3.select('g.legendbox').data([null])
 		.append('text')
 		.attr('x', 70)
-		.attr('y', height * 2 / 3 + 20)
+		.attr('y', height * 2 / 3 + 20 +lgndoffset)
 		// .attr('width', 230)
 		// .attr('height', 200)
 		.attr('class', 'categorylegendmain')

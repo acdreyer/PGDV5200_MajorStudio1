@@ -254,9 +254,9 @@
       {
         "character": "Sallet",
         "imagenames": [
-          "DP22311.jpg",
+          "14.25.573_007mar2015.jpg",
           "29.150.12_006AA2015.jpg",
-          "14.25.573_007mar2015.jpg"
+          "DP22311.jpg"
         ],
         "time": 1425
       }
@@ -265,17 +265,17 @@
       {
         "character": "Halberd",
         "imagenames": [
-          "14.25.52_001dec2014.jpg",
-          "14.25.86_003dec2014.jpg",
-          "14.25.193_001dec2014.jpg",
-          "52.208.8_002jan2015.jpg",
           "42.50.18_001jan2015.jpg",
+          "52.208.8_002jan2015.jpg",
+          "14.25.193_001dec2014.jpg",
+          "14.25.86_003dec2014.jpg",
           "49.120.11_001jan2015.jpg",
           "32.75.192_008jan2015.jpg",
           "48.149.34_001jan2015.jpg",
           "48.149.33_001jan2015.jpg",
           "42.50.21_001jan2015.jpg",
           "29.156.29_002jan2015.jpg",
+          "14.25.52_001dec2014.jpg",
           "42.50.17_001jan2015.jpg"
         ],
         "time": 1450
@@ -306,8 +306,6 @@
       {
         "character": "Sallet",
         "imagenames": [
-          "DP237081.jpg",
-          "DP22327.jpg",
           "DP22341.jpg",
           "DP22339.jpg",
           "DP22311.jpg",
@@ -315,7 +313,9 @@
           "DP22355.jpg",
           "DP22352.jpg",
           "29.158.3a_007may2015.jpg",
+          "DP237081.jpg",
           "29.150.12_006AA2015.jpg",
+          "DP22327.jpg",
           "61902.jpg",
           "14.25.573_007mar2015.jpg",
           "29.158.10_005june2015.jpg"
@@ -345,10 +345,10 @@
       {
         "character": "Guisarme",
         "imagenames": [
+          "14.25.190_001dec2014.jpg",
           "14.25.1_003nov2014.jpg",
           "14.25.136_006dec2014.jpg",
           "14.25.187_001dec2014.jpg",
-          "14.25.190_001dec2014.jpg",
           "14.25.238_001feb2015.jpg"
         ],
         "time": 1475
@@ -380,11 +380,6 @@
         "character": "Sallet",
         "imagenames": [
           "04.3.229_005AA2015.jpg",
-          "DP237081.jpg",
-          "29.150.4a_008AA2015.jpg",
-          "29.150.5a_009AA2015.jpg",
-          "29.150.8a_006AA2015.jpg",
-          "DP-12880-034.jpg",
           "29.158.27_008AA2015.jpg",
           "DP22327.jpg",
           "DP-16115-012.jpg",
@@ -396,7 +391,12 @@
           "DP22355.jpg",
           "DP22352.jpg",
           "29.158.3a_007may2015.jpg",
+          "DP237081.jpg",
+          "29.150.4a_008AA2015.jpg",
+          "29.150.5a_009AA2015.jpg",
+          "29.150.8a_006AA2015.jpg",
           "29.150.12_006AA2015.jpg",
+          "DP-12880-034.jpg",
           "61902.jpg",
           "14.25.573_007mar2015.jpg",
           "14.25.576_006mar2015.jpg",
@@ -454,8 +454,6 @@
       {
         "character": "Partisan",
         "imagenames": [
-          "14.25.293_001june2014.jpg",
-          "04.3.76_001feb2015.jpg",
           "08.261.2_002nov2014.jpg",
           "14.25.91_001feb2015.jpg",
           "14.25.119_001dec2014.jpg",
@@ -541,13 +539,13 @@
         "character": "Fauchard",
         "imagenames": [
           "04.3.85_001nov2014.jpg",
-          "14.25.26_002feb2015.jpg",
-          "14.25.273_001feb2015.jpg",
-          "14.25.282_001feb2015.jpg",
           "14.25.347_001feb2015.jpg",
           "14.25.356_002feb2015.jpg",
           "14.25.390_002feb2015.jpg",
           "14.25.391_001feb2015.jpg",
+          "14.25.282_001feb2015.jpg",
+          "14.25.26_002feb2015.jpg",
+          "14.25.273_001feb2015.jpg",
           "36.25.2003_001jan2015.jpg"
         ],
         "time": 1525
@@ -555,7 +553,6 @@
       {
         "character": "Partisan",
         "imagenames": [
-          "14.25.293_001june2014.jpg",
           "96.5.7_004jan2015.jpg",
           "04.3.81_002nov2014.jpg",
           "08.261.2_002nov2014.jpg",
@@ -593,7 +590,6 @@
       {
         "character": "Burgonet",
         "imagenames": [
-          "DT277025.jpg",
           "DP273710.jpg",
           "14.25.602_006AA2015.jpg",
           "DP-12880-025.jpg",
@@ -628,7 +624,6 @@
       {
         "character": "Rapier",
         "imagenames": [
-          "sfrl04.3.21_200884.jpg",
           "sfrl14.25.987_22109.jpg",
           "sfsb2010.200(030510)s1d1.jpg"
         ],
@@ -703,8 +698,6 @@
       {
         "character": "Partisan",
         "imagenames": [
-          "14.25.293_001june2014.jpg",
-          "96.5.7_004jan2015.jpg",
           "04.3.81_002nov2014.jpg",
           "08.261.2_002nov2014.jpg",
           "08.261.4_001feb2015.jpg",
@@ -739,9 +732,6 @@
       {
         "character": "Burgonet",
         "imagenames": [
-          "DT277025.jpg",
-          "DP273710.jpg",
-          "14.25.602_006AA2015.jpg",
           "DP-12880-025.jpg",
           "49.163.3_008AA2015.jpg",
           "04.3.205_009june2015.jpg",
@@ -765,18 +755,18 @@
       {
         "character": "Morion",
         "imagenames": [
-          "14.25.633_031AA2015.jpg",
-          "14.25.649_006AA2015.jpg",
-          "14.25.652_003AA2015.jpg",
-          "DP276702.jpg",
           "04.3.220_007AA2015.jpg",
+          "14.25.649_006AA2015.jpg",
           "14.25.506_008AA2015.jpg",
           "14.25.634_005mar2015.jpg",
           "14.25.635_011mar2015.jpg",
           "14.25.643_006mar2015.jpg",
           "14.25.646_007june2015.jpg",
+          "14.25.652_003AA2015.jpg",
           "14.25.647_007AA2015.jpg",
+          "14.25.633_031AA2015.jpg",
           "64.203.1_006AA2015.jpg",
+          "DP276702.jpg",
           "32.75.88_006AA2015.jpg",
           "29.158.8_009AA2015.jpg",
           "14.25.1852_004may2015.jpg",
@@ -801,10 +791,7 @@
       {
         "character": "Rapier",
         "imagenames": [
-          "sfrl04.3.21_200884.jpg",
-          "sfrl14.25.987_22109.jpg",
-          "sfeah04.3.287_003.jpg",
-          "LC-14_25_1052-029.jpg",
+          
           "sfsb2010.200(030510)s1d1.jpg"
         ],
         "time": 1550
@@ -864,20 +851,18 @@
       {
         "character": "Fauchard",
         "imagenames": [
-          "DP277180.jpg",
-          "54.46.16_001june2014.jpg",
-          "96.5.9_004feb2015.jpg",
-          "04.3.85_001nov2014.jpg",
-          "14.25.26_002feb2015.jpg",
-          "14.25.273_001feb2015.jpg",
-          "14.25.347_001feb2015.jpg",
-          "14.25.352_001feb2015.jpg",
-          "14.25.356_002feb2015.jpg",
           "14.25.374_001feb2015.jpg",
+          "14.25.26_002feb2015.jpg",
           "14.25.382_001feb2015.jpg",
           "14.25.390_002feb2015.jpg",
           "14.25.391_001feb2015.jpg",
+          "04.3.85_001nov2014.jpg",
+          "14.25.347_001feb2015.jpg",
+          "14.25.273_001feb2015.jpg",
+          "14.25.352_001feb2015.jpg",
+          "54.46.16_001june2014.jpg",
           "14.25.392_001feb2015.jpg",
+          "14.25.356_002feb2015.jpg",
           "36.25.2003_001jan2015.jpg"
         ],
         "time": 1575
@@ -885,8 +870,6 @@
       {
         "character": "Partisan",
         "imagenames": [
-          "96.5.7_004jan2015.jpg",
-          "04.3.81_002nov2014.jpg",
           "08.261.4_001feb2015.jpg",
           "14.25.144_001dec2014.jpg",
           "14.25.192_001feb2015.jpg",
@@ -924,12 +907,6 @@
       {
         "character": "Burgonet",
         "imagenames": [
-          "DT277025.jpg",
-          "DP273710.jpg",
-          "14.25.602_006AA2015.jpg",
-          "DP-12880-001.jpg",
-          "DP-12880-025.jpg",
-          "04.3.205_009june2015.jpg",
           "DP22390.jpg",
           "DP22366.jpg",
           "04.3.284_009june2015.jpg",
@@ -992,9 +969,6 @@
       {
         "character": "Rapier",
         "imagenames": [
-          "4886.jpg",
-          "sfrl14.25.987_22109.jpg",
-          "174000.jpg",
           "175346.jpg",
           "6013.jpg",
           "173989.jpg",
@@ -1044,14 +1018,13 @@
       {
         "character": "Fauchard",
         "imagenames": [
-          "DP277180.jpg",
-          "54.46.16_001june2014.jpg",
-          "96.5.9_004feb2015.jpg",
-          "04.3.85_001nov2014.jpg",
-          "14.25.26_002feb2015.jpg",
-          "14.25.388_001feb2015.jpg",
           "14.25.392_001feb2015.jpg",
+          "14.25.26_002feb2015.jpg",
           "36.25.2003_001jan2015.jpg",
+          "04.3.85_001nov2014.jpg",
+          "96.5.9_004feb2015.jpg",
+          "14.25.388_001feb2015.jpg",
+          "54.46.16_001june2014.jpg",
           "04.3.101_002mar2015.jpg"
         ],
         "time": 1600
@@ -1059,9 +1032,6 @@
       {
         "character": "Partisan",
         "imagenames": [
-          "14.25.393_001june2014.jpg",
-          "04.3.81_002nov2014.jpg",
-          "08.261.4_001feb2015.jpg",
           "14.25.110_002dec2014.jpg",
           "14.25.144_001dec2014.jpg",
           "14.25.257_001dec2014.jpg",
@@ -1129,13 +1099,13 @@
       {
         "character": "Cabasset",
         "imagenames": [
-          "04.3.200_014AA2015.jpg",
           "14.25.504_005june2015.jpg",
           "14.25.636_011mar2015.jpg",
           "AA88.jpg",
           "DP-12880-027.jpg",
           "DP-13163-003.jpg",
           "DP22469.jpg",
+          "04.3.200_014AA2015.jpg",
           "14.25.533_005AA2015.jpg"
         ],
         "time": 1600
@@ -1143,8 +1113,6 @@
       {
         "character": "Rapier",
         "imagenames": [
-          "sfrl04.3.12_223035.jpg",
-          "4886.jpg",
           "173997.jpg",
           "174000.jpg",
           "175346.jpg",
@@ -1206,17 +1174,17 @@
       {
         "character": "Fauchard",
         "imagenames": [
-          "DP277180.jpg",
           "54.46.16_001june2014.jpg",
           "14.25.388_001feb2015.jpg",
-          "04.3.101_002mar2015.jpg"
+          "04.3.101_002mar2015.jpg",
+          "DP277180.jpg"
+          
         ],
         "time": 1625
       },
       {
         "character": "Partisan",
         "imagenames": [
-          "14.25.393_001june2014.jpg",
           "14.25.40_001dec2014.jpg",
           "14.25.90_001feb2015.jpg",
           "14.25.110_002dec2014.jpg",
@@ -1256,10 +1224,9 @@
       {
         "character": "Burgonet",
         "imagenames": [
-          "14.25.604_008AA2015.jpg",
+          "DP320268.jpg",
           "29.153.2_010AA2015.jpg",
-          "14.25.520_006AA2015.jpg",
-          "DP320268.jpg"
+          "14.25.520_006AA2015.jpg"
         ],
         "time": 1625
       },
@@ -1330,17 +1297,13 @@
       {
         "character": "Fauchard",
         "imagenames": [
-          "14.25.388_001feb2015.jpg",
-          "04.3.101_002mar2015.jpg"
+          "14.25.388_001feb2015.jpg"
         ],
         "time": 1650
       },
       {
         "character": "Partisan",
         "imagenames": [
-          "14.25.120_001june2014.jpg",
-          "14.25.393_001june2014.jpg",
-          "14.25.40_001dec2014.jpg",
           "14.25.46_001dec2014.jpg",
           "14.25.90_001feb2015.jpg",
           "14.25.223_003dec2014.jpg",
@@ -1366,25 +1329,20 @@
       {
         "character": "Burgonet",
         "imagenames": [
-          "14.25.604_008AA2015.jpg",
           "29.153.2_010AA2015.jpg",
+          "14.25.604_008AA2015.jpg",
           "14.25.520_006AA2015.jpg"
         ],
         "time": 1650
       },
       {
         "character": "Morion",
-        "imagenames": [],
+        "imagenames": ["04.3.224_005june2015.jpg"],
         "time": 1650
       },
       {
         "character": "Rapier",
         "imagenames": [
-          "sfrl04.3.12_223035.jpg",
-          "174009.jpg",
-          "LC-04_3_1-003.jpg",
-          "172478.jpg",
-          "LC-29_157_9-003.jpg",
           "LC-32_75_220-003.jpg",
           "LC-14_25_1191-002.jpg"
         ],
@@ -1416,16 +1374,12 @@
       },
       {
         "character": "Fauchard",
-        "imagenames": [],
+        "imagenames": ["04.3.101_002mar2015.jpg"],
         "time": 1675
       },
       {
         "character": "Partisan",
         "imagenames": [
-          "DP-696-003.jpg",
-          "14.25.120_001june2014.jpg",
-          "DP-1723-001.jpg",
-          "25.188.7_001june2014.jpg",
           "14.25.27_001dec2014.jpg",
           "14.25.40_001dec2014.jpg",
           "14.25.46_001dec2014.jpg",
@@ -1472,7 +1426,6 @@
       {
         "character": "Rapier",
         "imagenames": [
-          "LC-04_3_1-003.jpg",
           "172478.jpg",
           "LC-32_75_220-003.jpg"
         ],
@@ -1501,21 +1454,12 @@
       },
       {
         "character": "Fauchard",
-        "imagenames": [],
+        "imagenames": ["04.3.101_002mar2015.jpg"],
         "time": 1700
       },
       {
         "character": "Partisan",
         "imagenames": [
-          "DP-696-003.jpg",
-          "DP-697-004.jpg",
-          "14.25.378_001june2014.jpg",
-          "14.25.345_001june2014.jpg",
-          "DP-1723-001.jpg",
-          "25.188.7_001june2014.jpg",
-          "14.25.27_001dec2014.jpg",
-          "14.25.46_001dec2014.jpg",
-          "14.25.90_001feb2015.jpg",
           "14.25.93_001dec2014.jpg",
           "14.25.95_003dec2014.jpg",
           "14.25.112_001dec2014.jpg",
@@ -1621,12 +1565,12 @@
       },
       {
         "character": "Morion",
-        "imagenames": [],
+        "imagenames": ["25.135.65_007may2015.jpg"],
         "time": 1725
       },
       {
         "character": "Rapier",
-        "imagenames": [],
+        "imagenames": ["LC-04_3_1-003.jpg"],
         "time": 1725
       },
       {
@@ -1679,21 +1623,21 @@
       },
       {
         "character": "Morion",
-        "imagenames": [],
+        "imagenames": ["25.135.65_007may2015.jpg"],
         "time": 1750
       },
       {
         "character": "Rapier",
-        "imagenames": [],
+        "imagenames": ["LC-04_3_1-003.jpg"],
         "time": 1750
       },
       {
         "character": "Flintlock gun",
         "imagenames": [
-          "sfrl1974.4_202480.jpg",
+          "LC-37_154_4-004.jpg",
           "DP153589.jpg",
-          "DP165768.jpg",
-          "LC-37_154_4-004.jpg"
+          "sfrl1974.4_202480.jpg",
+          "DP165768.jpg"
         ],
         "time": 1750
       }
@@ -1722,12 +1666,14 @@
       },
       {
         "character": "Morion",
-        "imagenames": [],
+        "imagenames": ["83.18.185_006june2015.jpg"],
         "time": 1775
       },
       {
         "character": "Rapier",
-        "imagenames": [],
+        "imagenames": [
+          "14.25.1025_244726_mar2014.jpg"
+          ],
         "time": 1775
       },
       {
