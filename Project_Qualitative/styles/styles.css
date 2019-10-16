@@ -13,6 +13,7 @@ src: url("PressGutenberg.ttf");
 }
 
 .headbar { 
+	font-family: "Humanistic", serif;
     font: 1.5em "Humanistic", serif;
     font-weight: bold;
     text-align:center;
@@ -25,6 +26,7 @@ src: url("PressGutenberg.ttf");
 }
 
 .headbar2 { 
+	font-family: "Humanistic", serif;
     font: 1.3em "Humanistic", serif;
     font-weight: bold;
     text-align:center;
@@ -37,6 +39,7 @@ src: url("PressGutenberg.ttf");
 }
 
 .headbar3 { 
+	font-family: "Humanistic", serif;
     font: 1.1em "Humanistic", serif;
     font-weight: bold;
     text-align:center;
@@ -71,6 +74,7 @@ margin-bottom:10px;
 }
 
 .footertext {
+	font-family: 0.8em "Humanistic","Book Antiqua","Old English Text MT", serif;
     font: 0.8em "Humanistic","Book Antiqua","Old English Text MT", serif;
     text-align: right;
     color: #fff;
