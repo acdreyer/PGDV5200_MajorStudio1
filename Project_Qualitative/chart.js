@@ -132,7 +132,7 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 		// .attr('width', 230)
 		// .attr('height', 200)
 		.attr('class', 'categoryquestionbox2')
-		.text('♦ Which ones possibly met on the European battlefield?');
+		.text('♦ Which weapons could have met on the European battlefield?');
 
 
 

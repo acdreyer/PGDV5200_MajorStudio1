@@ -27,8 +27,8 @@ src: url("PressGutenberg.ttf");
 
 .headbar2 { 
 	font-family: "Humanistic","Book Antiqua","Old English Text MT", serif;
-    font-size: 2em ;
-    font-weight: bold;
+    font-size: 2.3em ;
+    /*font-weight: bold;*/
     text-align:center;
     color: black;
     color:#eee; 
@@ -40,7 +40,7 @@ src: url("PressGutenberg.ttf");
 
 .headbar3 { 
 	font-family: "Humanistic","Book Antiqua","Old English Text MT", serif;
-    font: 1.1em "Humanistic","Book Antiqua","Old English Text MT", serif;
+    font-size: 1.5em ;
     font-weight: bold;
     text-align:center;
     color: black;
@@ -183,14 +183,14 @@ body .bashford {
 				stroke: #ddd;
 				fill: #ddd;
 				font-size:  1.3em;
-		stroke-width: 1.2;
+		stroke-width: 0.6;
 	}
 					text.categoryquestionbox2 {
 				font-family: "Humanistic","Book Antiqua","Old English Text MT",serif;
 				stroke: #ddd;
 				fill: #ddd;
 				font-size:  1.3em;
-		stroke-width: 1.2;
+		stroke-width: 0.6;
 	}
 /*------------------------------*/	
 	path {
