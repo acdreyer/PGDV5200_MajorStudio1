@@ -429,7 +429,8 @@ d3.json('./prepareDataset/narrVizData_v1.json', function(err, response) {
 			.attr('width', sceneWidth * 2)
 			.attr('height', 400 * 0.15)
 			// .attr('transform', 'rotate(90 0 0)')
-			.attr('xlink:href', function(d) { return './prepareDataset/downloads/' + d.imagename });
+			.attr('xlink:href', function(d) { return './prepareDataset/downloads/' + d.imagename })
+			.append('svg:title').text(function(d){return d.character.name});
 		//===================================================================
 
 		g.attr('transform', function(d) {
