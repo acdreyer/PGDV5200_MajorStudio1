@@ -20,7 +20,7 @@ For the related Quantitative project using a Packed Bar Chart, go [here](https:/
 ### Concept
 -------------------------
 
-This project builds on various aspects of the [MET Open Access](https://www.metmuseum.org/about- the- met/policies- and- documents/open- access)
+This project builds on various aspects of the [MET Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access)
 initiative (in excess of 400,000 items). The MET Open Access [CSV](https://github.com/metmuseum/openaccess) was used
 for conceptual study, after which it was supplemented by data from the [MET API](https://metmuseum.github.io/).
 
@@ -135,4 +135,4 @@ In future it is recommended to add a tooltip and/or links toward the items on th
 
 The final version can be found [here](https://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Qualitative/index.html) and is shown below.
 
-[![Evolution of medieval foot soldier arms and armor](./Images/FinalQualViz.PNG)](https://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Qualitative/index.html)
+[![Evolution of medieval foot soldier arms and armor](./images/FinalQualViz.PNG)](https://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Qualitative/index.html)
