@@ -120,22 +120,26 @@ which could also be implemented as a [Lollipop chart](https://www.data-to-viz.co
 
 Subsequently a packet bar chart was chosen. Various types are possible. 
 
-![Log plot](./Images/barchart1.PNG)
-![Log plot](./Images/barchart2.PNG)
+![Bar chart types](./Images/barchart1.PNG)
+![Bar chart types](./Images/barchart2.PNG)
+See [Nested bar chart ref. here](https://peltiertech.com/marimekko-replacement-2-by-2-panel/) and [Stacked chart ref. here](https://www.nature.com/articles/srep28999?draft=collection) and 
 
 Finally a [packed bar](https://community.jmp.com/t5/JMP-Blog/Introducing-packed-bars-a-new-chart-form/ba-p/39972) chart was chosen.
 
-![Log plot](./Images/barchart3.PNG)
+![Packed bar chart](./Images/barchart3.PNG)
 
 
 This was subsequently implemented using the MET data set.
 
 
 This shows the efficiency of screen space usage of the packed bar chart vs. a normal chart on its side.
-![Log plot](./Images/barchart4.PNG)
+![Met departments](./Images/barchart4.PNG)
 
 An online live (static) version of the final implimentation can be found [here](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html).
 
-![Log plot](./Images/barchart5.PNG)
+
+
+A screenshot of the final visualization is shown below.
+[![Final Packed Bar Chart with MET data](./Images/barchart5.png)](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html)
 
 
