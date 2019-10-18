@@ -6,7 +6,7 @@ The MET CSV data was processed with R. Collection classification occurences were
 extracted using the R text mining library. Word frequencies were counted
 and stored as a separate .CSV file as number of occurences.
 Common stopphrases and punctuation was omitted from the counts.
-Occurences lower than 100 was ommitted.
+Occurences lower than 100 was initially ommitted. Later all fields were used.
 
 A stacked bar chart was then generated. This aims to keep overall context
 of the dataset by optimizing packing space into the empty graph area.

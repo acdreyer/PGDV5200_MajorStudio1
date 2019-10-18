@@ -7,7 +7,7 @@ project wherein data from the Metropolitan Museum of Art (the MET) is visualized
 
 With such a big dataset such as the one from the [MET Open Access](https://www.metmuseum.org/about- the- met/policies- and- documents/open- access)
 initiative (in excess of 400,000 items), constructing a visualization of the entire collection is deemed a challenge
-in a short space of time. However, with such a rich dataset it seems beneficial to visualize parameters that span accross the entire collection.
+in a short space of time. However, with such a rich dataset it seems beneficial to visualize parameters that span across the entire collection.
 
 Subsequently it was decided to focus on the MET Open Access [CSV](https://github.com/metmuseum/openaccess)
 for conceptual study rather than the [MET API](https://metmuseum.github.io/).
@@ -114,5 +114,25 @@ even though these have their own [challenges](https://www.data-to-viz.com/caveat
 Or the one that presently looks most favorable:
 a [rotated Bar chart](https://www.data-to-viz.com/caveat/hard_label.html)
 which could also be implemented as a [Lollipop chart](https://www.data-to-viz.com/graph/lollipop.html).
+
+Subsequently a packet bar chart was chosen. Various types are possible. 
+
+![Log plot](./Images/barchart1.PNG)
+![Log plot](./Images/barchart2.PNG)
+
+Finally a [packed bar](https://community.jmp.com/t5/JMP-Blog/Introducing-packed-bars-a-new-chart-form/ba-p/39972) chart was chosen.
+
+![Log plot](./Images/barchart3.PNG)
+
+
+This was subsequently implemented using the MET data set.
+
+
+This shows the efficiency of screen space usage of the packed bar chart vs. a normal chart on its side.
+![Log plot](./Images/barchart4.PNG)
+
+An online live (static) version of the final implimentation can be found [here](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html).
+
+[![Log plot](./Images/barchart5.PNG)](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html)
 
 
