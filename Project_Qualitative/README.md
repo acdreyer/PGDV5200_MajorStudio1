@@ -135,4 +135,4 @@ In future it is recommended to add a tooltip and/or links toward the items on th
 
 The final version can be found [here](https://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Qualitative/index.html) and is shown below.
 
-[![Evolution of medieval foot soldier arms and armor](./Images/FinalQualViz.PNG)](https://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Qualitative/index.html)]
+[![Evolution of medieval foot soldier arms and armor](./Images/FinalQualViz.PNG)](https://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Qualitative/index.html)
