@@ -1,7 +1,10 @@
 ## Quantitative Visualization
 
 This folder contains project updates for the Quantitative Visualization
-project wherein data from the Metropolitan Museum of Art (the MET) is visualized.
+project wherein data from the Metropolitan Museum of Art (the MET) is visualized using a [Packed Bar Chart](https://community.jmp.com/t5/JMP-Blog/Introducing-packed-bars-a-new-chart-form/ba-p/39972).
+
+
+If you want to skip all the details and just see the final product, go [here](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html).
 
 ### Introduction
 
@@ -133,6 +136,6 @@ This shows the efficiency of screen space usage of the packed bar chart vs. a no
 
 An online live (static) version of the final implimentation can be found [here](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html).
 
-[![Log plot](./Images/barchart5.PNG)](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html)
+![Log plot](./Images/barchart5.PNG)
 
 
