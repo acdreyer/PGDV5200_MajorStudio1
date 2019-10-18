@@ -136,6 +136,6 @@ This shows the efficiency of screen space usage of the packed bar chart vs. a no
 
 An online live (static) version of the final implimentation can be found [here](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html).
 
-![Log plot](./Images/barchart5.png)
+[![Log plot](./Images/barchart5.png)](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html)
 
 
