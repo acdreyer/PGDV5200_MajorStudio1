@@ -1,5 +1,5 @@
 {
-  "key": "Aerophone",
+  "key": "← So...Aerophones?",
   "_children": [
     {
       "key": "Organ",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "key": "Reed Organ (Physharmonica)",
+          "key": "Reed Organ",
           "_children": [
             {
               "level1": "Aerophone",
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "key": "Upright piano and reed organ",
+          "key": "Reed organ",
           "_children": [
             {
               "level1": "Aerophone",
@@ -2513,7 +2513,7 @@
       "key": "Blow Hole",
       "_children": [
         {
-          "key": "end-blown flute (vertical)",
+          "key": "end-blown flute",
           "_children": [
             {
               "key": "Xiao (flute)",
@@ -2977,7 +2977,7 @@
           ]
         },
         {
-          "key": "side-blown flute (transverse)",
+          "key": "side-blown flute",
           "_children": [
             {
               "key": "Dizi",
