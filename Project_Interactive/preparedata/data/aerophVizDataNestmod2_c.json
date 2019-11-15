@@ -1,6 +1,6 @@
 {
-  "key": "Aerophone",
-  "_children": [
+  "key": "← Aerophones!",
+  "children": [
     {
       "key": "Organ",
       "_children": [
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "key": "Reed Organ (Physharmonica)",
+          "key": "Reed Organ",
           "_children": [
             {
               "level1": "Aerophone",
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "key": "Upright piano and reed organ",
+          "key": "Reed organ",
           "_children": [
             {
               "level1": "Aerophone",
@@ -2513,7 +2513,7 @@
       "key": "Blow Hole",
       "_children": [
         {
-          "key": "end-blown flute (vertical)",
+          "key": "end-blown flute",
           "_children": [
             {
               "key": "Xiao (flute)",
@@ -2977,7 +2977,7 @@
           ]
         },
         {
-          "key": "side-blown flute (transverse)",
+          "key": "side-blown flute",
           "_children": [
             {
               "key": "Dizi",
@@ -3476,7 +3476,7 @@
     },
     {
       "key": "Whistle Flute",
-      "_children": [
+      "children": [
         {
           "key": "whistle",
           "_children": [
@@ -3715,7 +3715,7 @@
         },
         {
           "key": "recorder",
-          "_children": [
+          "children": [
             {
               "key": "Pottery Flute",
               "_children": [
@@ -3751,7 +3751,7 @@
               ]
             },
             {
-              "key": "Contrabass Recorder in D?",
+              "key": "Contrabass Recorder in D",
               "_children": [
                 {
                   "level1": "Aerophone",
@@ -3762,7 +3762,7 @@
                   "country": "Belgium?",
                   "materials": "Wood, brass",
                   "objectURL": "https://www.metmuseum.org/art/collection/search/501298",
-                  "fullname": "Contrabass Recorder in D?",
+                  "fullname": "Contrabass Recorder in D",
                   "filename": "MUS526A1.jpg"
                 }
               ]
