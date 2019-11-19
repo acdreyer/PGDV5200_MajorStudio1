@@ -5,7 +5,10 @@
 
 
  <head>
-     <link rel="stylesheet" type="text/css" href="tidytreestack.css">
+
+         <!--<script src="d3.v3.min.js"></script>-->
+ 
+      <link rel="stylesheet" type="text/css" href="tidytreestack.css">
     <script src="./libraries/lodash.min.js"></script>
     <script src="./libraries/brewer.js"></script>
     <script src="./libraries/p5.min.js" type="text/javascript"></script>
@@ -16,9 +19,13 @@
  </head>
  
  
+        
+
+
+ 
 <style>
 
-@import url(https://fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i);
+/*@import url(https://fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i);*/
 
 section {
   background: #000;
@@ -55,29 +62,14 @@ a:hover {
 
 </style>
 
+
+
 <section style="text-align:center;padding-top:5em;background:url(tuba.jpeg);background-size:cover;">
   <p style="font-size:120%;">
    <b> What are Aerophones? </b>
    <br><br><br><br><br><br>
-  <!--<p class="white"> &darr;&darr; Scroll down. &darr;&darr;-->
-    <!--<b><a href="https://github.com/mbostock/stack">Stack</a></b> -->
-    
 </section>
 
-<!--<section style="padding:5em 9em;">-->
-<!--  <p>In addition to the mouse,-->
-<!--    <br>you can scroll with the keyboard:-->
-<!--    <br>use the <b>arrow keys</b>,-->
-<!--    <br>the <b>space bar</b>,-->
-<!--    <br>or <b>page up</b> and <b>page down</b>.-->
-<!--  <p class="grey">Multiple key presses will skip multiple slides.-->
-<!--</section>-->
-
-
-
-<!--<section id="theTidyTreePage" style="text-align:center;padding:.35em;font-size:1000%;background:url(DP317724.jpg)">-->
-  
-<!--</section>-->
 
 
 
@@ -96,8 +88,14 @@ a:hover {
 </section>
 
 
+
+
+
+
 <section id="theTidyTreePage" style="text-align:center;padding:.35em;font-size:100%;background:url(DP317724.jpg)">
-  <!--<p>How many different ways are there?-->
+  
+
+  
 <div class="row">
     <div  class="column1" style="background-color:#000;">
        <span class="spancolumn1"></span>
@@ -110,52 +108,156 @@ a:hover {
     <!--<span id="theTidyTreeImagepre" class="spancolumn2a"> <br><br><br><br><br><br></span>-->
     <div id="theTidyTreeImage" class="spancolumn2a"></div>
     <!--<span id="theTidyTreeImagepre" class="spancolumn2a"> <br></span>-->
-    <div id="theTidyTreeImagetext" class="spancolumn2a"></div>
+    <div id="theTidyTreeImagetext" class="spancolumn2a">
+      <!--<iframe width="100%" height="166" scrolling="no" frameborder="no"  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407628684&color=%233c3c3c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>-->
+    </div>
     <!--<p>Some text..</p>-->
   </div>
-  
 </div>
-
 </section>
 
-
-
-<!--<section id="follow" style="padding-top:5em;background:url(DP317724.jpg)">-->
-  <!--<p style="text-align:center;color:#000;font-size:200%;line-height:1.35em;">INSPIRATIONAL IMAGE<br>ACCOMPANIED BY<br>INSIGHTFUL COMMENTARY-->
-<!--   <p id="follow-anchor" style="position:fixed;text-indent:-1.25em;">  -->
-<!--   <br>-->
-<!--   Aerophones are wind instruments. <br> -->
-<!--   They generate sound by pulsating pressure waves. <br>-->
-<!--   These pressure waves are generated in various ways.-->
-<!--</section>-->
 
 
 
 
 
 <section style="text-align:center;padding-top:3em;">
-  <p>How does the air column length change the sound? <br>
+  <p>How does the air column length affect the sound? <br>
         <div id="sketch-holder">
       <!-- Our sketch will go here! -->
     </div>
 </section>
 
 
-<section style="text-align:center;padding-top:3em;">
-  <p>Ways to increase the length of air columns are almost boundless <br>
-        <!--<div id="sketch-holder">-->
-        <img src="./assets/summary.jpg" alt="Air columns" style="width:700px;">
-      <!-- Our sketch will go here! -->
+
+
+
+
+<section style="text-align:center;padding-top:2em;">
+  <p>Cultures around the world have found creative ways <br> to increase air column length <br>
+        <!--<img src="./assets/summary.jpg" alt="Air columns" style="width:700px;">-->
+
+
+<!--<div class="creativewaysOuterOuter">-->
+<!--<div class="creativewaysOuter">-->
+<div class="rowImages">
+  <div class="columnImages">
+    <img src="./assets/DP-12679-081.jpg" title="Parade Trumpet; Germany">
+    <img src="./assets/DP-12679-100.jpg" title="Pocket Post Horn in G; Italy">
+    <img src="./assets/DP-12679-107.jpg" title="Natural Trumpet in D; Italy">
+    <img src="./assets/DP-12679-039.jpg" title="Tenor Valve Trombone in B-flat; Italy">
+  </div>
+  <div class="columnImages">
+    <img src="./assets/DP216618.jpg" title="Zhajiao (Trumpet); China">
+    <img src="./assets/DP102103.jpg" title="Sheng; Chinese">
+    <img src="./assets/DP-12679-078.jpg" title="Alto or Tenor Cornopean; Belgium">
+  </div>
+  <div class="columnImages">
+    <img src="./assets/DP-12679-097.jpg" title="Tenor Bugle in B-flat; Austria">
+    <img src="./assets/DP338618.jpg" title="Bass saxtuba in E-flat; France">
+    <img src="./assets/DP338615.jpg" title="Cornet-trompe in D; France">
+  </div>
+  <div class="columnImages">
+    <img src="./assets/DP340077.jpg" title="Tuba; Germany">
+    <img src="./assets/main-image (4).jpg" title="Trompette Demilune; Germany">
+    <img src="./assets/DP331223.jpg" title="Serpent; France">
+  </div>
+  <div class="columnImages">
+    <img src="./assets/main-image (2).jpg" title="Nagphani; India">
+    <img src="./assets/DP-12679-009.jpg" title="Cornu (reproduction); Roman">
+    <img src="./assets/DP-12679-157.jpg" title="Horn in F; Austria">
+  </div>
+</div>
+<!--</div>-->
+<!--</div>-->
     </div>
 </section>
 
 
 
-<!--<section id="tidytree" style="text-align:center;padding-top:0;">-->
-<!--  <canvas></canvas>-->
-<!--  <p style="position:absolute;z-index:1;padding-top:5em;left:0;width:100%;text-shadow:0 1px 0 #000;">Use <i>activate</i> and <i>deactivate</i> events-->
-<!--    <br>to enable complex animations-->
-<!--    <br>only when visible.-->
+
+
+<section style="text-align:center; padding-top:2em;">
+  <p>How long can they be? How low can they go? <br>
+  
+  <div style="text-align:left; ">
+    <span  class="figurelabels" >
+      <!----9362 skakuhachi ---->
+    <iframe class="interactive9362" width="25%" height="125" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568151745&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+     <text>"Shakuhachi" <br> Japan <br> 567mm</text>
+    <br>
+    </span>
+    
+      <span  class="figurelabels" >
+      <!--basset horn-->
+    <iframe class="interactive9375" width="25%" height="125" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568151727&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+    <!--english horn-->
+    <!--<iframe class="interactive9375" width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568151721&amp;color=ff5500"></iframe>-->
+     <text>"Basset Horn" <br> Germany <br> 998mm</text>
+    <br>
+    </span>
+    
+     <span  class="figurelabels" >
+    <iframe class="interactive9404" width="25%" height="125" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407670156&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+      <text>"Rag Dung" <br> Tibet <br> 1675mm</text>
+    <br>
+    </span>
+
+    </div>
+</section>
+
+
+
+
+
+<!--<section style="text-align:center;padding-top:3em;">-->
+<!--  <p>Length isn't the only thing that affects the sound<br>-->
+  
+<!--  <div>-->
+<!--    <span >-->
+            <!--tromp de chasse-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407670132&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+    
+<!--     <span >-->
+         <!--vienna horn-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407670081&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+  
+<!--    <span >-->
+            <!--glass horn-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407670144&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+    
+<!--    <span >-->
+         <!--naeplasenigg-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407670162&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+    
+<!--    <span>-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407628684&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+    
+<!--    <span >-->
+      <!--zhaijiaou-->
+<!--    <iframe  width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407669493&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+    
+<!--     <span>-->
+      <!--porcelain flute-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407628681&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+    
+<!--    <span>-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568151721&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>-->
+<!--    </span>-->
+    
+    
+<!--   <span >-->
+<!--    <iframe width="25%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568151712&amp;color=d7b740&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true0"></iframe>-->
+<!--     </span >-->
+
+<!--    </div>-->
 <!--</section>-->
 
 
@@ -164,18 +266,18 @@ a:hover {
 
 
 
-<!--<section id="lorenz" style="text-align:center;padding-top:0;">-->
-<!--  <canvas></canvas>-->
-<!--  <p style="position:absolute;z-index:1;padding-top:5em;left:0;width:100%;text-shadow:0 1px 0 #000;">Use <i>activate</i> and <i>deactivate</i> events-->
-<!--    <br>to enable complex animations-->
-<!--    <br>only when visible.-->
-<!--</section>-->
+
+
+
+
+
+
 
 <section style="padding:5em 13em;">
   <br><br><br><br><br><br>
-  This site was made using data from the Metropolitan Museum of Art <br> 
+  <text>This site was made using data from the Metropolitan Museum of Art <br> 
   <!--using D3.js, P5.js and <a href="https://github.com/mbostock/stack">Stack</a>  -->
-  using D3.js, P5.js and <a href="https://github.com/mbostock/stack">Stack</a>  
+  using D3.js, P5.js and <a href="https://github.com/mbostock/stack">Stack</a>  <text>
   <!--<p>-->
   <!--<p> by <a href="http://bost.ocks.org/mike/" rel="author">Mike Bostock</a>-->
     <!--<br>and is available on <a href="https://github.com/mbostock/stack">GitHub</a>-->
@@ -186,15 +288,22 @@ a:hover {
 
     
 <!--<script src="d3.v3.min.js"></script>-->
+
+<!--<script src="./libraries/d3.v3.min.js"></script>-->
+<!--<script src="./libraries/stack.v1.min.js"></script>-->
+
 <script src="./libraries/d3.v3.min.js"></script>
 <script src="./libraries/stack.v1.min.js"></script>
+	<script src="tidytreestack.js"></script>
+
 
 <!----burrow is used to get recursive nesting  --->
 <!--<script src="http://underscorejs.org/underscore.js"></script>-->
 <!--<script src="./libraries/underscore-min.js"></script>-->
 <!--<script src="./libraries/burrow.js"></script>-->
 	<!--<script type="text/javascript" src="aerophTree.js"></script>-->
-	<script src="tidytreestack.js"></script>
+	
+<!--	<script src="tidytreestack.js"></script>-->
 
 
 
@@ -223,7 +332,17 @@ function refollow() {
 
 function activate(d, i) {
   if (i === followIndex) mystack.on("scroll.follow", refollow);
-  // if (i === treepageIndex) window.location.reload();
+   if (i === treepageIndex) {
+     
+        // window.onload = function() {
+//     if(!window.location.hash) {
+//         window.location = window.location + '#loaded';
+//         window.location.reload();
+//     // }
+// }
+     
+     
+     };
   
   // if (i === lorenzIndex) startLorenz();
 }

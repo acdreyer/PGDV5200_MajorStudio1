@@ -2,11 +2,13 @@
   cursor: pointer;
 }
 
+
 .node circle {
   /*fill: #fff;*/
   stroke: #eee;
   stroke-width: 1.5px;
 }
+
 
 .node text {
   fill: #fff !important;;
@@ -15,6 +17,7 @@
   stroke-width: 0.2px;
 }
 
+
 .linkpath {
   stroke: #333;
   fill: none;
@@ -22,48 +25,33 @@
   stroke-width: 1.5px;
 }
 
-/*path:hover {*/
-/*  fill: red;*/
-/*}*/
+
+
 .row {
   height: 100%;
   display: table;
   /*display: table;*/
 }
 
+
 .column1 {
   /*display: block;*/
   float: left;
   width: 66.66%;
   height: 100%;
-  /*top: 0px;*/
-  /*bottom: 0px;*/
-  /*padding: 10px;*/
-  
 }
+
+
+
 .column2 {
   display: inline-block;
   /*vertical-align: center;*/
   float: left;
   width: 33.3%;
   height: 100%;
-    /*top: 0px;*/
-  /*bottom: 0px;*/
-  /*padding: 10px;*/
-  
 }
 
-/*#theTidyTreeImage {*/
-/*  display: inline-block;*/
-/*  float: left;*/
-/*  vertical-align: middle!important;*/
-/*  width: 33%;*/
-  /*top: 50%;*/
-  /*  top: 0px;*/
-  /*bottom: 0px;*/
-  /*padding: 10px;*/
-  
-/*}*/
+
 
 
 
@@ -72,21 +60,18 @@
   float: left;
   /*vertical-align: middle!important;*/
   width: 33%;
-  /*top: 50%;*/
-  /*  top: 0px;*/
-  /*bottom: 0px;*/
-  /*padding: 10px;*/
-  
 }
 
 spancolumn2a {
   display: block;
 }
 
+
 #theTidyTreeImage {
   margin-top: 300px;
   display: block;
 }
+
 
 #theTidyTreeImagetext p {
   fill: #fff !important;
@@ -97,9 +82,79 @@ spancolumn2a {
   text-align: left;
 }
 
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   clear: both;
   z-index: -1;
+}
+
+
+
+.interactive9362:hover {
+  width: 34%;
+}
+
+
+.interactive9375:hover {
+  width: 60%;
+}
+
+
+.interactive9402:hover {
+  width: 59%;
+}
+
+
+.interactive9404:hover {
+  width: 80%;
+}
+
+
+.figurelabels {
+  text-align:left;
+  font-size: 0.7em;
+}
+.figurelabels text {
+  /*text-align: inherit;*/
+  vertical-align: top;
+  line-height:1.2em;
+  font-size: 0.7em;
+  display: inline-block;
+}
+
+/*.figurelabels text br {*/
+/*        line-height: 0px;*/
+/*        margin-top: 0px;*/
+/*        margin-bottom: 0px;*/
+/*     }*/
+
+
+/*.creativewaysOuterOuter {*/
+/*  text-align:  center;*/
+/*  justify-content: center;*/
+/*}*/
+/*.creativewaysOuter {*/
+/*  display: inline-block;*/
+/*}*/
+
+.rowImages {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columnImages {
+  flex: 10%;
+  max-width: 10%;
+  padding: 0 6px;
+}
+
+.columnImages img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }

@@ -20,7 +20,10 @@ d3.json('./preparedata/data/aerophVizDataNestmod2_c.json', function(err, respons
     // var svg = d3.select(chartDiv).append("svg");
     // Extract the width and height that was computed by CSS.
     var element = d3.select('#theTidyTreePage').node();
-    thisheight = element.getBoundingClientRect().height;
+    // var thisheight = element.getBoundingClientRect().height;
+    var thisheight = 864;
+    // var thiswidth = element.getBoundingClientRect().width;
+    // console.log("window width is "+ thisheight);
 
 
     // -----------------------------------------------------
@@ -348,7 +351,7 @@ d3.json('./preparedata/data/aerophVizDataNestmod2_c.json', function(err, respons
           .append('p')
           .append('text')
           .attr("font-size","10px")
-          .html( "<br>Name: " +  d._children[0].name + "<br>Country: " +  d._children[0].country + "<br>Materials: " +  d._children[0].materials     );
+          .html( "<br>Name: " +  d._children[0].name + "<br>Country: " +  d._children[0].country + "<br>Materials: " +  d._children[0].materials + "<br><a href=\""+ d._children[0].objectURL +"\" target=\"_blank\">More info<\a>"   );
         
         
         

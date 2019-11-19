@@ -11,6 +11,7 @@ let xarr = [];
 const pi = 3.14;
 var h = 20;
 var lrealmax = 660; //mm
+var note;
 // var lmax;
 // var l1 = map(353.4,0,764,0,660);
 // var l2 = map(353.4,0,764,0,660);
@@ -19,9 +20,22 @@ var lrealmax = 660; //mm
 // var l5 = map(353.4,0,764,0,660);
 // var l6 = map(353.4,0,764,0,660);
 // var l7 = map(353.4,0,764,0,660);
+var holesX = [353.4, 395.4, 444.4, 512.4, 560.4, 606.4, ];
 
 function preload() {
 	img = loadImage('./assets/transverse_flute.jpg');
+	// soundFormats('mp3');
+
+	// A4 = loadSound('./assets/A4baroque.mp3');
+	// B4 = loadSound('./assets/B4baroque.mp3');
+	// D4 = loadSound('./assets/D4baroque.mp3');
+	// Ds4 = loadSound('./assets/Dsharp4baroque.mp3');
+	// E4 = loadSound('./assets/E4nokeybaroque.mp3');
+	// Fs4 = loadSound('./assets/Fsharp4baroque.mp3');
+	// G4 = loadSound('./assets/G4baroque.mp3');
+	// Cs5 = loadSound('./assets/Csharp5baroque.mp3');
+	// D5 = loadSound('./assets/D5baroque.mp3');
+
 
 }
 
@@ -39,7 +53,7 @@ function setup() {
 
 	dx = (pi * 2 / period) * xspacing;
 	var lmax = 764;
-	
+
 	var lrealmin = map(353.4, 0, lmax, 0, 660); // interpolate holes
 	// print("leffmin " + lrealmin)
 
@@ -71,7 +85,7 @@ function draw() {
 
 	let start = x0;
 	let end = x0 + w;
-
+	let lwave;
 
 
 
@@ -84,8 +98,8 @@ function draw() {
 
 
 	// Assign wavelength to mouse position
-	if (mouseX <= 353.4) {
-		leff = 353.4;
+	if (mouseX <= 352.4) {
+		leff = 352.4;
 	}
 	// else if (mouseX >= 678.4){leff = 678.4}
 	else if (mouseX >= width) { leff = width }
@@ -97,20 +111,100 @@ function draw() {
 	fill("#ffffff00");
 	stroke(255)
 	// the actual mouse position
-	ellipse(leff, 20, 20, 20);
+	ellipse(leff, 20, 10, 10);
 
-	var leffreal = map(leff,0,width,0,lrealmax);
+	var leffreal = map(leff, 0, width, 0, lrealmax);
 	stroke(255)
 	fill(255)
 	textAlign(RIGHT)
-	strokeWeight(1); line(leff,100,leff,140)
+	// strokeWeight(1); line(leff,100,leff,140)
 	strokeWeight(0.5);
-	text("Air column length: " + round(leffreal) + "mm", leff-5, 80)
+	text("Approx. air column length: " + round(leffreal) + "mm", leff - 5, 100)
 	textAlign(LEFT)
-	strokeWeight(1); line(0,100,0,140)
+	// strokeWeight(1); line(0,100,0,140)
 	strokeWeight(0.5);
-	text("Approx. Frequency*: " + round(343/2/leffreal*1000) + "Hz", 5, 80)
-	text("Air Pressure distribution: ", 10, 200)
+	line(0, height / 3 * 2.5, width, height / 3 * 2.5)
+
+
+
+		fill("#222")
+		stroke("fff"); strokeWeight(1);
+		for (i = 0; i < holesX.length; i++) {
+			ellipse(holesX[i], 20, 10, 10);
+		}
+
+
+
+	// do the filling of the holes as "played"
+	fillclr = "#fff";
+	stroke("#ccc")
+	circleR = 10;
+
+	if (leffreal >= 583) {
+		lwave = width;
+		note = "C#5";
+		fill(fillclr)
+		for (i = 0; i < holesX.length; i++) {
+			ellipse(holesX[i], 20, circleR, circleR);
+		}
+	}
+	else if (leffreal < 583 && leffreal >= 521) {
+		lwave = 678.4;
+		note = "B4";
+		fill(fillclr)
+		for (i = 0; i < holesX.length; i++) {
+			ellipse(holesX[i], 20, circleR, circleR);
+		}
+	}
+	else if (leffreal < 521 && leffreal >= 482) {
+		lwave = holesX[holesX.length-1]*0.98;
+		note = "A4";
+		fill(fillclr)
+		for (i = 0; i < (holesX.length - 1); i++) {
+			ellipse(holesX[i], 20, circleR, circleR);
+		}
+	}
+	else if (leffreal < 482 && leffreal >= 441) {
+		lwave = holesX[holesX.length-2]*0.99;
+		note = "G4";
+		fill(fillclr)
+		for (i = 0; i < (holesX.length - 2); i++) {
+			ellipse(holesX[i], 20, circleR, circleR);
+		}
+	}
+	else if (leffreal < 441 && leffreal >= 382) {
+		lwave = holesX[holesX.length-3];
+		note = "F#4";
+		fill(fillclr)
+		for (i = 0; i < (holesX.length - 3); i++) {
+			ellipse(holesX[i], 20, circleR, circleR);
+		}
+	}
+	else if (leffreal < 382 && leffreal >= 340) {
+		lwave = holesX[holesX.length-4];
+		note = "E4";
+		fill(fillclr)
+		for (i = 0; i < (holesX.length - 4); i++) {
+			ellipse(holesX[i], 20, circleR, circleR);
+		}
+	}
+	else if (leffreal < 340 && leffreal >= 304) {
+		lwave = holesX[holesX.length-5];
+		note = "D#4";
+		fill(fillclr)
+		for (i = 0; i < (holesX.length - 5); i++) {
+			ellipse(holesX[i], 20, circleR, circleR);
+		}
+	}
+	else if (leffreal < 304 ) {
+		lwave = holesX[holesX.length-6];
+		note = "D4";
+	};
+
+	strokeWeight(0.5); fill(255)
+	// text("Frequency*: " + round(343/2/leffreal*1000) + "Hz " + "Note " + note, 5, 100)
+	text("Note: " + note  , 5, 100)
+	text("Air Pressure distribution: ", 10, 220)
 	text("*Note: Frequency not shown in real time", 10, 500)
 	// text(mouseY,100,120)
 
@@ -138,9 +232,12 @@ function draw() {
 	// wave
 
 
-	calcpressWave(xarr, leff);
-	renderWave(xarr, leff, palette);
-	renderWaveLong(xarr, leff, h, palette);
+	calcpressWave(xarr, lwave);
+	renderWave(xarr, lwave, palette);
+	renderWaveLong(xarr, lwave, h, palette);
+	// calcpressWave(xarr, leff);
+	// renderWave(xarr, leff, palette);
+	// renderWaveLong(xarr, leff, h, palette);
 
 
 
@@ -192,10 +289,12 @@ function renderWaveLong(x, lmax, wdth, palette) {
 	// A simple way to draw the wave with an ellipse at each location
 	for (let j = 0; j < (floor(xarr.length * lmax / width)); j++) {
 
+
 		var color = palette.colorForValue(yvalues[j])
 		fill(color)
 
-		rect(xarr[j], 120, lmax / (dots+2), h);
+
+		rect(xarr[j], 120, lmax / (dots), h);
 	}
 }
 
