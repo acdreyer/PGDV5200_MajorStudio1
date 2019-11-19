@@ -63,7 +63,7 @@ d3.json('./preparedata/data/aerophVizDataNestmod2_c.json', function(err, respons
       .attr("width","1500px")
       .attr("height", thisheight)
       .append("g")
-      .attr("transform", "translate(" + diameter / 2  + "," + thisheight / 2 + ")rotate(50)");
+      .attr("transform", "translate(" + 350  + "," + thisheight / 2 + ")rotate(50)");
     // .attr("transform", "rotate(45)translate(300,300)");
 
     console.log("The diameter is" + diameter)
@@ -79,7 +79,7 @@ d3.json('./preparedata/data/aerophVizDataNestmod2_c.json', function(err, respons
        d3.select("#theTidyTree").select("svg").append("g")
       .append("svg:image")
       .attr("xlink:href", "./assets/vizImage.jpg")
-      .attr("x", diameter / 2 - 170)
+      .attr("x", diameter / 2 - 120)
       .attr("y", thisheight / 2 -150)
       .attr("width", "150px")
       .attr("height", "200px");

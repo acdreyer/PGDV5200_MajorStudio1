@@ -55,6 +55,18 @@
 
 
 
+
+/*$p: 2em;*/
+
+/*html #theTidyTreePage {*/
+  /* same as before */
+/*  background: repeating-radial-gradient(circle, */
+/*    var(--c0) 0 var(--pos, 0px), var(--c1) 0 $p);*/
+/*}*/
+
+/*@keyframes pos { 90%, 100% { --pos: #{$p} } }*/
+
+
 #theTidyTreeImage {
   display: inline-block;
   float: left;
@@ -93,17 +105,17 @@ spancolumn2a {
 
 
 .interactive9362:hover {
-  width: 34%;
+  width: 30%;
 }
 
 
 .interactive9375:hover {
-  width: 60%;
+  width: 50%;
 }
 
 
 .interactive9402:hover {
-  width: 59%;
+  width: 50%;
 }
 
 
@@ -158,3 +170,6 @@ spancolumn2a {
   vertical-align: middle;
   width: 100%;
 }
+
+
+

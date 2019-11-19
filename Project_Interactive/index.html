@@ -74,17 +74,14 @@ a:hover {
 
 
 <section id="follow" style="padding-top:5em;background:url(DP317724.jpg)">
-  <!--<p style="text-align:center;color:#000;font-size:200%;line-height:1.35em;">INSPIRATIONAL IMAGE<br>ACCOMPANIED BY<br>INSIGHTFUL COMMENTARY-->
    <p id="follow-anchor" style="position:fixed;text-indent:-1.25em;">  
    <br>
    Aerophones are musical instruments that create sound by<br> 
-   causing a body of air to vibrate, <br>
-   (typically through a blowing action). 
-   <br><br>
-   
+   causing a body of air to vibrate, typically by blowing on it.<br>
+   <br>
    Woodwinds and Brasswinds are most famous, <br>
    but humanity have found many ways <br> 
-   to create sounds using air...
+   to generate sound using air.
 </section>
 
 
@@ -92,7 +89,8 @@ a:hover {
 
 
 
-<section id="theTidyTreePage" style="text-align:center;padding:.35em;font-size:100%;background:url(DP317724.jpg)">
+<!--<section id="theTidyTreePage" style="text-align:center;padding:.35em;font-size:100%;background:url(DP317724.jpg)">-->
+<section id="theTidyTreePage" style="text-align:left;padding:.35em;font-size:100%;">
   
 
   
@@ -118,11 +116,20 @@ a:hover {
 
 
 
+<section id="follow2" style="padding-top:5em;background:url(DP317724.jpg)">
+  <!--<p style="text-align:center;color:#000;font-size:200%;line-height:1.35em;">INSPIRATIONAL IMAGE<br>ACCOMPANIED BY<br>INSIGHTFUL COMMENTARY-->
+   <p id="follow-anchor2" style="position:fixed;text-indent:-1.25em;">  
+   <br>
+   Even though various ways exist to form the sound waves,<br> 
+   all aerophones share a common aspect:
+   <br><br>
+   The air column length.
+</section>
 
 
 
 <section style="text-align:center;padding-top:3em;">
-  <p>How does the air column length affect the sound? <br>
+  <p>So how does the air column affect the sound waves? <br><br>
         <div id="sketch-holder">
       <!-- Our sketch will go here! -->
     </div>
@@ -178,7 +185,7 @@ a:hover {
 
 
 <section style="text-align:center; padding-top:2em;">
-  <p>How long can they be? How low can they go? <br>
+  <p>How long can they be? <br> How low can they go? <br>
   
   <div style="text-align:left; ">
     <span  class="figurelabels" >
@@ -273,8 +280,8 @@ a:hover {
 
 
 
-<section style="padding:5em 13em;">
-  <br><br><br><br><br><br>
+<section style="padding:5em 13em;font-size:0.7em;text-align: center">
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
   <text>This site was made using data from the Metropolitan Museum of Art <br> 
   <!--using D3.js, P5.js and <a href="https://github.com/mbostock/stack">Stack</a>  -->
   using D3.js, P5.js and <a href="https://github.com/mbostock/stack">Stack</a>  <text>
@@ -318,9 +325,12 @@ var mystack = stack()
 var section = d3.selectAll("section"),
     follow = d3.select("#follow"),
     followAnchor = d3.select("#follow-anchor"),
+    follow2 = d3.select("#follow2"),
+    followAnchor2 = d3.select("#follow-anchor2"),
     // lorenz = d3.select("#lorenz"),
     treePage = d3.select("#theTidyTreePage"),
     followIndex = section[0].indexOf(follow.node()),
+    followIndex2 = section[0].indexOf(follow2.node()),
     treepageIndex = section[0].indexOf(treePage.node());
     // lorenzIndex = section[0].indexOf(lorenz.node());
 
@@ -329,10 +339,14 @@ var section = d3.selectAll("section"),
 function refollow() {
   followAnchor.style("top", (followIndex + (1 - mystack.scrollRatio()) / 2 - d3.event.offset) * 100 + "%");
 }
+function refollow2() {
+  followAnchor2.style("top", (followIndex2 + (1 - mystack.scrollRatio()) / 2 - d3.event.offset) * 100 + "%");
+}
 
 function activate(d, i) {
   if (i === followIndex) mystack.on("scroll.follow", refollow);
-   if (i === treepageIndex) {
+  if (i === followIndex2) mystack.on("scroll.follow2", refollow2);
+  if (i === treepageIndex) {
      
         // window.onload = function() {
 //     if(!window.location.hash) {
@@ -349,6 +363,7 @@ function activate(d, i) {
 
 function deactivate(d, i) {
   if (i === followIndex) mystack.on("scroll.follow", null);
+  if (i === followIndex2) mystack.on("scroll.follow2", null);
   // if (i === lorenzIndex) stopLorenz();
 }
 

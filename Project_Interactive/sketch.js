@@ -127,11 +127,11 @@ function draw() {
 
 
 
-		fill("#222")
-		stroke("fff"); strokeWeight(1);
-		for (i = 0; i < holesX.length; i++) {
-			ellipse(holesX[i], 20, 10, 10);
-		}
+		// fill("#222")
+		// stroke("fff"); strokeWeight(1);
+		// for (i = 0; i < holesX.length; i++) {
+		// 	ellipse(holesX[i], 20, 10, 10);
+		// }
 
 
 
@@ -143,58 +143,58 @@ function draw() {
 	if (leffreal >= 583) {
 		lwave = width;
 		note = "C#5";
-		fill(fillclr)
-		for (i = 0; i < holesX.length; i++) {
-			ellipse(holesX[i], 20, circleR, circleR);
-		}
+		// fill(fillclr)
+		// for (i = 0; i < holesX.length; i++) {
+		// 	ellipse(holesX[i], 20, circleR, circleR);
+		// }
 	}
 	else if (leffreal < 583 && leffreal >= 521) {
 		lwave = 678.4;
 		note = "B4";
-		fill(fillclr)
-		for (i = 0; i < holesX.length; i++) {
-			ellipse(holesX[i], 20, circleR, circleR);
-		}
+		// fill(fillclr)
+		// for (i = 0; i < holesX.length; i++) {
+		// 	ellipse(holesX[i], 20, circleR, circleR);
+		// }
 	}
 	else if (leffreal < 521 && leffreal >= 482) {
 		lwave = holesX[holesX.length-1]*0.98;
 		note = "A4";
-		fill(fillclr)
-		for (i = 0; i < (holesX.length - 1); i++) {
-			ellipse(holesX[i], 20, circleR, circleR);
-		}
+		// fill(fillclr)
+		// for (i = 0; i < (holesX.length - 1); i++) {
+		// 	ellipse(holesX[i], 20, circleR, circleR);
+		// }
 	}
 	else if (leffreal < 482 && leffreal >= 441) {
 		lwave = holesX[holesX.length-2]*0.99;
 		note = "G4";
-		fill(fillclr)
-		for (i = 0; i < (holesX.length - 2); i++) {
-			ellipse(holesX[i], 20, circleR, circleR);
-		}
+		// fill(fillclr)
+		// for (i = 0; i < (holesX.length - 2); i++) {
+		// 	ellipse(holesX[i], 20, circleR, circleR);
+		// }
 	}
 	else if (leffreal < 441 && leffreal >= 382) {
 		lwave = holesX[holesX.length-3];
 		note = "F#4";
-		fill(fillclr)
-		for (i = 0; i < (holesX.length - 3); i++) {
-			ellipse(holesX[i], 20, circleR, circleR);
-		}
+		// fill(fillclr)
+		// for (i = 0; i < (holesX.length - 3); i++) {
+		// 	ellipse(holesX[i], 20, circleR, circleR);
+		// }
 	}
 	else if (leffreal < 382 && leffreal >= 340) {
 		lwave = holesX[holesX.length-4];
 		note = "E4";
-		fill(fillclr)
-		for (i = 0; i < (holesX.length - 4); i++) {
-			ellipse(holesX[i], 20, circleR, circleR);
-		}
+		// fill(fillclr)
+		// for (i = 0; i < (holesX.length - 4); i++) {
+		// 	ellipse(holesX[i], 20, circleR, circleR);
+		// }
 	}
 	else if (leffreal < 340 && leffreal >= 304) {
 		lwave = holesX[holesX.length-5];
 		note = "D#4";
-		fill(fillclr)
-		for (i = 0; i < (holesX.length - 5); i++) {
-			ellipse(holesX[i], 20, circleR, circleR);
-		}
+		// fill(fillclr)
+		// for (i = 0; i < (holesX.length - 5); i++) {
+		// 	ellipse(holesX[i], 20, circleR, circleR);
+		// }
 	}
 	else if (leffreal < 304 ) {
 		lwave = holesX[holesX.length-6];
