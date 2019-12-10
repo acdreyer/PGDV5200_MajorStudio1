@@ -170,9 +170,12 @@ using superglue.
 A legend and title was added.
 ![process](./images/process_14.jpg) ![process](./images/process_15.jpg)
 
+Brances were labelled using a special silicone based glue called "E6000" which creates a good bond to any surface.
+![process](./images/process_16.jpg) 
+
 The labels were shaped and twisted to give the aesthetic of the wind blowing over them; which was deemed an appropriate
 visual language for wind blowing over wind instruments.
 
-![process](./images/process_16.jpg) ![process](./images/process_17.jpg)
+![process](./images/process_17.jpg) ![process](./images/process_18.jpg)
 
 
