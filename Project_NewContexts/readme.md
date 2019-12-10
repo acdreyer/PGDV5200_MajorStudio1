@@ -102,9 +102,10 @@ The wire tree was then mounted to a pre-constructed base from Blick Art store.
 ![process](./images/process_7.jpg)
 
 
+The branches were then separated and splayed to optimize space for labels.
 The completed tree represents the hierarchical data structure of all types of aerophones at the MET.
 
-![process](./images/wintertreeAnimate.gif)
+![process](./images/process_8.jpg)
 
 
 
@@ -141,12 +142,12 @@ Using conditional formatting in MS Excel a redundant cell colour and icon was us
 Upper length categories were grouped in order to avoid outliers getting lost in the visual impact,
 create more aesthetic spread across the tree and also to limit the amount of colour categories because of paper limitations (see below).
 
-![process](./images/processExcel_5.PNG)
+![process](./images/processExcel_5.png)
 
 
 
 Typeface samples were made up and finalized, but additional thought was given to colour coding.
-![process](./images/process_7.jpg)
+![process](./images/process_9.jpg)
 ![process](./images/process_10.jpg)
 
 
