@@ -11,8 +11,13 @@
 A physical model sculpture (static) was constructed using the Metropolitan Museum of Art (The MET) aerophone (wind instrument) dataset.
 The sculpture consists of a metal wire tree to represent the hierarchical relationship of all aerophones (wind instruments) at the MET.
 Object sizes were then also mapped to a coloured label and attached to the tree.
+Gif files were made from still photographs, converted with the online [imgflip](https://imgflip.com/gif-maker) converter.
 
-![Concept1](./images/wintertreeAnimate.gif)
+
+Wire Tree            |  With Labels
+:-------------------------:|:-------------------------:
+![Concept1](./images/wintertreeAnimate.gif)|![Concept1](./images/tree_small.gif)
+
 
 
 
@@ -26,6 +31,7 @@ which reduced the dataset from 2000+ individual objects to 261 lowest level cate
 and is hosted on a [live website](http://www.antimurphy.com/dataviz/).
 A screenshot of the hierarchical visualization with one branch activated is shown below:
 
+![process](./images/aerophoneTree_1.PNG)
 
 
 For the current assignment of using new contexts, it was attempted to represent the whole aerophone dataset in a physical artistic piece.
@@ -56,8 +62,13 @@ a much more sturdy tree. The wire also proved to be very resilient to multiple b
 
 Bundling order and size was determined by building a metal jig and setting up a hierarchy tree in D3 using the previous dataset.
 The [process tree code](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_NewContexts/processTree/index.html) 
-was setup using the previously aggregated data using a [code block for a linear tree layout](http://bl.ocks.org/tchaymore/1249394)
-and is given in the [github folder](https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_NewContexts/ProcessTree/index.html)
+was setup using the previously aggregated data using code from [blocks](http://bl.ocks.org/tchaymore/1249394)
+and is given in the [github folder](https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_NewContexts/processTree/index.html).
+The [pdf](./images/NodeLinkTree.pdf) is also supplied herein.
+
+![process](./images/nodeLinkTree.PNG)
+
+
 
 A screenshot is shown below. A .pdf version was used to highlight which bundles were already formed.
 
@@ -155,10 +166,12 @@ Labels were folded double, glued together with "Blick white glue stick" and atta
 using superglue. 
 ![process](./images/process_13.jpg)
 
+A legend and title was added.
+![process](./images/process_14.jpg) ![process](./images/process_15.jpg)
 
 The labels were shaped and twisted to give the aesthetic of the wind blowing over them; which was deemed an appropriate
-visual language for wind blowing over wind instruments...
-![process](./images/process_14.jpg)
+visual language for wind blowing over wind instruments.
 
+![process](./images/process_16.jpg) ![process](./images/process_17.jpg)
 
 
