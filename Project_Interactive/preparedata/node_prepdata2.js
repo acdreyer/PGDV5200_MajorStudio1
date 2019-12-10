@@ -20,7 +20,7 @@ var data2;
 
 // Specify filenames
 // var fnamewrite = './data/aerophVizData_b.json'
-var fnamewriteNest = './data/aerophVizDataNest_db.json'
+var fnamewriteNest = './data/aerophVizDataNest_d.json'
 // var fnamewriteNestmod = './data/aerophVizDataNestmod_b.json'
 var fnamewriteNestmod2 = './data/aerophVizDataNestmod2_d.json'
 var fnameread1 = './data/aerophonesForTreeR_b.json'
