@@ -1,4 +1,4 @@
-## Quantitative Visualization
+## Qualitative Visualization
 
 
 
