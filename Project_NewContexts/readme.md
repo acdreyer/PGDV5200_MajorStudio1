@@ -173,9 +173,19 @@ A legend and title was added.
 Brances were labelled using a special silicone based glue called "E6000" which creates a good bond to any surface.
 ![process](./images/process_16.jpg) 
 
-The labels were shaped and twisted to give the aesthetic of the wind blowing over them; which was deemed an appropriate
-visual language for wind blowing over wind instruments.
+The labels were shaped and twisted to give the aesthetic of the "wind blowing over the instruments".
 
-![process](./images/process_17.jpg) ![process](./images/process_18.jpg)
+Wire Tree            |  Views
+:-------------------------:|:-------------------------:
+![Wire Tree](./images/tree_5.jpg)|![Wire Tree](./images/tree_6.jpg)
+![Wire Tree](./images/tree_4.jpg)|![Wire Tree](./images/tree_2.jpg)
+
+
+
+
+
+A video presentation of the sculpture is available [here on vimeo](https://vimeo.com/user106211961/review/379184645/de07fba451).
+
+[![Aerophone interactive visualization](./images/videoDummy.PNG)](https://vimeo.com/user106211961/review/379184645/de07fba451)
 
 

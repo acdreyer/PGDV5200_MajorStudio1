@@ -4,6 +4,7 @@
 This repo is for Major Studio 1; for a Masters in Data Visualization course at The New school.
 The data set was the Metropolitan Museum of Art (The MET) open access collection.
 
+[View this as a github web page](https://acdreyer.github.io/PGDV5200_MajorStudio1/).
 
 
 ## Project 1: Quantifying the MET collection
@@ -15,6 +16,7 @@ This project explores the entire collection and ways to show quantities and
 distributions of various parameters using R and D3. Various ways were explored
 to present all the data compactly on one screen. A packed bar chart was finally
 used to optimize screen space and allow further exploration.
+
 The [Github repo and process documentation](https://github.com/acdreyer/PGDV5200_MajorStudio1/tree/master/Project_Quantitative) for this project
 is located [here](https://github.com/acdreyer/PGDV5200_MajorStudio1/tree/master/Project_Quantitative).
 
@@ -37,6 +39,7 @@ these objects through time and categories in order to compare which objects
 existed during the same time period. The original [evolution of arms and armor
 from Dean Bashford](https://htmlpreview.github.io/?https://raw.githubusercontent.com/acdreyer/PGDV5200_MajorStudio1/master/Project_Qualitative/DeanBashFord.html)
  was used as inspiration and implemented in a [narrative chart](https://source.opennews.org/articles/automating-xkcd-style-narrative-charts/) originally inspired by XKCD comics.
+ 
  Please refer to the [Github repo and process documentation](https://github.com/acdreyer/PGDV5200_MajorStudio1/tree/master/Project_Qualitative)
  for the full details.
 
