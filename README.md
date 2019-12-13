@@ -22,8 +22,8 @@ The project [webpage](http://htmlpreview.github.io/?https://github.com/acdreyer/
 can be found [here](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html).
 
 [![Final Packed Bar Chart with MET data](./Project_Quantitative/Images/screencapture_1.PNG)](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html)
-[![Final Packed Bar Chart with MET data](./Project_Quantitative/Images/screencapture_3.PNG)](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html)
-[![Final Packed Bar Chart with MET data](./Project_Quantitative/Images/screencapture_6.PNG)](http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html)
+[![Final Packed Bar Chart with MET data](./Project_Quantitative/Images/screencapture_3.PNG)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/acdreyer/PGDV5200_MajorStudio1/master/Project_Quantitative/cultures.html)
+[![Final Packed Bar Chart with MET data](./Project_Quantitative/Images/screencapture_6.PNG)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/acdreyer/PGDV5200_MajorStudio1/master/Project_Quantitative/tags.html)
 
 
 
@@ -89,11 +89,13 @@ Herewith is the link to the [Github repo and process documentation](https://gith
 
 Wire Tree            |  Views
 :-------------------------:|:-------------------------:
-![Wire Tree](./Project_NewContexts/images/tree_2.jpg)|![Wire Tree](./Project_NewContexts/images/tree_6.jpg)
-![Wire Tree](./Project_NewContexts/images/tree_4.jpg)|![Wire Tree](./Project_NewContexts/images/tree_5.jpg)
+![Wire Tree](./Project_NewContexts/images/tree_5.jpg)|![Wire Tree](./Project_NewContexts/images/tree_6.jpg)
+![Wire Tree](./Project_NewContexts/images/tree_4.jpg)|![Wire Tree](./Project_NewContexts/images/tree_2.jpg)
 
 
+A video presentation of the sculpture is available [here on vimeo](https://vimeo.com/user106211961/review/379184645/de07fba451).
 
+[![Aerophone interactive visualization](./Project_Interactive/images/videoDummy.PNG)](https://vimeo.com/user106211961/review/379184645/de07fba451)
 
 
 ------------------------------
