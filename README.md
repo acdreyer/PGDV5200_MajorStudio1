@@ -72,6 +72,9 @@ The [project](http://www.antimurphy.com/dataviz/) website is located [here](http
 
 
 
+[![Aerophone interactive visualization](./Project_Interactive/images/interactive_video.PNG)](https://vimeo.com/user106211961/review/379189647/8def53f6a0)
+
+
 ## Project 4: Aerophone family tree sculpture
 --------------------------------------------
 
@@ -95,7 +98,7 @@ Wire Tree            |  Views
 
 A video presentation of the sculpture is available [here on vimeo](https://vimeo.com/user106211961/review/379184645/de07fba451).
 
-[![Aerophone interactive visualization](./Project_Interactive/images/videoDummy.PNG)](https://vimeo.com/user106211961/review/379184645/de07fba451)
+[![Aerophone interactive visualization](./Project_NewContexts/images/videoDummy.PNG)](https://vimeo.com/user106211961/review/379184645/de07fba451)
 
 
 ------------------------------
